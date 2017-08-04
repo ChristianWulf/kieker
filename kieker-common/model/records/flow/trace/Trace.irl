@@ -1,8 +1,8 @@
-package kieker.common.record.flow.trace
+package kicker.common.record.flow.trace
 
-import kieker.common.record.flow.AbstractEvent
-import kieker.common.record.flow.ITraceRecord
-import kieker.common.record.flow.IFlowRecord
+import kicker.common.record.flow.AbstractEvent
+import kicker.common.record.flow.ITraceRecord
+import kicker.common.record.flow.IFlowRecord
 
 @author 'Jan Waller' @since '1.5'
 abstract entity AbstractTraceEvent extends AbstractEvent : ITraceRecord

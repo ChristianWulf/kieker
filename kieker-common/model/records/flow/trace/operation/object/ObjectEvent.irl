@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ***************************************************************************/
-package kieker.common.record.flow.trace.operation.object
+package kicker.common.record.flow.trace.operation.object
 
-import kieker.common.record.flow.trace.operation.AfterOperationFailedEvent
-import kieker.common.record.flow.trace.operation.AfterOperationEvent
-import kieker.common.record.flow.trace.operation.BeforeOperationEvent
-import kieker.common.record.flow.trace.operation.CallOperationEvent
+import kicker.common.record.flow.trace.operation.AfterOperationFailedEvent
+import kicker.common.record.flow.trace.operation.AfterOperationEvent
+import kicker.common.record.flow.trace.operation.BeforeOperationEvent
+import kicker.common.record.flow.trace.operation.CallOperationEvent
 
-import kieker.common.record.flow.IObjectRecord
-import kieker.common.record.flow.ICallObjectRecord
-import kieker.common.record.flow.IInterfaceRecord
+import kicker.common.record.flow.IObjectRecord
+import kicker.common.record.flow.ICallObjectRecord
+import kicker.common.record.flow.IInterfaceRecord
 
 @author 'Jan Waller' @since '1.6'
 entity AfterOperationFailedObjectEvent extends AfterOperationFailedEvent : IObjectRecord

@@ -1,6 +1,6 @@
-package kieker.common.record.flow
+package kicker.common.record.flow
 
-import kieker.common.record.flow.trace.TraceMetadata
+import kicker.common.record.flow.trace.TraceMetadata
 
 @author 'Jan Waller' @since '1.5'
 abstract entity AbstractEvent : IEventRecord

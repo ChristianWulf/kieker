@@ -1,9 +1,9 @@
-package kieker.common.record.flow.trace.operation
+package kicker.common.record.flow.trace.operation
 
-import kieker.common.record.flow.trace.AbstractTraceEvent
-import kieker.common.record.flow.IExceptionRecord
-import kieker.common.record.flow.ICallRecord
-import kieker.common.record.flow.IOperationRecord
+import kicker.common.record.flow.trace.AbstractTraceEvent
+import kicker.common.record.flow.IExceptionRecord
+import kicker.common.record.flow.ICallRecord
+import kicker.common.record.flow.IOperationRecord
 
 @author 'Jan Waller' @since '1.5'
 abstract entity AbstractOperationEvent extends AbstractTraceEvent : IOperationRecord

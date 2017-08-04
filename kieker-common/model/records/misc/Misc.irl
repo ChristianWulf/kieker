@@ -1,4 +1,4 @@
-package kieker.common.record.misc
+package kicker.common.record.misc
 
 @author 'Andre van Hoorn, Jan Waller' @since '0.95a'
 entity EmptyRecord

@@ -1,13 +1,13 @@
-package kieker.common.record.flow.trace.operation.constructor.object
+package kicker.common.record.flow.trace.operation.constructor.object
 
-import kieker.common.record.flow.IObjectRecord
-import kieker.common.record.flow.ICallObjectRecord
-import kieker.common.record.flow.IInterfaceRecord
+import kicker.common.record.flow.IObjectRecord
+import kicker.common.record.flow.ICallObjectRecord
+import kicker.common.record.flow.IInterfaceRecord
 
-import kieker.common.record.flow.trace.operation.constructor.AfterConstructorFailedEvent
-import kieker.common.record.flow.trace.operation.constructor.AfterConstructorEvent
-import kieker.common.record.flow.trace.operation.constructor.BeforeConstructorEvent
-import kieker.common.record.flow.trace.operation.constructor.CallConstructorEvent
+import kicker.common.record.flow.trace.operation.constructor.AfterConstructorFailedEvent
+import kicker.common.record.flow.trace.operation.constructor.AfterConstructorEvent
+import kicker.common.record.flow.trace.operation.constructor.BeforeConstructorEvent
+import kicker.common.record.flow.trace.operation.constructor.CallConstructorEvent
 
 @author 'Jan Waller' @since '1.6'
 entity AfterConstructorFailedObjectEvent extends AfterConstructorFailedEvent : IObjectRecord 

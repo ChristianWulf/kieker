@@ -2,7 +2,7 @@ apply plugin: 'eclipse'
 apply plugin: "com.github.hauner.jarTest"
 
 dependencies {
-	compile project(':kieker-common')
+	compile project(':kicker-common')
 	
 	compile resolveLibrary('javax.jms-*.jar')
 	compile resolveLibrary('framework-libs/cxf/cxf-*.jar')
@@ -13,8 +13,8 @@ dependencies {
 	compile resolveLibrary('guava-18.0.jar')
 	compile resolveLibrary('kafka-clients-0.10.1.1.jar')
 	
-	// this project depends on the tests of kieker-common, e.g., it requires the class AbstractKiekerTest
-	testCompile project (path: ':kieker-common', configuration: 'testArchives')
+	// this project depends on the tests of kicker-common, e.g., it requires the class AbstractKiekerTest
+	testCompile project (path: ':kicker-common', configuration: 'testArchives')
 	
 	testRuntime resolveLibrary('derby-*.jar')
 }

@@ -15,7 +15,7 @@ eclipse {
 
 task replaceHardCodedVersionNames() {
   doLast {
-	regexpReplaceInFiles(project.file("src/kieker/common/util/Version.java"), "VERSION = \".*?\"", "VERSION = \"${version}\"")
+	regexpReplaceInFiles(project.file("src/kicker/common/util/Version.java"), "VERSION = \".*?\"", "VERSION = \"${version}\"")
   }
 }
 
@@ -51,7 +51,7 @@ task generateRecordTests(type: JavaExec) {
        '-d', 'test-gen',       // the destination directory
        '-s', 'model/records', // the source directory
        '-l', 'java.junit',          // generate the records
-       '-n', 'kieker-common',
-       '-p', 'kieker-common',
+       '-n', 'kicker-common',
+       '-p', 'kicker-common',
        '-v', '1.10'	          // generate code for Kieker 1.10
 }

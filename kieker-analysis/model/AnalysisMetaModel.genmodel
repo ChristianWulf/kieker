@@ -7,7 +7,7 @@
     importerID="org.eclipse.emf.importer.ecore" complianceLevel="6.0" copyrightFields="false"
     interfaceNamePattern="MI{0}" classNamePattern="M{0}">
   <foreignModel>AnalysisMetaModel.ecore</foreignModel>
-  <genPackages prefix="AnalysisMetaModel" basePackage="kieker.analysis.model" disposableProviderFactory="true"
+  <genPackages prefix="AnalysisMetaModel" basePackage="kicker.analysis.model" disposableProviderFactory="true"
       fileExtensions="kax" ecorePackage="AnalysisMetaModel.ecore#/">
     <genClasses ecoreClass="AnalysisMetaModel.ecore#//Project">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference AnalysisMetaModel.ecore#//Project/plugins"/>
