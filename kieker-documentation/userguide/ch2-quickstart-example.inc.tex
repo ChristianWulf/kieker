@@ -145,7 +145,7 @@ In a real application these methods would pass objects to ensure the results of 
 > mkdir build
 > javac src/kieker/examples/userguide/ch2bookstore/*.java -d build
 
-> java -classpath build kieker.examples.userguide.ch2bookstore.BookstoreStarter
+> java -classpath build kicker.examples.userguide.ch2bookstore.BookstoreStarter
 \end{lstlisting}
 
 \noindent The first command compiles the application and places the resulting four class files in the \dir{build/} directory. To verify the build process, the \dir{build/} directory can be inspected. The second command loads the bookstore application and produces the output shown in Listing~\ref{lst:result-noinstr}.
@@ -281,14 +281,14 @@ check the environment variables \dir{\$TMPDIR} or \dir{\%temp\%} for the locatio
 The exact location of the created monitoring log is reported in \Kieker's console output (see for example Appendix~\ref{sec:appendix:manualInstrumentation:output}).
 %it \dir{C:\textbackslash{}users\textbackslash{}[\ldots]\textbackslash{}temp} under Windows.
 The monitoring directory contains two types of files: \dir{.dat} files containing text representations of the monitoring records and a %single
-file named \dir{kieker.map} which contains information on the types of monitoring records used.
+file named \dir{kicker.map} which contains information on the types of monitoring records used.
 
 \begin{figure}[H]
 \begin{graybox}
 \dirtree{%
 .1 \DirInDirTree{/tmp/}.
 .2 \DirInDirTree{kieker-20130910-120352847-UTC-myHost-KIEKER-SINGLETON/}.
-.3 kieker.map.
+.3 kicker.map.
 .3 kieker-20120402-163314882-UTC--000-Thread-1.dat.
 }
 \end{graybox}
@@ -306,8 +306,8 @@ The Listings~\ref{lst:exampledat} and \ref{lst:examplemap} show example file con
 
 \noindent The second file is a simple mapping file referencing keys to monitoring record types. In Listing~\ref{lst:examplemap} the key \verb!$1! is mapped to the type of operation execution records which were used in the monitoring. The key value corresponds to the key values in the \file{.dat}-file.
 
-\lstinputlisting[caption=kieker.map, label=lst:examplemap]%
-{ch2-quickstart-example/kieker-20130910-120352847-UTC-myHost-KIEKER-SINGLETON/kieker.map}
+\lstinputlisting[caption=kicker.map, label=lst:examplemap]%
+{ch2-quickstart-example/kieker-20130910-120352847-UTC-myHost-KIEKER-SINGLETON/kicker.map}
 
 \noindent By the end of this section, two Java classes of the Bookstore application %
 have been manually instrumented using \KiekerMonitoringPart{} and at least one %

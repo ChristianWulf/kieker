@@ -28,7 +28,7 @@ import kicker.monitoring.timer.ITimeSource;
 /**
  * Logs detailed utilization statistics for each CPU in the system, retrieved
  * from {@link CpuPerc}, as {@link CPUUtilizationRecord}s via
- * {@link kicker.monitoring.core.controller.IMonitoringController#newMonitoringRecord(kieker.common.record.IMonitoringRecord)} .
+ * {@link kicker.monitoring.core.controller.IMonitoringController#newMonitoringRecord(kicker.common.record.IMonitoringRecord)} .
  * 
  * @author Andre van Hoorn
  * 

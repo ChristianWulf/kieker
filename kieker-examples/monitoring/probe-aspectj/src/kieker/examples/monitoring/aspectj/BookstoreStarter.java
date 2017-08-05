@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.monitoring.aspectj;
+package kicker.examples.monitoring.aspectj;
 
 import java.util.concurrent.CountDownLatch;
 

@@ -14,9 +14,9 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.analysis.opad.experimentModel;
+package kicker.examples.analysis.opad.experimentModel;
 
-import kieker.tools.opad.model.NamedDoubleTimeSeriesPoint;
+import kicker.tools.opad.model.NamedDoubleTimeSeriesPoint;
 
 /**
  * @author Thomas Duellmann

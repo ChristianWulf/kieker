@@ -22,7 +22,7 @@ version = ''
 
 sourceSets.main.java.srcDirs = ['src']
 
-mainClassName = 'kieker.examples.analysis.kax.AnalysisStarter'
+mainClassName = 'kicker.examples.analysis.kax.AnalysisStarter'
 
 jar {
 	manifest {

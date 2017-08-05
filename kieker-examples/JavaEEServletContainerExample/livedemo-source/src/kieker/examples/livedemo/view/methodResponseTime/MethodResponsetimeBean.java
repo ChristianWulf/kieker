@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.livedemo.view.methodResponseTime;
+package kicker.examples.livedemo.view.methodResponseTime;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -29,7 +29,7 @@ import javax.faces.event.ValueChangeEvent;
 import org.primefaces.model.chart.CartesianChartModel;
 import org.primefaces.model.chart.ChartSeries;
 
-import kieker.examples.livedemo.view.AnalysisBean;
+import kicker.examples.livedemo.view.AnalysisBean;
 
 /**
  * @author Bjoern Weissenfels

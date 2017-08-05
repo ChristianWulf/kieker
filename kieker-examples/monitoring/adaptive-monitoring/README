@@ -29,9 +29,9 @@ Bookstore.main: Starting request 16
 ...
 
 2. To change the monitoring configuration, you can edit the configuration file 
-config/kieker.adaptiveMonitoring.conf during runtime.
+config/kicker.adaptiveMonitoring.conf during runtime.
 Further information about the format of the config file can be found in the kieker base folder under
-kieker-examples/kieker.monitoring.adaptiveMonitoring.example.conf
+kieker-examples/kicker.monitoring.adaptiveMonitoring.example.conf
 
 3. The monitored data can be viewed in the monitoring-logs/kieker-*-KIEKER-SINGLETON/kieker-*-Thread-1.dat 
 file.

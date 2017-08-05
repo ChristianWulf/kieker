@@ -45,7 +45,7 @@ import kicker.monitoring.sampler.mxbean.ThreadsStatusSampler;
  * 
  * <listener>
  *   <listener-class>
- *     kieker.monitoring.probe.servlet.ThreadsStatusSampler
+ *     kicker.monitoring.probe.servlet.ThreadsStatusSampler
  *   </listener-class>
  * </listener>
  * 

@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.userguide.appendixKafka;
+package kicker.examples.userguide.appendixKafka;
 
 import kicker.analysis.AnalysisController;
 import kicker.analysis.IAnalysisController;
@@ -22,7 +22,7 @@ import kicker.analysis.exception.AnalysisConfigurationException;
 import kicker.analysis.plugin.filter.forward.TeeFilter;
 import kicker.analysis.plugin.reader.newio.deserializer.BinaryDeserializer;
 import kicker.analysis.plugin.reader.kafka.KafkaReader;
-import kieker.common.configuration.Configuration;
+import kicker.common.configuration.Configuration;
 
 /**
  * @author Holger Knoche

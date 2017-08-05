@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.userguide.appendixJMS;
+package kicker.examples.userguide.appendixJMS;
 
 public final class BookstoreStarter {
 

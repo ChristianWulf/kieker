@@ -19,7 +19,7 @@ package kicker.analysis.repository;
 import kicker.analysis.analysisComponent.IAnalysisComponent;
 
 /**
- * This is the interface for repositories within Kieker.
+ * This is the interface for repositories within kicker.
  * 
  * @author Andre van Hoorn, Nils Christian Ehmke, Jan Waller
  * 

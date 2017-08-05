@@ -11,12 +11,12 @@
 
 
     <!-- Activate the auto scan for the available beans. -->
-    <context:component-scan base-package="kieker.examples.monitoring.spring"/> 
+    <context:component-scan base-package="kicker.examples.monitoring.spring"/> 
 	
 	<!-- Kieker's instrumentation probes based on the Spring AOP interception framework -->
-	<bean id="opEMII" class="kieker.monitoring.probe.spring.executions.OperationExecutionMethodInvocationInterceptor" /> 
+	<bean id="opEMII" class="kicker.monitoring.probe.spring.executions.OperationExecutionMethodInvocationInterceptor" /> 
     <aop:config>
-        <aop:advisor advice-ref="opEMII" pointcut="execution(public * kieker.examples.monitoring.spring..*.*(..))"/>
+        <aop:advisor advice-ref="opEMII" pointcut="execution(public * kicker.examples.monitoring.spring..*.*(..))"/>
     </aop:config>
 	
 </beans>

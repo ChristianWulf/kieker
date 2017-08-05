@@ -5,7 +5,7 @@ REM @author Nils Christian Ehmke
 setlocal enabledelayedexpansion
 
 SET JAVAARGS=-Dlog4j.configuration=./log4j.properties -Xms56m -Xmx1024m
-SET MAINCLASSNAME=kieker.tools.bridge.cli.CLIServerMain
+SET MAINCLASSNAME=kicker.tools.bridge.cli.CLIServerMain
 
 REM Get the directory of this file and change the working directory to it.
 cd %~dp0

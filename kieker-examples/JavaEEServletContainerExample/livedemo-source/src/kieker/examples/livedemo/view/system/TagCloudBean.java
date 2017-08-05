@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.livedemo.view.system;
+package kicker.examples.livedemo.view.system;
 
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ApplicationScoped;
@@ -23,7 +23,7 @@ import javax.faces.bean.ManagedProperty;
 
 import org.primefaces.model.tagcloud.TagCloudModel;
 
-import kieker.examples.livedemo.view.AnalysisBean;
+import kicker.examples.livedemo.view.AnalysisBean;
 
 /**
  * @author Bjoern Weissenfels, Nils Christian Ehmke

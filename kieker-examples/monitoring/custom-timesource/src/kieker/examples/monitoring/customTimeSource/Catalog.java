@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.monitoring.customTimeSource;
+package kicker.examples.monitoring.customTimeSource;
 
 public class Catalog {
 

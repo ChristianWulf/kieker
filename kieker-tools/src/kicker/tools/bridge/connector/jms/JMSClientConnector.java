@@ -61,7 +61,7 @@ public class JMSClientConnector extends AbstractConnector {
 	/** Property name for the configuration of the JMS connector. */
 	public static final String FACTORY_LOOKUP_NAME = JMSClientConnector.class.getCanonicalName() + ".jmsFactoryLookupName";
 	/** Default KDB queue name. */
-	public static final String KIEKER_DATA_BRIDGE_READ_QUEUE = "kieker.tools.bridge";
+	public static final String KIEKER_DATA_BRIDGE_READ_QUEUE = "kicker.tools.bridge";
 
 	private static final int BUF_LEN = 65536;
 

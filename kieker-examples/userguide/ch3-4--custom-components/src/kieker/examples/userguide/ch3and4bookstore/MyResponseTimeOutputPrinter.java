@@ -1,11 +1,11 @@
-package kieker.examples.userguide.ch3and4bookstore;
+package kicker.examples.userguide.ch3and4bookstore;
 
 import kicker.analysis.IProjectContext;
 import kicker.analysis.plugin.annotation.InputPort;
 import kicker.analysis.plugin.annotation.Plugin;
 import kicker.analysis.plugin.annotation.Property;
 import kicker.analysis.plugin.filter.AbstractFilterPlugin;
-import kieker.common.configuration.Configuration;
+import kicker.common.configuration.Configuration;
 
 @Plugin(name = "Reponse time printer", description = "Prints the response time on the standard output",
 		configuration = {

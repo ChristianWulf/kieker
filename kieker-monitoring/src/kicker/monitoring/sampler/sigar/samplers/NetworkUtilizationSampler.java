@@ -30,7 +30,7 @@ import kicker.monitoring.timer.ITimeSource;
 
 /**
  * Logs network utilization of the system, retrieved as {@link NetworkUtilizationRecord} via
- * {@link kicker.monitoring.core.controller.IMonitoringController#newMonitoringRecord(kieker.common.record.IMonitoringRecord)} .
+ * {@link kicker.monitoring.core.controller.IMonitoringController#newMonitoringRecord(kicker.common.record.IMonitoringRecord)} .
  *
  * @author Teerat Pitakrat
  *

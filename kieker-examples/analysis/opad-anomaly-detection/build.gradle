@@ -21,7 +21,7 @@ version = ''
 
 sourceSets.main.java.srcDirs = ['src']
 
-mainClassName = 'kieker.examples.analysis.opad.ExperimentStarter'
+mainClassName = 'kicker.examples.analysis.opad.ExperimentStarter'
 
 jar {
 	manifest {

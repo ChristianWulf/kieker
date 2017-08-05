@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.userguide.appendixKafka;
+package kicker.examples.userguide.appendixKafka;
 
 public class Catalog {
 

@@ -7,7 +7,7 @@ version = ''
 
 sourceSets.main.java.srcDirs = ['src']
 
-mainClassName = 'kieker.examples.userguide.ch2bookstore.BookstoreStarter'
+mainClassName = 'kicker.examples.userguide.ch2bookstore.BookstoreStarter'
 
 jar {
     manifest {

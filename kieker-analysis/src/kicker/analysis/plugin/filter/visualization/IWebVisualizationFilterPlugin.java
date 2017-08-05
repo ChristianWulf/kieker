@@ -19,7 +19,7 @@ package kicker.analysis.plugin.filter.visualization;
 import kicker.analysis.plugin.IPlugin;
 
 /**
- * This is the interface for web visualization filter plugins within Kieker.
+ * This is the interface for web visualization filter plugins within kicker.
  * 
  * @author Nils Christian Ehmke
  * 

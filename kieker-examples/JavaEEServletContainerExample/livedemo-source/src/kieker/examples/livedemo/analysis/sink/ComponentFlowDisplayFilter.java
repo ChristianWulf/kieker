@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.livedemo.analysis.sink;
+package kicker.examples.livedemo.analysis.sink;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -23,9 +23,9 @@ import org.primefaces.model.tagcloud.DefaultTagCloudItem;
 import org.primefaces.model.tagcloud.DefaultTagCloudModel;
 
 import kicker.analysis.IProjectContext;
-import kieker.common.configuration.Configuration;
-import kieker.common.record.controlflow.OperationExecutionRecord;
-import kieker.common.util.signature.ClassOperationSignaturePair;
+import kicker.common.configuration.Configuration;
+import kicker.common.record.controlflow.OperationExecutionRecord;
+import kicker.common.util.signature.ClassOperationSignaturePair;
 
 public class ComponentFlowDisplayFilter extends AbstractNonAggregatingDisplayFilter<OperationExecutionRecord, DefaultTagCloudModel> {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.monitoring.spring;
+package kicker.examples.monitoring.spring;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;

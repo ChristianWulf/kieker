@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.monitoring.adaptive;
+package kicker.examples.monitoring.adaptive;
 
 public class Catalog {
 

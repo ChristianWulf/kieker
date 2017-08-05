@@ -53,7 +53,7 @@ import kicker.monitoring.timer.ITimeSource;
  * {@code
  * <filter>
  *   <filter-name>sessionAndTraceRegistrationFilter</filter-name>
- *   <filter-class>kieker.monitoring.probe.servlet.SessionAndTraceRegistrationFilter</filter-class>
+ *   <filter-class>kicker.monitoring.probe.servlet.SessionAndTraceRegistrationFilter</filter-class>
  * </filter>
  * <filter-mapping>
  *   <filter-name>sessionAndTraceRegistrationFilter</filter-name>

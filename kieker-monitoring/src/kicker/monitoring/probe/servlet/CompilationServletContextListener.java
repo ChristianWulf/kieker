@@ -45,7 +45,7 @@ import kicker.monitoring.sampler.mxbean.CompilationSampler;
  * 
  * <listener>
  *   <listener-class>
- *     kieker.monitoring.probe.servlet.CompilationServletContextListener
+ *     kicker.monitoring.probe.servlet.CompilationServletContextListener
  *   </listener-class>
  * </listener>
  * 

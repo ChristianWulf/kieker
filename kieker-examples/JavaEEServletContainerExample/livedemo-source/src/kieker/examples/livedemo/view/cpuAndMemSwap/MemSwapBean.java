@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.livedemo.view.cpuAndMemSwap;
+package kicker.examples.livedemo.view.cpuAndMemSwap;
 
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ApplicationScoped;
@@ -23,8 +23,8 @@ import javax.faces.bean.ManagedProperty;
 
 import org.primefaces.model.chart.CartesianChartModel;
 
-import kieker.examples.livedemo.view.AnalysisBean;
-import kieker.examples.livedemo.view.util.Model;
+import kicker.examples.livedemo.view.AnalysisBean;
+import kicker.examples.livedemo.view.util.Model;
 
 /**
  * @author Bjoern Weissenfels, Nils Christian Ehmke

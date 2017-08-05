@@ -46,7 +46,7 @@ import kicker.monitoring.sampler.sigar.SigarSamplerFactory;
  * 
  * <listener>
  *   <listener-class>
- *     kieker.monitoring.probe.servlet.CPUsCombinedServletContextListener
+ *     kicker.monitoring.probe.servlet.CPUsCombinedServletContextListener
  *   </listener-class>
  * </listener>
  * 

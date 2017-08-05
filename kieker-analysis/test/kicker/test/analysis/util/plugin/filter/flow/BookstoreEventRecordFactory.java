@@ -26,7 +26,7 @@ import kicker.common.record.flow.trace.operation.CallOperationEvent;
 import kicker.test.common.util.record.BookstoreOperationExecutionRecordFactory;
 
 /**
- * A starter method for this factory is implemented in kieker.test.tools.junit.traceAnalysis.util.BookstoreEventRecordFactoryStarter.
+ * A starter method for this factory is implemented in kicker.test.tools.junit.traceAnalysis.util.BookstoreEventRecordFactoryStarter.
  * 
  * @author Andre van Hoorn, Holger Knoche, Jan Waller
  * 

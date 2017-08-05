@@ -14,9 +14,9 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.userguide.ch5bookstore;
+package kicker.examples.userguide.ch5bookstore;
 
-import kieker.monitoring.annotation.OperationExecutionMonitoringProbe;
+import kicker.monitoring.annotation.OperationExecutionMonitoringProbe;
 
 public class CRM {
 

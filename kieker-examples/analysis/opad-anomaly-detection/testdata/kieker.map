@@ -1,2 +1,2 @@
-$0=kieker.common.record.misc.KiekerMetadataRecord
-$1=kieker.tools.opad.record.NamedDoubleRecord
+$0=kicker.common.record.misc.KiekerMetadataRecord
+$1=kicker.tools.opad.record.NamedDoubleRecord

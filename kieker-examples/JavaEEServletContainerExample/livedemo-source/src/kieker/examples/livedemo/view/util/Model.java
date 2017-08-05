@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.livedemo.view.util;
+package kicker.examples.livedemo.view.util;
 
 
 /**

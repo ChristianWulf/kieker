@@ -24,7 +24,7 @@ if ! test -x "${FILE_CONVERTER_SH}"; then
     exit 1
 fi
 
-if ! test -s "${EXAMPLE_LOG}/kieker.map"; then
+if ! test -s "${EXAMPLE_LOG}/kicker.map"; then
     echo "${EXAMPLE_LOG}/ is no monitoring log"
     exit 1 
 fi

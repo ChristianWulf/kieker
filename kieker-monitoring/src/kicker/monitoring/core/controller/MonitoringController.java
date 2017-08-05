@@ -190,7 +190,7 @@ public final class MonitoringController extends AbstractController implements IM
 	@Override
 	public final String toString() {
 		final StringBuilder sb = new StringBuilder(2048)
-				.append("Current State of kieker.monitoring (")
+				.append("Current State of kicker.monitoring (")
 				.append(MonitoringController.getVersion())
 				.append(") ")
 				.append(this.stateController.toString())

@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.userguide.appendixAMQP;
+package kicker.examples.userguide.appendixAMQP;
 
 public final class BookstoreStarter {
 

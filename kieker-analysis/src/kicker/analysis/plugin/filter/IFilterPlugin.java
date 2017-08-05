@@ -19,7 +19,7 @@ package kicker.analysis.plugin.filter;
 import kicker.analysis.plugin.IPlugin;
 
 /**
- * This is the interface for filter plugins within Kieker.
+ * This is the interface for filter plugins within kicker.
  * 
  * @author Andre van Hoorn, Jan Waller
  * 

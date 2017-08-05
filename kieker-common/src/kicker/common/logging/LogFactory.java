@@ -28,7 +28,7 @@ import java.util.Locale;
 public final class LogFactory { // NOPMD (Implementation of an logger)
 
 	/** This constant should point to the fully qualified class name of the custom JVM logger. */
-	public static final String CUSTOM_LOGGER_JVM = "kieker.common.logging.Log";
+	public static final String CUSTOM_LOGGER_JVM = "kicker.common.logging.Log";
 
 	private static final String JVM_LOGGER;
 	private static final Logger DETECTED_LOGGER;

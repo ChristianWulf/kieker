@@ -170,7 +170,7 @@ public abstract class AbstractLogReplayer {
 	}
 
 	/**
-	 * Implementing classes returns the name of the reader's output port which provides the {@link kieker.common.record.IMonitoringRecord}s from the monitoring log.
+	 * Implementing classes returns the name of the reader's output port which provides the {@link kicker.common.record.IMonitoringRecord}s from the monitoring log.
 	 * 
 	 * @return The name of the reader's output port.
 	 */

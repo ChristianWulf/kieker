@@ -43,16 +43,16 @@ import kicker.test.common.junit.AbstractKiekerTest;
  */
 public class TestLegacyExecutionRecordReader extends AbstractKiekerTest {
 
-	private static final String MAP_FILE = "$0=kieker.common.record.controlflow.OperationExecutionRecord\n"
-			+ "$1=kieker.common.record.OperationExecutionRecord\n"
-			+ "$2=kieker.tpmon.monitoringRecord.executions.KiekerExecutionRecord\n";
+	private static final String MAP_FILE = "$0=kicker.common.record.controlflow.OperationExecutionRecord\n"
+			+ "$1=kicker.common.record.OperationExecutionRecord\n"
+			+ "$2=kicker.tpmon.monitoringRecord.executions.KiekerExecutionRecord\n";
 
 	private static final String DAT_FILE = "\n" // empty ignored line
-			+ "$0;1;public void kieker.test.Class.method();<no-session-id>;2;3;4;HOST;1;1\n" // modern record
-			+ "$0;1;-1;public void kieker.test.Class.method();<no-session-id>;2;3;4;HOST;1;1\n" // legacy record
-			+ "-1;public void kieker.test.Class.method();<no-session-id>;2;3;4;HOST;1;1\n" // very legacy record
-			+ "$1;1;public void kieker.test.Class.method();<no-session-id>;2;3;4;HOST;1;1\n" // legacy names
-			+ "$2;1;public void kieker.test.Class.method();<no-session-id>;2;3;4;HOST;1;1\n"; // legacy names
+			+ "$0;1;public void kicker.test.Class.method();<no-session-id>;2;3;4;HOST;1;1\n" // modern record
+			+ "$0;1;-1;public void kicker.test.Class.method();<no-session-id>;2;3;4;HOST;1;1\n" // legacy record
+			+ "-1;public void kicker.test.Class.method();<no-session-id>;2;3;4;HOST;1;1\n" // very legacy record
+			+ "$1;1;public void kicker.test.Class.method();<no-session-id>;2;3;4;HOST;1;1\n" // legacy names
+			+ "$2;1;public void kicker.test.Class.method();<no-session-id>;2;3;4;HOST;1;1\n"; // legacy names
 
 	/** A rule making sure that a temporary folder exists for every test method (which is removed after the test). */
 	@Rule

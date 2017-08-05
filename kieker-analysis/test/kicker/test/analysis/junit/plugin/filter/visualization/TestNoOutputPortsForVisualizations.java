@@ -28,7 +28,7 @@ import kicker.common.logging.LogFactory;
 import kicker.test.common.junit.AbstractDynamicKiekerTest;
 
 /**
- * This JUnit test makes sure that there are no visualizations with output ports in Kieker.
+ * This JUnit test makes sure that there are no visualizations with output ports in kicker.
  * 
  * @author Nils Christian Ehmke
  * 

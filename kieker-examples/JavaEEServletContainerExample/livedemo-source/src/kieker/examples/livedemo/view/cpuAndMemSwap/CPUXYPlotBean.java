@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.livedemo.view.cpuAndMemSwap;
+package kicker.examples.livedemo.view.cpuAndMemSwap;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -29,8 +29,8 @@ import javax.faces.bean.ViewScoped;
 import org.primefaces.model.chart.CartesianChartModel;
 import org.primefaces.model.chart.ChartSeries;
 
-import kieker.examples.livedemo.view.AnalysisBean;
-import kieker.examples.livedemo.view.util.Model;
+import kicker.examples.livedemo.view.AnalysisBean;
+import kicker.examples.livedemo.view.util.Model;
 
 /**
  * @author Bjoern Weissenfels

@@ -35,7 +35,7 @@ import kicker.monitoring.writer.namedRecordPipe.PipeWriter;
 /**
  * Provides factory methods for {@link MonitoringController}s configured to write to a {@link Pipe} and a convenient collector facility to access the records
  * received in a {@link List}. Note that, in contrast to the similar class {@link NamedPipeFactory}, doesn't use the {@link PipeWriter} directly, but uses an *
- * {@link MonitoringController}. Also, the {@link kieker.analysis.plugin.reader.namedRecordPipe.PipeReader} is used.
+ * {@link MonitoringController}. Also, the {@link kicker.analysis.plugin.reader.namedRecordPipe.PipeReader} is used.
  *
  * @author Andre van Hoorn
  *

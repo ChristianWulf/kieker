@@ -35,7 +35,7 @@ import kicker.analysis.plugin.reader.list.ListReader;
 
 /**
  * Each test is executed for both input ports, {@link CurrentTimeEventGenerationFilter#inputTimestamp(Long)} and
- * {@link CurrentTimeEventGenerationFilter#inputRecord(kieker.common.record.IMonitoringRecord)}.
+ * {@link CurrentTimeEventGenerationFilter#inputRecord(kicker.common.record.IMonitoringRecord)}.
  * 
  * @author Andre van Hoorn
  * 

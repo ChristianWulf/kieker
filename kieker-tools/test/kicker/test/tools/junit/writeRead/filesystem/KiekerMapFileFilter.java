@@ -22,7 +22,7 @@ import java.io.FilenameFilter;
 import kicker.common.util.filesystem.FSUtil;
 
 /**
- * This filter accepts only kieker.map files. All other files are declined.
+ * This filter accepts only kicker.map files. All other files are declined.
  * 
  * @author Andre van Hoorn
  * 
@@ -45,7 +45,7 @@ class KiekerMapFileFilter implements FilenameFilter { // NOPMD (TestClassWithout
 	 * @param name
 	 *            the name of the file to be checked.
 	 * 
-	 * @return true if and only if the given file name is equals to the name of a kieker.map file.
+	 * @return true if and only if the given file name is equals to the name of a kicker.map file.
 	 */
 	@Override
 	public boolean accept(final File dir, final String name) {

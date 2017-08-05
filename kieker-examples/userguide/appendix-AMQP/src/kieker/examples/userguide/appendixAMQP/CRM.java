@@ -14,11 +14,11 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.userguide.appendixAMQP;
+package kicker.examples.userguide.appendixAMQP;
 
-import kieker.common.record.controlflow.OperationExecutionRecord;
-import kieker.monitoring.core.controller.IMonitoringController;
-import kieker.monitoring.core.controller.MonitoringController;
+import kicker.common.record.controlflow.OperationExecutionRecord;
+import kicker.monitoring.core.controller.IMonitoringController;
+import kicker.monitoring.core.controller.MonitoringController;
 
 public class CRM {
 
@@ -32,12 +32,12 @@ public class CRM {
 
 	public void getOffers() {
 		// Call the Catalog component's getBook() method
-		// and log its entry and exit timestamp using Kieker.
+		// and log its entry and exit timestamp using kicker.
 		final long tin = MONITORING_CONTROLLER.getTimeSource().getTime();
 		this.catalog.getBook(false);
 		final long tout = MONITORING_CONTROLLER.getTimeSource().getTime();
 		final OperationExecutionRecord e = new OperationExecutionRecord(
-				"public void kieker.examples.userguide.appendixAMQP.Catalog.getBook(boolean)",
+				"public void kicker.examples.userguide.appendixAMQP.Catalog.getBook(boolean)",
 				OperationExecutionRecord.NO_SESSION_ID, OperationExecutionRecord.NO_TRACE_ID,
 				tin, tout, OperationExecutionRecord.NO_HOSTNAME, OperationExecutionRecord.NO_EOI_ESS, OperationExecutionRecord.NO_EOI_ESS);
 		MONITORING_CONTROLLER.newMonitoringRecord(e);

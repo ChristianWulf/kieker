@@ -47,7 +47,7 @@ import kicker.monitoring.sampler.sigar.SigarSamplerFactory;
  *  
  *  <listener>
  *    <listener-class>
- *     kieker.monitoring.probe.servlet.CPUMemUsageServletContextListener
+ *     kicker.monitoring.probe.servlet.CPUMemUsageServletContextListener
  *    </listener-class>
  *  </listener>
  * 

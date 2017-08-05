@@ -14,23 +14,23 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.livedemo.analysis.select;
+package kicker.examples.livedemo.analysis.select;
 
 import kicker.analysis.IProjectContext;
 import kicker.analysis.plugin.annotation.InputPort;
 import kicker.analysis.plugin.annotation.OutputPort;
 import kicker.analysis.plugin.annotation.Plugin;
 import kicker.analysis.plugin.filter.AbstractFilterPlugin;
-import kieker.common.configuration.Configuration;
-import kieker.common.record.IMonitoringRecord;
-import kieker.common.record.controlflow.OperationExecutionRecord;
-import kieker.common.record.jvm.ClassLoadingRecord;
-import kieker.common.record.jvm.CompilationRecord;
-import kieker.common.record.jvm.GCRecord;
-import kieker.common.record.jvm.MemoryRecord;
-import kieker.common.record.jvm.ThreadsStatusRecord;
-import kieker.common.record.system.CPUUtilizationRecord;
-import kieker.common.record.system.MemSwapUsageRecord;
+import kicker.common.configuration.Configuration;
+import kicker.common.record.IMonitoringRecord;
+import kicker.common.record.controlflow.OperationExecutionRecord;
+import kicker.common.record.jvm.ClassLoadingRecord;
+import kicker.common.record.jvm.CompilationRecord;
+import kicker.common.record.jvm.GCRecord;
+import kicker.common.record.jvm.MemoryRecord;
+import kicker.common.record.jvm.ThreadsStatusRecord;
+import kicker.common.record.system.CPUUtilizationRecord;
+import kicker.common.record.system.MemSwapUsageRecord;
 
 /**
  * A filter distributing the incoming records based on their types and replacing therefore a bunch of type filters. Records which do not match are discarded. Usage

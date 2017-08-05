@@ -60,14 +60,14 @@ public abstract class AbstractMonitoringRecord implements IMonitoringRecord {
 	private volatile long loggingTimestamp = -1;
 
 	static {
-		CACHED_KIEKERRECORDS.put("kieker.tpmon.monitoringRecord.executions.KiekerExecutionRecord", kicker.common.record.controlflow.OperationExecutionRecord.class);
-		CACHED_KIEKERRECORDS.put("kieker.common.record.CPUUtilizationRecord", kicker.common.record.system.CPUUtilizationRecord.class);
-		CACHED_KIEKERRECORDS.put("kieker.common.record.MemSwapUsageRecord", kicker.common.record.system.MemSwapUsageRecord.class);
-		CACHED_KIEKERRECORDS.put("kieker.common.record.ResourceUtilizationRecord", kicker.common.record.system.ResourceUtilizationRecord.class);
-		CACHED_KIEKERRECORDS.put("kieker.common.record.OperationExecutionRecord", kicker.common.record.controlflow.OperationExecutionRecord.class);
-		CACHED_KIEKERRECORDS.put("kieker.common.record.BranchingRecord", kicker.common.record.controlflow.BranchingRecord.class);
-		CACHED_KIEKERRECORDS.put("kieker.monitoring.core.registry.RegistryRecord", kicker.common.record.misc.RegistryRecord.class);
-		CACHED_KIEKERRECORDS.put("kieker.common.record.flow.trace.Trace", kicker.common.record.flow.trace.TraceMetadata.class);
+		CACHED_KIEKERRECORDS.put("kicker.tpmon.monitoringRecord.executions.KiekerExecutionRecord", kicker.common.record.controlflow.OperationExecutionRecord.class);
+		CACHED_KIEKERRECORDS.put("kicker.common.record.CPUUtilizationRecord", kicker.common.record.system.CPUUtilizationRecord.class);
+		CACHED_KIEKERRECORDS.put("kicker.common.record.MemSwapUsageRecord", kicker.common.record.system.MemSwapUsageRecord.class);
+		CACHED_KIEKERRECORDS.put("kicker.common.record.ResourceUtilizationRecord", kicker.common.record.system.ResourceUtilizationRecord.class);
+		CACHED_KIEKERRECORDS.put("kicker.common.record.OperationExecutionRecord", kicker.common.record.controlflow.OperationExecutionRecord.class);
+		CACHED_KIEKERRECORDS.put("kicker.common.record.BranchingRecord", kicker.common.record.controlflow.BranchingRecord.class);
+		CACHED_KIEKERRECORDS.put("kicker.monitoring.core.registry.RegistryRecord", kicker.common.record.misc.RegistryRecord.class);
+		CACHED_KIEKERRECORDS.put("kicker.common.record.flow.trace.Trace", kicker.common.record.flow.trace.TraceMetadata.class);
 	}
 
 	protected static boolean isNotEqual(final double x, final double y) {

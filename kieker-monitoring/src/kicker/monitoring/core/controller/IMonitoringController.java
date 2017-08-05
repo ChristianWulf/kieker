@@ -42,7 +42,7 @@ public interface IMonitoringController extends
 
 	/**
 	 * This method is used to log the status of the controllers to the configured writer.
-	 * The {@link kieker.common.record.misc.KiekerMetadataRecord} record is used.
+	 * The {@link kicker.common.record.misc.KiekerMetadataRecord} record is used.
 	 * This method is automatically executed for the first record sent.
 	 *
 	 * @return true if successful

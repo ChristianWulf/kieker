@@ -59,7 +59,7 @@ import kicker.common.record.IMonitoringRecord;
 					description = "The port of the server used for the JMX connection."),
 			@Property(name = JMXReader.CONFIG_PROPERTY_NAME_SERVICEURL, defaultValue = "",
 					description = "As an alternative to specifiying server and port, a service URL can be given. This value is ignored if port > 0."),
-			@Property(name = JMXReader.CONFIG_PROPERTY_NAME_DOMAIN, defaultValue = "kieker.monitoring",
+			@Property(name = JMXReader.CONFIG_PROPERTY_NAME_DOMAIN, defaultValue = "kicker.monitoring",
 					description = "The JMX domain used by the JMXWriter."),
 			@Property(name = JMXReader.CONFIG_PROPERTY_NAME_LOGNAME, defaultValue = "MonitoringLog",
 					description = "The logname used by the JMXWriter."),

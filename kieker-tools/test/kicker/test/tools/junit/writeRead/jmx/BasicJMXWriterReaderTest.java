@@ -47,7 +47,7 @@ import kicker.analysis.plugin.reader.jmx.JMXReader;
  */
 public class BasicJMXWriterReaderTest {
 
-	private static final String DOMAIN = "kieker.monitoring";
+	private static final String DOMAIN = "kicker.monitoring";
 	private static final String CONTROLLER = "MonitoringController";
 	private static final String PORT = "59999";
 	private static final String LOGNAME = "MonitoringLog";

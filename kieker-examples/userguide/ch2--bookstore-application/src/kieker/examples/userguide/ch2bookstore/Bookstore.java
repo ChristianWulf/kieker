@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.userguide.ch2bookstore;
+package kicker.examples.userguide.ch2bookstore;
 
 public class Bookstore {
 

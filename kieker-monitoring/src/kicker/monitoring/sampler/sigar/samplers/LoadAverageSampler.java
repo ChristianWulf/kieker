@@ -26,7 +26,7 @@ import kicker.monitoring.timer.ITimeSource;
 
 /**
  * Logs load average of the system, retrieved as {@link LoadAverageRecord} via
- * {@link kicker.monitoring.core.controller.IMonitoringController#newMonitoringRecord(kieker.common.record.IMonitoringRecord)} .
+ * {@link kicker.monitoring.core.controller.IMonitoringController#newMonitoringRecord(kicker.common.record.IMonitoringRecord)} .
  *
  * @author Teerat Pitakrat
  *

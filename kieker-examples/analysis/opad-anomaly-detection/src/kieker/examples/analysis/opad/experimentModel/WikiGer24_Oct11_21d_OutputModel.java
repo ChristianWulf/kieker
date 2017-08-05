@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.analysis.opad.experimentModel;
+package kicker.examples.analysis.opad.experimentModel;
 
 /**
  * @author Thomas Duellmann

@@ -28,7 +28,7 @@ import kicker.monitoring.timer.ITimeSource;
 /**
  * Logs the combined (i.e., User + Sys + Nice + Wait) cpu utilization for each
  * CPU in the system, retrieved via {@link CpuPerc#getCombined()}, as {@link ResourceUtilizationRecord}s via
- * {@link kicker.monitoring.core.controller.IMonitoringController#newMonitoringRecord(kieker.common.record.IMonitoringRecord)} .
+ * {@link kicker.monitoring.core.controller.IMonitoringController#newMonitoringRecord(kicker.common.record.IMonitoringRecord)} .
  * 
  * @author Andre van Hoorn
  * 

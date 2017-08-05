@@ -37,7 +37,7 @@ import kicker.common.logging.LogFactory;
  */
 public abstract class AbstractAnalysisComponent implements IAnalysisComponent {
 
-	/** The name of the property for the name. This should normally only be used by Kieker. */
+	/** The name of the property for the name. This should normally only be used by kicker. */
 	public static final String CONFIG_NAME = "name-hiddenAndNeverExportedProperty";
 
 	protected static final Log LOG = LogFactory.getLog(AbstractAnalysisComponent.class); // NOPMD (logger for inheriting classes)

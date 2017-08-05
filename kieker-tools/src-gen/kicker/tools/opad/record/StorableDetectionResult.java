@@ -197,7 +197,7 @@ public class StorableDetectionResult extends AbstractMonitoringRecord implements
 	/**
 	 * {@inheritDoc}
 	 *
-	 * @deprecated This record uses the {@link kieker.common.record.IMonitoringRecord.Factory} mechanism. Hence, this method is not implemented.
+	 * @deprecated This record uses the {@link kicker.common.record.IMonitoringRecord.Factory} mechanism. Hence, this method is not implemented.
 	 */
 	@Override
 	@Deprecated

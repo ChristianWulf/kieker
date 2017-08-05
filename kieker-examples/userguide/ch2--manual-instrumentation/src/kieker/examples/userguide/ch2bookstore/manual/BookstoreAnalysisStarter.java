@@ -14,13 +14,13 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.userguide.ch2bookstore.manual;
+package kicker.examples.userguide.ch2bookstore.manual;
 
 import kicker.analysis.AnalysisController;
 import kicker.analysis.IAnalysisController;
 import kicker.analysis.plugin.filter.forward.TeeFilter;
 import kicker.analysis.plugin.reader.filesystem.FSReader;
-import kieker.common.configuration.Configuration;
+import kicker.common.configuration.Configuration;
 
 public final class BookstoreAnalysisStarter {
 
@@ -34,7 +34,7 @@ public final class BookstoreAnalysisStarter {
 		}
 
 		try {
-			// Create Kieker.Analysis instance
+			// Create kicker.Analysis instance
 			final IAnalysisController analysisInstance = new AnalysisController();
 
 			// Set filesystem monitoring log input directory for our analysis

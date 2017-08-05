@@ -57,7 +57,7 @@ public class ServiceConnectorStub implements IServiceConnector {
 		Assert.assertFalse("Connector's deserializeNextRecord() method called after close() was called.", this.close);
 		if (this.count < ConfigurationParameters.SEND_NUMBER_OF_RECORDS) {
 			this.count++;
-			return new OperationExecutionRecord("kieker.bridge", OperationExecutionRecord.NO_SESSION_ID, 1, 0, 0,
+			return new OperationExecutionRecord("kicker.bridge", OperationExecutionRecord.NO_SESSION_ID, 1, 0, 0,
 					OperationExecutionRecord.NO_HOSTNAME, OperationExecutionRecord.NO_EOI_ESS,
 					OperationExecutionRecord.NO_EOI_ESS);
 		} else {

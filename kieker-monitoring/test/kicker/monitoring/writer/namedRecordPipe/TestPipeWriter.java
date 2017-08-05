@@ -40,8 +40,8 @@ public class TestPipeWriter extends AbstractKiekerTest { // NOCS
 
 	/**
 	 * Tests whether the {@link kicker.monitoring.writer.namedRecordPipe.PipeWriter} correctly passes received {@link IMonitoringRecord}s to the
-	 * {@link kieker.common.namedRecordPipe.Broker} (which then passes these
-	 * to an {@link kieker.common.namedRecordPipe.IPipeReader}).
+	 * {@link kicker.common.namedRecordPipe.Broker} (which then passes these
+	 * to an {@link kicker.common.namedRecordPipe.IPipeReader}).
 	 *
 	 * @throws InterruptedException
 	 */
@@ -51,7 +51,7 @@ public class TestPipeWriter extends AbstractKiekerTest { // NOCS
 		final MonitoringController monitoringController = NamedPipeFactory.createMonitoringControllerWithNamedPipe(pipeName);
 
 		// We will now register a custom IPipeReader which receives records through the pipe and collects these in a list. On purpose, we are not using the
-		// corresponding PipeReader that comes with Kieker.
+		// corresponding PipeReader that comes with kicker.
 		final List<IMonitoringRecord> receivedRecords = NamedPipeFactory.createAndRegisterNamedPipeRecordCollector(pipeName);
 
 		// Send 7 dummy records

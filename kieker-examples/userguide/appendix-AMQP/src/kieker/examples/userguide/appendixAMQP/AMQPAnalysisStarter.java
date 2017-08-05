@@ -14,14 +14,14 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.userguide.appendixAMQP;
+package kicker.examples.userguide.appendixAMQP;
 
 import kicker.analysis.AnalysisController;
 import kicker.analysis.IAnalysisController;
 import kicker.analysis.exception.AnalysisConfigurationException;
 import kicker.analysis.plugin.filter.forward.TeeFilter;
 import kicker.analysis.plugin.reader.amqp.AMQPReader;
-import kieker.common.configuration.Configuration;
+import kicker.common.configuration.Configuration;
 
 /**
  * @author Holger Knoche

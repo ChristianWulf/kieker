@@ -108,7 +108,7 @@ public class CachedRecordFactoryCatalogTest extends AbstractKiekerTest {
 
 	@Test
 	public void testAVirtualRecord() {
-		final String recordClassName = "kieker.common.record.CPUUtilizationRecord";
+		final String recordClassName = "kicker.common.record.CPUUtilizationRecord";
 		final IRecordFactory<? extends IMonitoringRecord> recordFactory = this.cachedRecordFactories.get(recordClassName);
 		Assert.assertEquals(RecordFactoryWrapper.class, recordFactory.getClass());
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.userguide.ch5bookstore;
+package kicker.examples.userguide.ch5bookstore;
 
 import java.util.concurrent.CountDownLatch;
 

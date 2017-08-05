@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.userguide.ch5bookstore;
+package kicker.examples.userguide.ch5bookstore;
 
 import java.util.Random;
 
@@ -26,12 +26,12 @@ import kicker.analysis.plugin.annotation.InputPort;
 import kicker.analysis.plugin.annotation.Plugin;
 import kicker.analysis.plugin.filter.AbstractFilterPlugin;
 import kicker.analysis.plugin.reader.filesystem.FSReader;
-import kieker.common.configuration.Configuration;
-import kieker.common.record.IMonitoringRecord;
-import kieker.common.record.controlflow.OperationExecutionRecord;
-import kieker.common.util.signature.ClassOperationSignaturePair;
-import kieker.monitoring.core.controller.IMonitoringController;
-import kieker.monitoring.core.controller.MonitoringController;
+import kicker.common.configuration.Configuration;
+import kicker.common.record.IMonitoringRecord;
+import kicker.common.record.controlflow.OperationExecutionRecord;
+import kicker.common.util.signature.ClassOperationSignaturePair;
+import kicker.monitoring.core.controller.IMonitoringController;
+import kicker.monitoring.core.controller.MonitoringController;
 
 public final class BookstoreHostnameRewriter {
 
@@ -43,7 +43,7 @@ public final class BookstoreHostnameRewriter {
 			return;
 		}
 
-		// Create Kieker.Analysis instance
+		// Create kicker.Analysis instance
 		final IAnalysisController analysisInstance = new AnalysisController();
 
 		final HostNameRewriterPlugin plugin = new HostNameRewriterPlugin(new Configuration(), analysisInstance);

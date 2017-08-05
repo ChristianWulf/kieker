@@ -23,16 +23,16 @@ import com.puppycrawl.tools.checkstyle.api.TokenTypes;
 /**
  * This is an additional checkstyle check which makes sure that all analysis
  * components supply the default constructor (using a
- * {@link kieker.common.configuration.Configuration} and an
- * {@link kieker.analysis.IProjectContext} object) we need for the framework.<br>
+ * {@link kicker.common.configuration.Configuration} and an
+ * {@link kicker.analysis.IProjectContext} object) we need for the framework.<br>
  * </br>
  *
  * Keep in mind that the check is not perfect, as checkstyle has some
  * limitations. The main drawback is that we cannot check types. We can
  * therefore not recognize whether a class inherits directly or indirectly from
- * {@link kieker.analysis.analysisComponent.AbstractAnalysisComponent}. Instead
- * we use the annotations {@link kieker.analysis.plugin.annotation.Plugin} and
- * {@link kieker.analysis.repository.annotation.Repository} to check whether a
+ * {@link kicker.analysis.analysisComponent.AbstractAnalysisComponent}. Instead
+ * we use the annotations {@link kicker.analysis.plugin.annotation.Plugin} and
+ * {@link kicker.analysis.repository.annotation.Repository} to check whether a
  * class is an analysis component or not. This can lead to false positives.
  * Furthermore we cannot check the types of the parameters for the constructors
  * either. We use the names of the types to check this. This can lead to false

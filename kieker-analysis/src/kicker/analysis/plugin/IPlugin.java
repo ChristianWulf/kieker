@@ -25,7 +25,7 @@ import kicker.analysis.repository.AbstractRepository;
 import kicker.common.configuration.Configuration;
 
 /**
- * This is the interface for plugins within Kieker.
+ * This is the interface for plugins within kicker.
  * 
  * @author Nils Christian Ehmke, Jan Waller
  * 

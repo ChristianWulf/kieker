@@ -28,7 +28,7 @@ import kicker.common.logging.Log;
 import kicker.common.logging.LogFactory;
 
 /**
- * A ConfigurationFactory for kieker.monitoring.
+ * A ConfigurationFactory for kicker.monitoring.
  *
  * @author Andre van Hoorn, Jan Waller
  *

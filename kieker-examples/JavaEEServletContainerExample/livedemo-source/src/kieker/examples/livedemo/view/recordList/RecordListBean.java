@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.livedemo.view.recordList;
+package kicker.examples.livedemo.view.recordList;
 
 import java.util.Collections;
 import java.util.List;
@@ -23,8 +23,8 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.ViewScoped;
 
-import kieker.examples.livedemo.common.EnrichedOperationExecutionRecord;
-import kieker.examples.livedemo.view.AnalysisBean;
+import kicker.examples.livedemo.common.EnrichedOperationExecutionRecord;
+import kicker.examples.livedemo.view.AnalysisBean;
 
 /**
  * @author Bjoern Weissenfels, Nils Christian Ehmke

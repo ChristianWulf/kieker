@@ -34,37 +34,42 @@ import kicker.test.monitoring.util.DefaultConfigurationFactory;
 public class TestControllerConstruction extends AbstractKiekerTest { // NOCS
 
 	/**
-	 * Test if the initialization of the monitoring controller from a given configuration works.
+	 * Test if the initialization of the monitoring controller from a given
+	 * configuration works.
 	 */
 	@Test
 	public void testConstructionFromConfig() {
 
 		final Configuration configuration = DefaultConfigurationFactory.createDefaultConfigurationWithDummyWriter();
 		{// Test with default values // NOCS
-			final IMonitoringController kieker = MonitoringController.createInstance(configuration);
-			Assert.assertEquals("monitoring should not be terminated", false, kieker.isMonitoringTerminated());
-			Assert.assertEquals("monitoringEnabled values differ", configuration.getBooleanProperty(ConfigurationFactory.MONITORING_ENABLED),
-					kieker.isMonitoringEnabled());
-			kieker.terminateMonitoring();
+			final IMonitoringController kicker = MonitoringController.createInstance(configuration);
+			Assert.assertEquals("monitoring should not be terminated", false, kicker.isMonitoringTerminated());
+			Assert.assertEquals("monitoringEnabled values differ",
+					configuration.getBooleanProperty(ConfigurationFactory.MONITORING_ENABLED),
+					kicker.isMonitoringEnabled());
+			kicker.terminateMonitoring();
 		}
 		{// NOCS
-			configuration
-					.setProperty(ConfigurationFactory.MONITORING_ENABLED,
-							Boolean.toString(!configuration.getBooleanProperty(ConfigurationFactory.MONITORING_ENABLED)));
-			final IMonitoringController kieker = MonitoringController.createInstance(configuration);
-			Assert.assertEquals("monitoring should not be terminated", false, kieker.isMonitoringTerminated());
-			Assert.assertEquals("monitoringEnabled values differ", configuration.getBooleanProperty(ConfigurationFactory.MONITORING_ENABLED),
-					kieker.isMonitoringEnabled());
-			kieker.terminateMonitoring();
+			configuration.setProperty(ConfigurationFactory.MONITORING_ENABLED,
+					Boolean.toString(!configuration.getBooleanProperty(ConfigurationFactory.MONITORING_ENABLED)));
+			final IMonitoringController kicker = MonitoringController.createInstance(configuration);
+			Assert.assertEquals("monitoring should not be terminated", false, kicker.isMonitoringTerminated());
+			Assert.assertEquals("monitoringEnabled values differ",
+					configuration.getBooleanProperty(ConfigurationFactory.MONITORING_ENABLED),
+					kicker.isMonitoringEnabled());
+			kicker.terminateMonitoring();
 		}
 	}
 
 	/**
-	 * Make sure that {@link MonitoringController#getInstance()} always returns the same instance.
+	 * Make sure that {@link MonitoringController#getInstance()} always returns
+	 * the same instance.
 	 */
 	@Test
 	public void testSingletonGetterOnlyOneInstance() {
-		Assert.assertSame("singleton getter returned different objects", MonitoringController.getInstance(), MonitoringController.getInstance());
-		Assert.assertEquals("monitoring should not be terminated", false, MonitoringController.getInstance().isMonitoringTerminated());
+		Assert.assertSame("singleton getter returned different objects", MonitoringController.getInstance(),
+				MonitoringController.getInstance());
+		Assert.assertEquals("monitoring should not be terminated", false,
+				MonitoringController.getInstance().isMonitoringTerminated());
 	}
 }

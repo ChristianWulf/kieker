@@ -220,8 +220,8 @@ function assert_files_exist_bin {
 	assert_file_exists_regular "${DIST_JAR_DIR}/kieker-"*"-emf.jar"
 	assert_zip_file_content_exist "${DIST_JAR_DIR}/kieker-"*"-emf.jar" " org/eclipse/"
 	assert_dir_exists "examples/"
-	assert_file_exists_regular "examples/kieker.monitoring.example.properties"
-	assert_file_exists_regular "examples/kieker.monitoring.adaptiveMonitoring.example.conf"
+	assert_file_exists_regular "examples/kicker.monitoring.example.properties"
+	assert_file_exists_regular "examples/kicker.monitoring.adaptiveMonitoring.example.conf"
 	assert_file_exists_regular "examples/userguide/ch2--manual-instrumentation/lib/kieker-"*"-emf.jar"
 	assert_file_exists_regular "examples/userguide/ch3-4--custom-components/lib/kieker-"*"-emf.jar"
 	assert_file_exists_regular "examples/userguide/ch5--trace-monitoring-aspectj/lib/kieker-"*"-aspectj.jar"
@@ -242,7 +242,7 @@ function assert_files_exist_bin {
 
 	assert_file_exists_regular "examples/JavaEEServletContainerExample/build.gradle"
 	assert_file_NOT_exists "examples/JavaEEServletContainerExample/livedemo-source/"
-	assert_file_exists_regular "examples/JavaEEServletContainerExample/jetty/kieker.monitoring.properties"
+	assert_file_exists_regular "examples/JavaEEServletContainerExample/jetty/kicker.monitoring.properties"
 	assert_file_exists_regular "examples/JavaEEServletContainerExample/jetty/webapps/jpetstore/WEB-INF/lib/kieker-"*"-aspectj.jar"
 	assert_file_exists_regular "examples/JavaEEServletContainerExample/jetty/webapps/jpetstore/WEB-INF/lib/kieker-"*"-aspectj.jar.LICENSE"
 

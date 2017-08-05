@@ -14,19 +14,19 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.livedemo.analysis.filter;
+package kicker.examples.livedemo.analysis.filter;
 
 import kicker.analysis.IProjectContext;
 import kicker.analysis.plugin.annotation.InputPort;
 import kicker.analysis.plugin.annotation.OutputPort;
 import kicker.analysis.plugin.annotation.Plugin;
 import kicker.analysis.plugin.filter.AbstractFilterPlugin;
-import kieker.common.configuration.Configuration;
-import kieker.common.record.controlflow.OperationExecutionRecord;
-import kieker.common.util.signature.ClassOperationSignaturePair;
-import kieker.common.util.signature.Signature;
-import kieker.examples.livedemo.analysis.util.LimitedHashMap;
-import kieker.examples.livedemo.common.EnrichedOperationExecutionRecord;
+import kicker.common.configuration.Configuration;
+import kicker.common.record.controlflow.OperationExecutionRecord;
+import kicker.common.util.signature.ClassOperationSignaturePair;
+import kicker.common.util.signature.Signature;
+import kicker.examples.livedemo.analysis.util.LimitedHashMap;
+import kicker.examples.livedemo.common.EnrichedOperationExecutionRecord;
 
 /**
  * A filter enriching Kieker's {@link OperationExecutionRecord} with a short signature and some comma seperated values. The filter uses an internal LRU cache for the

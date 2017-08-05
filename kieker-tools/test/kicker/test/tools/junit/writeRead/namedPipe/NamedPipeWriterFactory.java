@@ -33,7 +33,7 @@ final class NamedPipeWriterFactory {
 	private NamedPipeWriterFactory() {}
 
 	/**
-	 * This method should be used in tests to generate unique names for {@link kieker.monitoring.core.configuration.Configuration}s with
+	 * This method should be used in tests to generate unique names for {@link kicker.monitoring.core.configuration.Configuration}s with
 	 * {@link kicker.monitoring.writer.namedRecordPipe.PipeWriter}s and {@link java.io.PipedReader}s
 	 * in order to avoid naming conflicts.
 	 *
@@ -45,7 +45,7 @@ final class NamedPipeWriterFactory {
 
 	/**
 	 * Creates a new {@link PipeWriter} that writes records
-	 * to a {@link kieker.common.namedRecordPipe.Pipe} with the given name.
+	 * to a {@link kicker.common.namedRecordPipe.Pipe} with the given name.
 	 *
 	 * @param pipeName
 	 *            The name of the pipe to use.

@@ -319,10 +319,10 @@ public class TestProbeController extends AbstractKiekerTest {
 		final IMonitoringController ctrl = MonitoringController.createInstance(configuration);
 
 		// generate test signature
-		final String signature = "public void kieker.test.monitoring.junit.core.controller.TestProbeController.testIt()";
+		final String signature = "public void kicker.test.monitoring.junit.core.controller.TestProbeController.testIt()";
 
 		// test methods
-		final String pattern = "..* kieker..*.*(..)";
+		final String pattern = "..* kicker..*.*(..)";
 
 		LogImplJUnit.disableThrowable(InvalidPatternException.class);
 		Assert.assertFalse(ctrl.activateProbe("InvalidPatternException expected"));

@@ -45,7 +45,7 @@ import kicker.monitoring.timer.ITimeSource;
  * @since 1.12
  */
 @Aspect
-@DeclarePrecedence("kieker.monitoring.probe.aspectj.jersey.*,kieker.monitoring.probe.aspectj.operationExecution.*")
+@DeclarePrecedence("kicker.monitoring.probe.aspectj.jersey.*,kicker.monitoring.probe.aspectj.operationExecution.*")
 public class OperationExecutionJerseyServerInterceptor extends AbstractAspectJProbe {
 	public static final String SESSION_ID_ASYNC_TRACE = "NOSESSION-ASYNCIN";
 

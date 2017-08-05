@@ -13,7 +13,7 @@ version = ''
 
 sourceSets.main.java.srcDirs = ['src']
 
-mainClassName = 'kieker.examples.analysis.traceanalysis.TraceAnalysisStarter'
+mainClassName = 'kicker.examples.analysis.traceanalysis.TraceAnalysisStarter'
 
 jar {
 	manifest {

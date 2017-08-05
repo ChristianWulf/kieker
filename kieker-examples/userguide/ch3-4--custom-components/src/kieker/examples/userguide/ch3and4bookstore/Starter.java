@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.userguide.ch3and4bookstore;
+package kicker.examples.userguide.ch3and4bookstore;
 
 import java.io.File;
 import java.util.concurrent.TimeUnit;
@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
 import kicker.analysis.AnalysisController;
 import kicker.analysis.IAnalysisController;
 import kicker.analysis.analysisComponent.AbstractAnalysisComponent;
-import kieker.common.configuration.Configuration;
+import kicker.common.configuration.Configuration;
 
 public final class Starter {
 

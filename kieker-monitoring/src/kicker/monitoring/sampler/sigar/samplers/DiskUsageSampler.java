@@ -31,7 +31,7 @@ import kicker.monitoring.timer.ITimeSource;
 
 /**
  * Logs disk usage of the system, retrieved as {@link DiskUsageRecord} via
- * {@link kicker.monitoring.core.controller.IMonitoringController#newMonitoringRecord(kieker.common.record.IMonitoringRecord)} .
+ * {@link kicker.monitoring.core.controller.IMonitoringController#newMonitoringRecord(kicker.common.record.IMonitoringRecord)} .
  *
  * @author Teerat Pitakrat
  *

@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.analysis.kax;
+package kicker.examples.analysis.kax;
 
 import java.io.File;
 import java.io.IOException;

@@ -63,8 +63,8 @@ public abstract class AbstractKiekerTest { // NOPMD (no abstract methods)
 	private volatile boolean workingDirectoryIsModuleDirectory;
 
 	static {
-		if (System.getProperty("kieker.common.logging.Log") == null) {
-			System.setProperty("kieker.common.logging.Log", "JUNIT");
+		if (System.getProperty("kicker.common.logging.Log") == null) {
+			System.setProperty("kicker.common.logging.Log", "JUNIT");
 		}
 		LOG = LogFactory.getLog(AbstractKiekerTest.class);
 	}
@@ -95,13 +95,13 @@ public abstract class AbstractKiekerTest { // NOPMD (no abstract methods)
 			this.testModulePrefix = "./";
 		} else { // we need to find out whether in kieker-common, kieker-monitoring, kieker-tools, or kieker-analysis
 			final String testClassName = this.getClass().getName();
-			if (testClassName.startsWith("kieker.test.common")) {
+			if (testClassName.startsWith("kicker.test.common")) {
 				this.testModulePrefix = "kieker-common/";
-			} else if (testClassName.startsWith("kieker.test.analysis")) {
+			} else if (testClassName.startsWith("kicker.test.analysis")) {
 				this.testModulePrefix = "kieker-analysis/";
-			} else if (testClassName.startsWith("kieker.test.monitoring")) {
+			} else if (testClassName.startsWith("kicker.test.monitoring")) {
 				this.testModulePrefix = "kieker-monitoring/";
-			} else if (testClassName.startsWith("kieker.test.tools")) {
+			} else if (testClassName.startsWith("kicker.test.tools")) {
 				this.testModulePrefix = "kieker-tools/";
 			} else {
 				LOG.error("Failed to detect test module for test: " + testClassName);

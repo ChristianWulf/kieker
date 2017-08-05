@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.analysis.opad;
+package kicker.examples.analysis.opad;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -32,14 +32,14 @@ import kicker.analysis.IProjectContext;
 import kicker.analysis.exception.AnalysisConfigurationException;
 import kicker.analysis.plugin.filter.forward.ListCollectionFilter;
 import kicker.analysis.plugin.reader.list.ListReader;
-import kieker.common.configuration.Configuration;
-import kieker.common.logging.Log;
-import kieker.common.logging.LogFactory;
-import kieker.examples.analysis.opad.experimentModel.WikiGer24_Oct11_21d_OutputModel;
-import kieker.tools.opad.filter.ForecastingFilter;
-import kieker.tools.opad.model.ForecastMeasurementPair;
-import kieker.tools.opad.model.NamedDoubleTimeSeriesPoint;
-import kieker.tools.opad.timeseries.ForecastMethod;
+import kicker.common.configuration.Configuration;
+import kicker.common.logging.Log;
+import kicker.common.logging.LogFactory;
+import kicker.examples.analysis.opad.experimentModel.WikiGer24_Oct11_21d_OutputModel;
+import kicker.tools.opad.filter.ForecastingFilter;
+import kicker.tools.opad.model.ForecastMeasurementPair;
+import kicker.tools.opad.model.NamedDoubleTimeSeriesPoint;
+import kicker.tools.opad.timeseries.ForecastMethod;
 
 /**
  * @author Thomas Duellmann

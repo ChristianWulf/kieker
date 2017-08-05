@@ -14,14 +14,14 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.monitoring.jvm;
+package kicker.examples.monitoring.jvm;
 
 import java.util.concurrent.TimeUnit;
 
-import kieker.monitoring.core.controller.IMonitoringController;
-import kieker.monitoring.core.controller.MonitoringController;
-import kieker.monitoring.sampler.mxbean.GCSampler;
-import kieker.monitoring.sampler.mxbean.MemorySampler;
+import kicker.monitoring.core.controller.IMonitoringController;
+import kicker.monitoring.core.controller.MonitoringController;
+import kicker.monitoring.sampler.mxbean.GCSampler;
+import kicker.monitoring.sampler.mxbean.MemorySampler;
 
 public final class MonitoringStarter {
 

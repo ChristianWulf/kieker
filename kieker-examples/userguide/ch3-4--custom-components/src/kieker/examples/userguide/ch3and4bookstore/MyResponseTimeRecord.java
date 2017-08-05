@@ -14,16 +14,16 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.userguide.ch3and4bookstore;
+package kicker.examples.userguide.ch3and4bookstore;
 
 import java.nio.BufferOverflowException;
 import java.nio.BufferUnderflowException;
 
-import kieker.common.record.AbstractMonitoringRecord;
-import kieker.common.record.IMonitoringRecord;
-import kieker.common.record.io.IValueDeserializer;
-import kieker.common.record.io.IValueSerializer;
-import kieker.common.util.registry.IRegistry;
+import kicker.common.record.AbstractMonitoringRecord;
+import kicker.common.record.IMonitoringRecord;
+import kicker.common.record.io.IValueDeserializer;
+import kicker.common.record.io.IValueSerializer;
+import kicker.common.util.registry.IRegistry;
 
 public class MyResponseTimeRecord extends AbstractMonitoringRecord implements IMonitoringRecord.Factory, IMonitoringRecord.BinaryFactory {
 	public static final int SIZE = (2 * TYPE_SIZE_STRING) + TYPE_SIZE_LONG;

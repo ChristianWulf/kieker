@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.livedemo.view.system;
+package kicker.examples.livedemo.view.system;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -24,12 +24,12 @@ import javax.faces.bean.ApplicationScoped;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;
 
-import kieker.examples.livedemo.view.AnalysisBean;
-import kieker.tools.traceAnalysis.systemModel.AllocationComponent;
-import kieker.tools.traceAnalysis.systemModel.AssemblyComponent;
-import kieker.tools.traceAnalysis.systemModel.ComponentType;
-import kieker.tools.traceAnalysis.systemModel.ExecutionContainer;
-import kieker.tools.traceAnalysis.systemModel.Operation;
+import kicker.examples.livedemo.view.AnalysisBean;
+import kicker.tools.traceAnalysis.systemModel.AllocationComponent;
+import kicker.tools.traceAnalysis.systemModel.AssemblyComponent;
+import kicker.tools.traceAnalysis.systemModel.ComponentType;
+import kicker.tools.traceAnalysis.systemModel.ExecutionContainer;
+import kicker.tools.traceAnalysis.systemModel.Operation;
 
 /**
  * @author Bjoern Weissenfels

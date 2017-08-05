@@ -25,8 +25,8 @@ package kicker.monitoring.core.configuration;
  * @since 1.3
  */
 interface Keys { // NOPMD NOCS (static list)
-	/** prefix used for all kieker.monitoring components. */
-	public static final String PREFIX = "kieker.monitoring.";
+	/** prefix used for all kicker.monitoring components. */
+	public static final String PREFIX = "kicker.monitoring.";
 
 	/** Location of the custom properties file (in classpath). */
 	public static final String CUSTOM_PROPERTIES_LOCATION_CLASSPATH = "META-INF/" + PREFIX + "properties";

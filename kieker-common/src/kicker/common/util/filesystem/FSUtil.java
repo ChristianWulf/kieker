@@ -26,7 +26,7 @@ public final class FSUtil { // NOCS NOPMD (constants interface)
 	/** The prefix of Kieker's record files. */
 	public static final String FILE_PREFIX = "kieker";
 	/** The name of Kieker's map files. */
-	public static final String MAP_FILENAME = "kieker.map";
+	public static final String MAP_FILENAME = "kicker.map";
 
 	/** The old prefix of Kieker's record files. */
 	public static final String LEGACY_FILE_PREFIX = "tpmon";
@@ -44,7 +44,7 @@ public final class FSUtil { // NOCS NOPMD (constants interface)
 	/** The extension of Kieker's mapping files. */
 	public static final String MAP_FILE_EXTENSION = ".map";
 
-	/** The encoding usually used within Kieker. */
+	/** The encoding usually used within kicker. */
 	public static final String ENCODING = "UTF-8";
 
 	private FSUtil() {

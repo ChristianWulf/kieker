@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.livedemo.analysis.sink;
+package kicker.examples.livedemo.analysis.sink;
 
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
@@ -24,10 +24,10 @@ import kicker.analysis.plugin.annotation.InputPort;
 import kicker.analysis.plugin.annotation.Plugin;
 import kicker.analysis.plugin.annotation.Property;
 import kicker.analysis.plugin.filter.AbstractFilterPlugin;
-import kieker.common.configuration.Configuration;
-import kieker.common.logging.Log;
-import kieker.common.logging.LogFactory;
-import kieker.common.record.IMonitoringRecord;
+import kicker.common.configuration.Configuration;
+import kicker.common.logging.Log;
+import kicker.common.logging.LogFactory;
+import kicker.common.record.IMonitoringRecord;
 
 /**
  * @author Nils Christian Ehmke

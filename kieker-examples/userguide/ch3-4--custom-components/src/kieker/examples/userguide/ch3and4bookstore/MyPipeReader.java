@@ -14,16 +14,16 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.userguide.ch3and4bookstore;
+package kicker.examples.userguide.ch3and4bookstore;
 
 import kicker.analysis.IProjectContext;
 import kicker.analysis.plugin.annotation.OutputPort;
 import kicker.analysis.plugin.annotation.Plugin;
 import kicker.analysis.plugin.annotation.Property;
 import kicker.analysis.plugin.reader.AbstractReaderPlugin;
-import kieker.common.configuration.Configuration;
-import kieker.common.record.AbstractMonitoringRecord;
-import kieker.common.record.IMonitoringRecord;
+import kicker.common.configuration.Configuration;
+import kicker.common.record.AbstractMonitoringRecord;
+import kicker.common.record.IMonitoringRecord;
 
 @Plugin(
 		name = "Pipe reader",

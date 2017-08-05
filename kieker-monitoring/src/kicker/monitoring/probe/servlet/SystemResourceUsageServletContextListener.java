@@ -50,7 +50,7 @@ import kicker.monitoring.sampler.sigar.SigarSamplerFactory;
  *
  *  <listener>
  *    <listener-class>
- *     kieker.monitoring.probe.servlet.SystemResourceUsageServletContextListener
+ *     kicker.monitoring.probe.servlet.SystemResourceUsageServletContextListener
  *    </listener-class>
  *  </listener>
  *

@@ -624,7 +624,7 @@ task aspectJJar(type: Jar, dependsOn: mainSubprojects.tasks["build"]) {
         from sharedManifest
         attributes(
                 "Can-Redefine-Classes": 'true',
-                "Premain-Class": 'kieker.monitoring.probe.aspectj.AspectJLoader'
+                "Premain-Class": 'kicker.monitoring.probe.aspectj.AspectJLoader'
         )
         attributes(
                 "Specification-Title": "AspectJ Weaver Classes",
@@ -705,8 +705,8 @@ def exampleContent = project.copySpec {
     }
 
     from('kieker-monitoring/src-resources/META-INF') {
-        include 'kieker.monitoring.default.properties'
-        rename 'kieker.monitoring.default.properties', 'kieker.monitoring.example.properties'
+        include 'kicker.monitoring.default.properties'
+        rename 'kicker.monitoring.default.properties', 'kicker.monitoring.example.properties'
     }
     into kiekerPackagenamebase + "-" + kiekerVersion + "/examples"
 
@@ -720,8 +720,8 @@ def exampleContent = project.copySpec {
 
 def exampleJavaEEContent = project.copySpec {
     from('kieker-monitoring/src-resources/META-INF') {
-        include 'kieker.monitoring.default.properties'
-        rename 'kieker.monitoring.default.properties', 'kieker.monitoring.properties'
+        include 'kicker.monitoring.default.properties'
+        rename 'kicker.monitoring.default.properties', 'kicker.monitoring.properties'
     }
     into kiekerPackagenamebase + "-" + kiekerVersion + "/examples/JavaEEServletContainerExample/jetty"
 }

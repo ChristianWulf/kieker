@@ -14,13 +14,13 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.monitoring.timer;
+package kicker.monitoring.timer;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;
 
-import kieker.common.configuration.Configuration;
-import kieker.monitoring.timer.AbstractTimeSource;
+import kicker.common.configuration.Configuration;
+import kicker.monitoring.timer.AbstractTimeSource;
 
 public class CustomTimeSource extends AbstractTimeSource {
 

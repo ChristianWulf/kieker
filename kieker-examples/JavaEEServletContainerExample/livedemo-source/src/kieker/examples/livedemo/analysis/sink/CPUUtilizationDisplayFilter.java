@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.livedemo.analysis.sink;
+package kicker.examples.livedemo.analysis.sink;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -33,13 +33,13 @@ import kicker.analysis.plugin.annotation.InputPort;
 import kicker.analysis.plugin.annotation.Plugin;
 import kicker.analysis.plugin.annotation.Property;
 import kicker.analysis.plugin.filter.AbstractFilterPlugin;
-import kieker.common.configuration.Configuration;
-import kieker.common.logging.Log;
-import kieker.common.logging.LogFactory;
-import kieker.common.record.IMonitoringRecord;
-import kieker.common.record.system.CPUUtilizationRecord;
-import kieker.examples.livedemo.analysis.util.LimitedHashMap;
-import kieker.examples.livedemo.view.util.Model;
+import kicker.common.configuration.Configuration;
+import kicker.common.logging.Log;
+import kicker.common.logging.LogFactory;
+import kicker.common.record.IMonitoringRecord;
+import kicker.common.record.system.CPUUtilizationRecord;
+import kicker.examples.livedemo.analysis.util.LimitedHashMap;
+import kicker.examples.livedemo.view.util.Model;
 
 /**
  * @author Bjoern Weissenfels

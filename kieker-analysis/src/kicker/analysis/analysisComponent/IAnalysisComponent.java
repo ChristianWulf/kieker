@@ -19,7 +19,7 @@ package kicker.analysis.analysisComponent;
 import kicker.common.configuration.Configuration;
 
 /**
- * This is the interface for an analysis component in Kieker.
+ * This is the interface for an analysis component in kicker.
  * 
  * @author Nils Christian Ehmke
  * 

@@ -3,7 +3,7 @@ This document summarizes changes made in all releases starting with 0.90.
 Starting with version 1.4, the Kieker ticket system (accessible via 
 http://kieker-monitoring.net) contains details on the changes.
 
-Please refer to the Kieker User Guide for details on using Kieker.
+Please refer to the Kieker User Guide for details on using kicker.
 
 * 1.12 (October 1, 2015)
 - New features (selection)
@@ -86,7 +86,7 @@ Please refer to the Kieker User Guide for details on using Kieker.
     support adaptive monitoring for custom probes. Before: limited 
     to (de)activate monitoring for operation signature patterns.
   - New file system writers supporting (ZIP) compression
-  - Minor modifications to the Kieker.Analysis API:
+  - Minor modifications to the kicker.Analysis API:
     1. Removed the `register` methods. Registration now implicit by 
        passing context information to the plugin constructors. 
        A legacy mode for the previous API is included in this version.
@@ -122,7 +122,7 @@ Please refer to the Kieker User Guide for details on using Kieker.
 
 * 1.5 (April 13, 2012)
 - Major new features
-  - Completely reworked pipe-and-filter framework in Kieker.Analysis
+  - Completely reworked pipe-and-filter framework in kicker.Analysis
    - Use of Java annotations to specify plugins, repositories, 
      input/output ports etc.
    - Support for multiple readers
@@ -183,13 +183,13 @@ Please refer to the Kieker User Guide for details on using Kieker.
   same JVM)
 - MonitoringController accessible as JMX MBean
 - API changes
-  - The format of the kieker.monitoring.properties changed!
+  - The format of the kicker.monitoring.properties changed!
   - Custom writers will need to be adjusted to a changed interface
   - Minor changes in the MonitoringController interface
 
 * 1.2 (Sep 8, 2010)
 - Minor bug-fixes and refactorings 
-  (e.g., renaming Kieker.Tpmon/Tpan->Kieker.Monitoring/Analysis )
+  (e.g., renaming kicker.Tpmon/Tpan->kicker.Monitoring/Analysis )
 - Further enancements to trace analysis tool
   (e.g., analysis and visualization features providing software 
    assembly- and deployment-level views)

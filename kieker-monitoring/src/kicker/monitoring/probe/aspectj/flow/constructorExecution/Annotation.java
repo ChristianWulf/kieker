@@ -35,7 +35,7 @@ public class Annotation extends AbstractAspect {
 	}
 
 	@Override
-	@Pointcut("execution(@kieker.monitoring.annotation.OperationExecutionMonitoringProbe new(..))")
+	@Pointcut("execution(@kicker.monitoring.annotation.OperationExecutionMonitoringProbe new(..))")
 	public void monitoredConstructor() {
 		// Aspect Declaration (MUST be empty)
 	}

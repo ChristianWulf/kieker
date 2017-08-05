@@ -30,15 +30,15 @@ import kicker.analysis.plugin.filter.AbstractFilterPlugin;
 
 /**
  * Generates time events with a given resolution based on the timestamps of
- * incoming {@link kieker.common.record.IMonitoringRecord}s.
+ * incoming {@link kicker.common.record.IMonitoringRecord}s.
  * 
  * <ol>
  * <li>The first record received via {@link #inputTimestamp(Long)} immediately leads to a new {@link TimestampRecord} with the given timestamp.</li>
  * <li>The timestamp of the first record is stored as {@link #firstTimestamp} and future events are generated at {@link #firstTimestamp} + i *
  * {@link #timerResolution}.</li>
- * <li>Future {@link kieker.common.record.IMonitoringRecord} may lead to future {@link TimestampRecord} as follows:
+ * <li>Future {@link kicker.common.record.IMonitoringRecord} may lead to future {@link TimestampRecord} as follows:
  * <ol>
- * <li>A newly incoming {@link kieker.common.record.IMonitoringRecord} with logging timestamp {@literal tstamp} leads to the new timer events satisfying
+ * <li>A newly incoming {@link kicker.common.record.IMonitoringRecord} with logging timestamp {@literal tstamp} leads to the new timer events satisfying
  * {@link #firstTimestamp} + i * {@link #timerResolution} {@literal <} {@literal tstamp}.</li>
  * </ol>
  * </li>

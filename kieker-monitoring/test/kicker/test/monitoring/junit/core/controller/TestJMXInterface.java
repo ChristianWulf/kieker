@@ -21,7 +21,7 @@ import org.junit.Test;
 import kicker.test.common.junit.AbstractKiekerTest;
 
 /**
- * This test is now included in {@link kieker.test.tools.junit.writeRead.jmx.BasicJMXWriterReaderTest}
+ * This test is now included in {@link kicker.test.tools.junit.writeRead.jmx.BasicJMXWriterReaderTest}
  * 
  * Otherwise jUnit gets Problems with two open JMX servers.
  * 

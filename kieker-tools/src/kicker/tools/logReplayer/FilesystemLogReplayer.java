@@ -24,7 +24,7 @@ import kicker.analysis.plugin.reader.AbstractReaderPlugin;
 import kicker.analysis.plugin.reader.filesystem.FSReader;
 
 /**
- * An implementation of the {@link AbstractLogReplayer}, using the {@link FSReader} to replay {@link kieker.common.record.IMonitoringRecord}s from a list of file
+ * An implementation of the {@link AbstractLogReplayer}, using the {@link FSReader} to replay {@link kicker.common.record.IMonitoringRecord}s from a list of file
  * system monitoring logs.
  * 
  * @author Andre van Hoorn

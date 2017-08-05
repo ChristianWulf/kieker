@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.livedemo.analysis.sink;
+package kicker.examples.livedemo.analysis.sink;
 
 import java.util.Map;
 import java.util.Queue;
@@ -25,10 +25,10 @@ import org.primefaces.model.chart.CartesianChartModel;
 import org.primefaces.model.chart.ChartSeries;
 
 import kicker.analysis.IProjectContext;
-import kieker.common.configuration.Configuration;
-import kieker.common.record.controlflow.OperationExecutionRecord;
-import kieker.examples.livedemo.analysis.util.LimitedHashMap;
-import kieker.examples.livedemo.analysis.util.Pair;
+import kicker.common.configuration.Configuration;
+import kicker.common.record.controlflow.OperationExecutionRecord;
+import kicker.examples.livedemo.analysis.util.LimitedHashMap;
+import kicker.examples.livedemo.analysis.util.Pair;
 
 /**
  * @author Bjoern Weissenfels

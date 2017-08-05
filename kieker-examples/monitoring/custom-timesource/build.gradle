@@ -11,7 +11,7 @@ version = ''
 
 sourceSets.main.java.srcDirs = ['src']
 
-mainClassName = 'kieker.examples.monitoring.customTimeSource.BookstoreStarter'
+mainClassName = 'kicker.examples.monitoring.customTimeSource.BookstoreStarter'
 
 jar {
 	manifest {
@@ -22,8 +22,8 @@ jar {
 task runMonitoring(type: JavaExec) {
 	main = mainClassName
 	classpath = sourceSets.main.runtimeClasspath
-	jvmArgs = ['-Dkieker.monitoring.writer.filesystem.AsciiFileWriter.customStoragePath=monitoring-logs',
-			   '-Dkieker.monitoring.timer=kieker.monitoring.timer.CustomTimeSource',
+	jvmArgs = ['-Dkicker.monitoring.writer.filesystem.AsciiFileWriter.customStoragePath=monitoring-logs',
+			   '-Dkicker.monitoring.timer=kicker.monitoring.timer.CustomTimeSource',
 	           "-javaagent:lib/kieker-1.13-SNAPSHOT-aspectj.jar",
 			   '-Dorg.aspectj.weaver.showWeaveInfo=true',
 			   '-Daj.weaving.verbose=true']

@@ -14,15 +14,15 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.livedemo.common;
+package kicker.examples.livedemo.common;
 
 import java.nio.BufferOverflowException;
 import java.nio.ByteBuffer;
 
-import kieker.common.record.AbstractMonitoringRecord;
-import kieker.common.record.controlflow.OperationExecutionRecord;
-import kieker.common.record.io.IValueSerializer;
-import kieker.common.util.registry.IRegistry;
+import kicker.common.record.AbstractMonitoringRecord;
+import kicker.common.record.controlflow.OperationExecutionRecord;
+import kicker.common.record.io.IValueSerializer;
+import kicker.common.util.registry.IRegistry;
 
 /**
  * A record enriching Kieker's {@link OperationExecutionRecord} with a short signature and some comma seperated values.

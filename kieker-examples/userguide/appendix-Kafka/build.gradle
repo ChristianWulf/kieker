@@ -7,7 +7,7 @@ dependencies {
   }
 }
 
-def monitoringConfigurationKafka = 'META-INF/kieker.monitoring.properties'
+def monitoringConfigurationKafka = 'META-INF/kicker.monitoring.properties'
 
 // Simplify the JAR's file name
 archivesBaseName = 'KafkaMonitoringAnalysis'
@@ -17,7 +17,7 @@ sourceSets.main.java.srcDirs = ['src']
 sourceSets.main.resources.srcDirs = ['src-resources']
 
 def monitoringConfiguration = {
-  main = 'kieker.examples.userguide.appendixKafka.BookstoreStarter'
+  main = 'kicker.examples.userguide.appendixKafka.BookstoreStarter'
   classpath = sourceSets.main.runtimeClasspath
   
   jvmArgs = ['-Dlog4j.configuration=META-INF/log4j.properties']
@@ -25,11 +25,11 @@ def monitoringConfiguration = {
 
 task runMonitoringKafka(type: JavaExec) {
   configure monitoringConfiguration
-  jvmArgs += "-Dkieker.monitoring.configuration=${monitoringConfigurationKafka}"
+  jvmArgs += "-Dkicker.monitoring.configuration=${monitoringConfigurationKafka}"
 }
 
 def analysisConfiguration = {
-  main = 'kieker.examples.userguide.appendixKafka.KafkaAnalysisStarter'
+  main = 'kicker.examples.userguide.appendixKafka.KafkaAnalysisStarter'
 	classpath = sourceSets.main.runtimeClasspath
   
   jvmArgs = ['-Dlog4j.configuration=META-INF/log4j.properties']

@@ -172,24 +172,24 @@
         <!-- KIEKER -->
         <property name="tabWidth" value="4"/>
         <!-- KIEKER -->
-        <module name="kieker.checkstyle.AnalysisComponentConstructorCheck">
+        <module name="kicker.checkstyle.AnalysisComponentConstructorCheck">
             <property name="ignoreAbstractClasses" value="true"/>
             <property name="severity" value="error" default="ignore"/>
         </module>
-        <module name="kieker.checkstyle.MonitoringRecordFactoryConventionCheck">
+        <module name="kicker.checkstyle.MonitoringRecordFactoryConventionCheck">
             <property name="ignoreAbstractClasses" value="true"/>
             <property name="severity" value="error" default="ignore"/>
         </module>
-        <module name="kieker.checkstyle.MissingSinceTagCheck">
+        <module name="kicker.checkstyle.MissingSinceTagCheck">
             <property name="severity" value="error" default="ignore"/>
         </module>
-        <module name="kieker.checkstyle.NotAllowedSinceTagCheck">
+        <module name="kicker.checkstyle.NotAllowedSinceTagCheck">
             <property name="severity" value="error" default="ignore"/>
         </module>
-        <module name="kieker.checkstyle.NoBlockCommentsCheck">
+        <module name="kicker.checkstyle.NoBlockCommentsCheck">
             <property name="severity" value="error" default="ignore"/>
         </module>
-		<module name="kieker.checkstyle.NotAllowedIgnoreAnnotationCheck">
+		<module name="kicker.checkstyle.NotAllowedIgnoreAnnotationCheck">
             <property name="severity" value="error" default="ignore"/>
         </module>
         <module name="FileContentsHolder"/>
@@ -656,7 +656,7 @@
         <!-- See http://checkstyle.sf.net/config_import.html !-->
         <module name="ImportOrder">
             <property name="option"        value="under"/>
-            <property name="groups"        value="java,javax,junit,org,com,ch,de,kieker,kieker.test"/>
+            <property name="groups"        value="java,javax,junit,org,com,ch,de,kicker,kicker.test"/>
             <property name="ordered"       value="true"/>
             <property name="separated"     value="true"/>
             <property name="caseSensitive" value="true"/>

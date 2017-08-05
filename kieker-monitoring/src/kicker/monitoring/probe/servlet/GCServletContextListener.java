@@ -45,7 +45,7 @@ import kicker.monitoring.sampler.mxbean.GCSampler;
  * 
  * <listener>
  *   <listener-class>
- *     kieker.monitoring.probe.servlet.GCServletContextListener
+ *     kicker.monitoring.probe.servlet.GCServletContextListener
  *   </listener-class>
  * </listener>
  * 

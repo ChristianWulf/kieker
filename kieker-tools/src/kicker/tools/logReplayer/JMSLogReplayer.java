@@ -22,7 +22,7 @@ import kicker.analysis.plugin.reader.AbstractReaderPlugin;
 import kicker.analysis.plugin.reader.jms.JMSReader;
 
 /**
- * An implementation of the {@link AbstractLogReplayer}, using the {@link JMSReader} to replay {@link kieker.common.record.IMonitoringRecord}s from a JMS queue.
+ * An implementation of the {@link AbstractLogReplayer}, using the {@link JMSReader} to replay {@link kicker.common.record.IMonitoringRecord}s from a JMS queue.
  * 
  * @author Andre van Hoorn
  * 

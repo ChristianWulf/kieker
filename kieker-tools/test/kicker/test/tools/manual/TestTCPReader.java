@@ -31,8 +31,8 @@ import kicker.analysis.plugin.reader.tcp.TCPReader;
 import kicker.analysis.plugin.reader.timer.TimeReader;
 
 // Command-Line:
-// java -javaagent:lib/kieker-1.13-SNAPSHOT-aspectj.jar -Dkieker.monitoring.writer=kieker.monitoring.writer.tcp.TCPWriter
-// -Dkieker.monitoring.writer.tcp.TCPWriter.QueueFullBehavior=1 -jar MooBench.jar --recursiondepth 10 --totalthreads 1 --methodtime 0 --output-filename raw.csv
+// java -javaagent:lib/kieker-1.13-SNAPSHOT-aspectj.jar -Dkicker.monitoring.writer=kicker.monitoring.writer.tcp.TCPWriter
+// -Dkicker.monitoring.writer.tcp.TCPWriter.QueueFullBehavior=1 -jar MooBench.jar --recursiondepth 10 --totalthreads 1 --methodtime 0 --output-filename raw.csv
 // --totalcalls 10000000
 /**
  * 

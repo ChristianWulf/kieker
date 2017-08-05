@@ -14,9 +14,9 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.userguide.ch3and4bookstore;
+package kicker.examples.userguide.ch3and4bookstore;
 
-import kieker.common.record.IMonitoringRecord;
+import kicker.common.record.IMonitoringRecord;
 
 public class PipeData {
 

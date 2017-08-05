@@ -113,7 +113,7 @@ public final class CLIServerMain {
 
 	private static final String JAVA_TMP_DIR = "java.io.tmpdir";
 
-	private static final String CLI_CONNECTOR = "kieker.tools.bridge.connector";
+	private static final String CLI_CONNECTOR = "kicker.tools.bridge.connector";
 
 	private static boolean verbose;
 	private static boolean stats;
@@ -200,7 +200,7 @@ public final class CLIServerMain {
 				configuration.setProperty(HTTPConnector.CONTEXT, commandLine.getOptionValue(CMD_CONTEXT));
 			}
 			if (commandLine.hasOption(CMD_TYPE)) {
-				final Reflections reflections = new Reflections("kieker.tools.bridge.connector");
+				final Reflections reflections = new Reflections("kicker.tools.bridge.connector");
 				final Set<Class<?>> connectors = reflections.getTypesAnnotatedWith(kicker.tools.bridge.connector.ConnectorProperty.class);
 
 				for (final Class<?> connector : connectors) {

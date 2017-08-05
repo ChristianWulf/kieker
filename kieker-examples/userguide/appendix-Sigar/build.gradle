@@ -17,12 +17,12 @@ version = ''
 sourceSets.main.java.srcDirs = ['src']
 
 task runMonitoring(type: JavaExec) {
-	main = 'kieker.examples.userguide.appendixSigar.MonitoringStarter'
+	main = 'kicker.examples.userguide.appendixSigar.MonitoringStarter'
 	classpath = sourceSets.main.runtimeClasspath
 }
 
 task runAnalysis(type: JavaExec) {
-	main = 'kieker.examples.userguide.appendixSigar.AnalysisStarter'
+	main = 'kicker.examples.userguide.appendixSigar.AnalysisStarter'
 	classpath = sourceSets.main.runtimeClasspath
 	args = [System.getProperty("analysis.directory", ".")]
 }

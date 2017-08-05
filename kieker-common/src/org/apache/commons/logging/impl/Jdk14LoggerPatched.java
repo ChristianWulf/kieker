@@ -58,7 +58,7 @@ public final class Jdk14LoggerPatched extends Jdk14Logger {
 	}
 
 	/**
-	 * Copy of {@link Jdk14Logger.log(level, msg, ex)} with correct stack depth for Kieker.
+	 * Copy of {@link Jdk14Logger.log(level, msg, ex)} with correct stack depth for kicker.
 	 * 
 	 * @param level
 	 *            The level of the log entry (the severity).

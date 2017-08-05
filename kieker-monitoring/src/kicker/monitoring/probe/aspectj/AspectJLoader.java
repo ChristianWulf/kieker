@@ -34,7 +34,7 @@ import kicker.common.logging.LogFactory;
  */
 public final class AspectJLoader {
 
-	public static final String KIEKER_MONITORING_SKIP_DEFAULT_AOP_CONFIGURATION = "kieker.monitoring.skipDefaultAOPConfiguration";
+	public static final String KIEKER_MONITORING_SKIP_DEFAULT_AOP_CONFIGURATION = "kicker.monitoring.skipDefaultAOPConfiguration";
 
 	private static final String DEFAULT_AOP_CONFIG = "META-INF/aop.example.xml";
 	private static final Log LOG = LogFactory.getLog(AspectJLoader.class);

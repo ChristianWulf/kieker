@@ -45,7 +45,7 @@ import kicker.monitoring.sampler.mxbean.UptimeSampler;
  * 
  * <listener>
  *   <listener-class>
- *     kieker.monitoring.probe.servlet.JVMUptimeServletContextListener
+ *     kicker.monitoring.probe.servlet.JVMUptimeServletContextListener
  *   </listener-class>
  * </listener>
  * 

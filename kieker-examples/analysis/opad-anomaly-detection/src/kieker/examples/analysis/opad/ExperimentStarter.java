@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.analysis.opad;
+package kicker.examples.analysis.opad;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -29,13 +29,13 @@ import au.com.bytecode.opencsv.bean.ColumnPositionMappingStrategy;
 import au.com.bytecode.opencsv.bean.CsvToBean;
 
 import kicker.analysis.exception.AnalysisConfigurationException;
-import kieker.common.logging.Log;
-import kieker.common.logging.LogFactory;
-import kieker.examples.analysis.opad.experimentModel.WikiGer24_Oct11_21d_InputModel;
-import kieker.tools.opad.model.NamedDoubleTimeSeriesPoint;
-import kieker.tools.opad.timeseries.ForecastMethod;
-import kieker.tools.util.InvalidREvaluationResultException;
-import kieker.tools.util.RBridgeControl;
+import kicker.common.logging.Log;
+import kicker.common.logging.LogFactory;
+import kicker.examples.analysis.opad.experimentModel.WikiGer24_Oct11_21d_InputModel;
+import kicker.tools.opad.model.NamedDoubleTimeSeriesPoint;
+import kicker.tools.opad.timeseries.ForecastMethod;
+import kicker.tools.util.InvalidREvaluationResultException;
+import kicker.tools.util.RBridgeControl;
 
 /**
  * Starts the forecast on the given data using different forecasting methods,

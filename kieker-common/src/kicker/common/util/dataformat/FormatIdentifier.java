@@ -17,7 +17,7 @@
 package kicker.common.util.dataformat;
 
 /**
- * Format identifiers used by Kieker. 
+ * Format identifiers used by kicker. 
  * @author Holger Knoche
  * @since 1.13
  */

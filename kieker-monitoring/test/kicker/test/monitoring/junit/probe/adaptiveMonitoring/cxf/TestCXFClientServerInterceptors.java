@@ -132,9 +132,9 @@ public class TestCXFClientServerInterceptors extends AbstractKiekerTest {
 		Assert.assertThat(this.recordListFilledByListWriter.get(1), CoreMatchers.is(CoreMatchers.instanceOf(OperationExecutionRecord.class)));
 
 		final String clientPattern = "public void "
-				+ "kieker.monitoring.probe.cxf.OperationExecutionSOAPResponseInInterceptor.handleMessage(org.apache.cxf.message.Message)";
+				+ "kicker.monitoring.probe.cxf.OperationExecutionSOAPResponseInInterceptor.handleMessage(org.apache.cxf.message.Message)";
 		final String serverPattern = "public void "
-				+ "kieker.monitoring.probe.cxf.OperationExecutionSOAPResponseOutInterceptor.handleMessage(org.apache.cxf.binding.soap.SoapMessage)";
+				+ "kicker.monitoring.probe.cxf.OperationExecutionSOAPResponseOutInterceptor.handleMessage(org.apache.cxf.binding.soap.SoapMessage)";
 
 		MonitoringController monCtrl;
 

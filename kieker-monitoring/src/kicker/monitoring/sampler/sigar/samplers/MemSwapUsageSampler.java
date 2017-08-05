@@ -27,7 +27,7 @@ import kicker.monitoring.core.signaturePattern.SignatureFactory;
 
 /**
  * Logs memory and swap statistics retrieved from {@link Mem} and {@link Swap},
- * as {@link MemSwapUsageRecord}s via {@link kicker.monitoring.core.controller.IMonitoringController#newMonitoringRecord(kieker.common.record.IMonitoringRecord)} .
+ * as {@link MemSwapUsageRecord}s via {@link kicker.monitoring.core.controller.IMonitoringController#newMonitoringRecord(kicker.common.record.IMonitoringRecord)} .
  * 
  * @author Andre van Hoorn
  * 

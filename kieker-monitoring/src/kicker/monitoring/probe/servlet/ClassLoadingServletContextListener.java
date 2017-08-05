@@ -45,7 +45,7 @@ import kicker.monitoring.sampler.mxbean.ClassLoadingSampler;
  * 
  * <listener>
  *   <listener-class>
- *     kieker.monitoring.probe.servlet.ClassLoadingServletContextListener
+ *     kicker.monitoring.probe.servlet.ClassLoadingServletContextListener
  *   </listener-class>
  * </listener>
  * 

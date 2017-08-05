@@ -109,7 +109,7 @@ In addition the connectors can be initialized via a Configuration object determi
 The KDB supports presently five different connectors which are described here briefly. The selection of the connector can by done via the \texttt{--type} property on command line or via a Kieker-configuration file entry:
 
 \begin{verbatim}
-kieker.tools.bridge.connector=FullQualifiedClassName
+kicker.tools.bridge.connector=FullQualifiedClassName
 \end{verbatim}
 
 %
@@ -118,8 +118,8 @@ kieker.tools.bridge.connector=FullQualifiedClassName
 Connects to a remote site specified by a host name and a port. The connector reads then binary data and reconstructs records. The two configuration properties can either be specified as a command line option or via the Kieker-configuration file by:
 
 \begin{verbatim}
-kieker.tools.bridge.connector.tcp.TCPClientConnector.hostname=HOSTNAME
-kieker.tools.bridge.connector.tcp.TCPClientConnector.port=PORT
+kicker.tools.bridge.connector.tcp.TCPClientConnector.hostname=HOSTNAME
+kicker.tools.bridge.connector.tcp.TCPClientConnector.port=PORT
 \end{verbatim}
 
 %
@@ -128,7 +128,7 @@ kieker.tools.bridge.connector.tcp.TCPClientConnector.port=PORT
 Sets up a server for a single connection in \texttt{initialize()} and waits for a connection. After the connections is established the method terminates, and the \texttt{ServiceContainer} calls repeatedly the \texttt{deserializeNextRecord} method. The connector requires a port number for its port. The configuration property can either be specified by a command line option or via the Kieker-configuration file by:
 
 \begin{verbatim}
-kieker.tools.bridge.connector.tcp.TCPSingleServerConnector.port=PORT
+kicker.tools.bridge.connector.tcp.TCPSingleServerConnector.port=PORT
 \end{verbatim}
 
 %
@@ -137,7 +137,7 @@ kieker.tools.bridge.connector.tcp.TCPSingleServerConnector.port=PORT
 Sets up a server for multiple connection in \texttt{initialize()}. The method starts a port listener thread and exits immediately afterwards. If a connection is established from a client, a connection listener thread is started to handle the incoming data and create records. Completed records are transferred into a queue, which emptied by repeated calles to the \texttt{deserializeNextRecord} method. The connector requires a port number for its port. The configuration property can either be specified by a command line option or via the Kieker-configuration file by:
 
 \begin{verbatim}
-kieker.tools.bridge.connector.tcp.TCPMultiServerConnector.port=PORT
+kicker.tools.bridge.connector.tcp.TCPMultiServerConnector.port=PORT
 \end{verbatim}
 
 %
@@ -146,9 +146,9 @@ kieker.tools.bridge.connector.tcp.TCPMultiServerConnector.port=PORT
 The \texttt{JMSClientConnector} supports text and binary messages.
 
 \begin{verbatim}
-kieker.tools.bridge.connector.jms.JMSClientConnector.username=USERNAME
-kieker.tools.bridge.connector.jms.JMSClientConnector.password=PASSWORD
-kieker.tools.bridge.connector.jms.JMSClientConnector.uri=ServiceURI
+kicker.tools.bridge.connector.jms.JMSClientConnector.username=USERNAME
+kicker.tools.bridge.connector.jms.JMSClientConnector.password=PASSWORD
+kicker.tools.bridge.connector.jms.JMSClientConnector.uri=ServiceURI
 \end{verbatim}
 
 %

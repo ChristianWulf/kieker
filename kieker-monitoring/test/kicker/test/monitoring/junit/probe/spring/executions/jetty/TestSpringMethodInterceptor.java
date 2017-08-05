@@ -79,7 +79,7 @@ public class TestSpringMethodInterceptor extends AbstractKiekerTest {
 		System.setProperty(ConfigurationFactory.HOST_NAME, HOSTNAME);
 		System.setProperty(ConfigurationFactory.CONTROLLER_NAME, CTRLNAME);
 		System.setProperty(ConfigurationFactory.WRITER_CLASSNAME, NamedListWriter.class.getName());
-		// Doesn't work because the property does not start with kieker.monitoring:
+		// Doesn't work because the property does not start with kicker.monitoring:
 		// System.setProperty(NamedListWriter.CONFIG_PROPERTY_NAME_LIST_NAME, listName);
 
 		// this.monitoringController = MonitoringController.getInstance();

@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.livedemo.view;
+package kicker.examples.livedemo.view;
 
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ApplicationScoped;

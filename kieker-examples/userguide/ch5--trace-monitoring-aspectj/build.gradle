@@ -14,7 +14,7 @@ version = ''
 sourceSets.main.java.srcDirs = ['src']
 sourceSets.main.resources.srcDirs = ['src-resources']
 
-mainClassName = 'kieker.examples.userguide.ch5bookstore.BookstoreStarter'
+mainClassName = 'kicker.examples.userguide.ch5bookstore.BookstoreStarter'
 
 jar {
 	manifest {
@@ -34,7 +34,7 @@ task runExampleFlowEvents(type: JavaExec) {
 	classpath = sourceSets.main.runtimeClasspath
 	args = [System.getProperty("analysis.directory", ".")]
 	jvmArgs = ["-javaagent:lib/kieker-1.13-SNAPSHOT-aspectj.jar",
-			   '-Dkieker.monitoring.writer.filesystem.AsciiFileWriter.QueueSize=30000',
+			   '-Dkicker.monitoring.writer.filesystem.AsciiFileWriter.QueueSize=30000',
 			   //'-Dorg.aspectj.weaver.showWeaveInfo=true', 
 			   '-Dorg.aspectj.weaver.loadtime.configuration=META-INF/aop-event.xml'
 			   ]
@@ -42,7 +42,7 @@ task runExampleFlowEvents(type: JavaExec) {
 
 
 task runHostnameRewriter(type: JavaExec) {
-	main = 'kieker.examples.userguide.ch5bookstore.BookstoreHostnameRewriter'
+	main = 'kicker.examples.userguide.ch5bookstore.BookstoreHostnameRewriter'
 	classpath = sourceSets.main.runtimeClasspath
 	args = [System.getProperty("analysis.directory", ".")]
 }

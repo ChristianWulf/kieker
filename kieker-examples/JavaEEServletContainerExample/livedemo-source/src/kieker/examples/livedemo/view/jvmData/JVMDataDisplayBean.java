@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.livedemo.view.jvmData;
+package kicker.examples.livedemo.view.jvmData;
 
 import java.util.Collection;
 
@@ -26,7 +26,7 @@ import javax.faces.bean.ManagedProperty;
 import org.primefaces.model.chart.CartesianChartModel;
 import org.primefaces.model.chart.ChartSeries;
 
-import kieker.examples.livedemo.view.AnalysisBean;
+import kicker.examples.livedemo.view.AnalysisBean;
 
 /**
  * @author Nils Christian Ehmke

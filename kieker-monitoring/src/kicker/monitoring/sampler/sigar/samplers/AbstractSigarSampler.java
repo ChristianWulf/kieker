@@ -22,8 +22,8 @@ import kicker.monitoring.core.sampler.ISampler;
 
 /**
  * Eases the implementation of {@link ISampler}s which collect system-level sensor data via the {@link org.hyperic.sigar.Sigar} API and store this data as
- * {@link kieker.common.record.IMonitoringRecord}s via
- * {@link kicker.monitoring.core.controller.WriterController#newMonitoringRecord(kieker.common.record.IMonitoringRecord)} .
+ * {@link kicker.common.record.IMonitoringRecord}s via
+ * {@link kicker.monitoring.core.controller.WriterController#newMonitoringRecord(kicker.common.record.IMonitoringRecord)} .
  * 
  * @author Andre van Hoorn
  * 

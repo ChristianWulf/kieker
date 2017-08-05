@@ -7,7 +7,7 @@
 
 BINDIR=$(cd "$(dirname "$0")"; pwd)/
 
-JAVAARGS="-Dkieker.common.logging.Log=JDK -Dkieker.common.logging.Log=JDK -Djava.util.logging.config.file=${BINDIR}/logging.properties -Xms56m -Xmx1024m"
-MAINCLASSNAME=kieker.tools.loggingTimestampConverter.LoggingTimestampConverterTool
+JAVAARGS="-Dkicker.common.logging.Log=JDK -Dkicker.common.logging.Log=JDK -Djava.util.logging.config.file=${BINDIR}/logging.properties -Xms56m -Xmx1024m"
+MAINCLASSNAME=kicker.tools.loggingTimestampConverter.LoggingTimestampConverterTool
 
 java ${JAVAARGS} -cp "${BINDIR}/../lib/*":"${BINDIR}/../build/libs//*":"${BINDIR}" ${MAINCLASSNAME} $*

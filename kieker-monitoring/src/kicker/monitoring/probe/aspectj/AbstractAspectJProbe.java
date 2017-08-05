@@ -41,9 +41,9 @@ public abstract class AbstractAspectJProbe implements IMonitoringProbe {
 	// Pointcuts should not be final!
 
 	/**
-	 * This is a pointcut accepting everything that is not within kieker.common, kieker.monitoring, kieker.analysis and kieker.tools.
+	 * This is a pointcut accepting everything that is not within kicker.common, kicker.monitoring, kicker.analysis and kicker.tools.
 	 */
-	@Pointcut("!within(kieker.common..*) && !within(kieker.monitoring..*) && !within(kieker.analysis..*) && !within(kieker.tools..*)")
+	@Pointcut("!within(kicker.common..*) && !within(kicker.monitoring..*) && !within(kicker.analysis..*) && !within(kicker.tools..*)")
 	public void notWithinKieker() {} // NOPMD (Aspect)
 
 	/**

@@ -81,7 +81,7 @@ public class TestSpringMethodInterceptor extends AbstractKiekerTest {
 		System.setProperty(ConfigurationFactory.HOST_NAME, HOSTNAME);
 		System.setProperty(ConfigurationFactory.CONTROLLER_NAME, CTRLNAME);
 		System.setProperty(ConfigurationFactory.WRITER_CLASSNAME, NamedListWriter.class.getName());
-		// Doesn't work because the property does not start with kieker.monitoring:
+		// Doesn't work because the property does not start with kicker.monitoring:
 		// System.setProperty(NamedListWriter.CONFIG_PROPERTY_NAME_LIST_NAME, listName);
 
 		// start the server
@@ -103,10 +103,10 @@ public class TestSpringMethodInterceptor extends AbstractKiekerTest {
 		final IMonitoringController monitoringController = MonitoringController.getInstance();
 		Assume.assumeThat(monitoringController.getName(), CoreMatchers.is(CTRLNAME));
 
-		final String getBookPattern = "public kieker.test.monitoring.junit.probe.spring.executions.jetty.bookstore.Book "
-				+ "kieker.test.monitoring.junit.probe.spring.executions.jetty.bookstore.Catalog.getBook(boolean)";
-		final String searchBookPattern = "public kieker.test.monitoring.junit.probe.spring.executions.jetty.bookstore.Book "
-				+ "kieker.test.monitoring.junit.probe.spring.executions.jetty.bookstore.Bookstore.searchBook(java.lang.String)";
+		final String getBookPattern = "public kicker.test.monitoring.junit.probe.spring.executions.jetty.bookstore.Book "
+				+ "kicker.test.monitoring.junit.probe.spring.executions.jetty.bookstore.Catalog.getBook(boolean)";
+		final String searchBookPattern = "public kicker.test.monitoring.junit.probe.spring.executions.jetty.bookstore.Book "
+				+ "kicker.test.monitoring.junit.probe.spring.executions.jetty.bookstore.Bookstore.searchBook(java.lang.String)";
 
 		NamedListWriter.awaitListSize(this.recordListFilledByListWriter, 0, TIMEOUT_IN_MS);
 

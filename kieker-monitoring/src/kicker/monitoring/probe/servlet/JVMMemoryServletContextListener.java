@@ -45,7 +45,7 @@ import kicker.monitoring.sampler.mxbean.MemorySampler;
  * 
  * <listener>
  *   <listener-class>
- *     kieker.monitoring.probe.servlet.JVMMemoryServletContextListener
+ *     kicker.monitoring.probe.servlet.JVMMemoryServletContextListener
  *   </listener-class>
  * </listener>
  * 

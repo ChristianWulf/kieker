@@ -63,7 +63,7 @@ public class TestTraceEventRecords2ExecutionAndMessageTraceFilter extends Abstra
 	private final Execution exec3_2__catalog_getBook_assumed; // NOCS
 
 	/**
-	 * Borrowed from {@link kieker.test.tools.junit.traceAnalysis.filter.TestTraceReconstructionFilter}.
+	 * Borrowed from {@link kicker.test.tools.junit.traceAnalysis.filter.TestTraceReconstructionFilter}.
 	 */
 	public TestTraceEventRecords2ExecutionAndMessageTraceFilter() {
 		// Note that we are using AbstractTraceAnalysisFilter.createExecutionByEntityNames in order to get the
@@ -132,7 +132,7 @@ public class TestTraceEventRecords2ExecutionAndMessageTraceFilter extends Abstra
 	 * Generates an execution trace representation of the "well-known" bookstore
 	 * trace.
 	 *
-	 * Borrowed from {@link kieker.test.tools.junit.traceAnalysis.filter.TestTraceReconstructionFilter}.
+	 * Borrowed from {@link kicker.test.tools.junit.traceAnalysis.filter.TestTraceReconstructionFilter}.
 	 *
 	 * @return
 	 * @throws InvalidTraceException
@@ -193,7 +193,7 @@ public class TestTraceEventRecords2ExecutionAndMessageTraceFilter extends Abstra
 	}
 
 	/**
-	 * Borrowed from {@link kieker.test.tools.junit.traceAnalysis.filter.TestTraceReconstructionFilter}.
+	 * Borrowed from {@link kicker.test.tools.junit.traceAnalysis.filter.TestTraceReconstructionFilter}.
 	 *
 	 * @throws InvalidTraceException
 	 *             If the trace to reconstruct is somehow invalid.
@@ -268,7 +268,7 @@ public class TestTraceEventRecords2ExecutionAndMessageTraceFilter extends Abstra
 	 * trace, which included only the execution of <code>Bookstore.searchBook(..)</code> and the
 	 * nested execution of <code>Catalog.getBook(..)</code>.
 	 *
-	 * Borrowed from {@link kieker.test.tools.junit.traceAnalysis.filter.TestTraceReconstructionFilter}.
+	 * Borrowed from {@link kicker.test.tools.junit.traceAnalysis.filter.TestTraceReconstructionFilter}.
 	 *
 	 * @return
 	 * @throws InvalidTraceException
@@ -320,7 +320,7 @@ public class TestTraceEventRecords2ExecutionAndMessageTraceFilter extends Abstra
 	 * Generates an a modified version of the the "well-known" bookstore trace, which includes only the execution of <code>Bookstore.searchBook(..)</code> and the
 	 * nested (i.e., called both by <code>Bookstore.searchBook(..)</code>) executions of <code>Catalog.getBook(..)</code> and <code>CRM.getOrder(..)</code>.
 	 *
-	 * Borrowed from {@link kieker.test.tools.junit.traceAnalysis.filter.TestTraceReconstructionFilter}.
+	 * Borrowed from {@link kicker.test.tools.junit.traceAnalysis.filter.TestTraceReconstructionFilter}.
 	 *
 	 * @return
 	 * @throws InvalidTraceException
@@ -381,7 +381,7 @@ public class TestTraceEventRecords2ExecutionAndMessageTraceFilter extends Abstra
 	 * Generates an a modified version of the the "well-known" bookstore trace, which includes the execution of <code>Bookstore.searchBook(..)</code> with a nested
 	 * execution of <code>CRM.getOrder(..)</code> which again wraps the nested execution of <code>Catalog.getBook(..)</code>.
 	 *
-	 * Borrowed from {@link kieker.test.tools.junit.traceAnalysis.filter.TestTraceReconstructionFilter}.
+	 * Borrowed from {@link kicker.test.tools.junit.traceAnalysis.filter.TestTraceReconstructionFilter}.
 	 *
 	 * @return
 	 * @throws InvalidTraceException
@@ -445,7 +445,7 @@ public class TestTraceEventRecords2ExecutionAndMessageTraceFilter extends Abstra
 	 * Generates an a modified version of the the "well-known" bookstore trace, which includes the execution of <code>Bookstore.searchBook(..)<code>
 	 * with a nested execution of <code>CRM.getOrder(..)</code> which again wraps the nested execution of <code>Catalog.getBook(..)</code>.
 	 *
-	 * Borrowed from {@link kieker.test.tools.junit.traceAnalysis.filter.TestTraceReconstructionFilter}.
+	 * Borrowed from {@link kicker.test.tools.junit.traceAnalysis.filter.TestTraceReconstructionFilter}.
 	 *
 	 * @return
 	 * @throws InvalidTraceException

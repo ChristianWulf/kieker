@@ -14,7 +14,7 @@ version = ''
 sourceSets.main.java.srcDirs = ['src']
 sourceSets.main.resources.srcDirs = ['src-resources']
 
-mainClassName = 'kieker.examples.userguide.ch3and4bookstore.Starter'
+mainClassName = 'kicker.examples.userguide.ch3and4bookstore.Starter'
 
 jar {
 	manifest {
@@ -25,5 +25,5 @@ jar {
 task runMonitoringAndAnalysis(type: JavaExec) {
 	main = mainClassName
 	classpath = sourceSets.main.runtimeClasspath
-	jvmArgs = ['-Dkieker.monitoring.configuration=META-INF/kieker.monitoring.properties']
+	jvmArgs = ['-Dkicker.monitoring.configuration=META-INF/kicker.monitoring.properties']
 }

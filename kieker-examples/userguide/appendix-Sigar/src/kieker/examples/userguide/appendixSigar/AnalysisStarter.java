@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.userguide.appendixSigar;
+package kicker.examples.userguide.appendixSigar;
 
 import kicker.analysis.AnalysisController;
 import kicker.analysis.IAnalysisController;
@@ -24,11 +24,11 @@ import kicker.analysis.plugin.annotation.InputPort;
 import kicker.analysis.plugin.annotation.Plugin;
 import kicker.analysis.plugin.filter.AbstractFilterPlugin;
 import kicker.analysis.plugin.reader.filesystem.FSReader;
-import kieker.common.configuration.Configuration;
-import kieker.common.record.IMonitoringRecord;
-import kieker.common.record.system.CPUUtilizationRecord;
-import kieker.common.record.system.MemSwapUsageRecord;
-import kieker.tools.util.LoggingTimestampConverter;
+import kicker.common.configuration.Configuration;
+import kicker.common.record.IMonitoringRecord;
+import kicker.common.record.system.CPUUtilizationRecord;
+import kicker.common.record.system.MemSwapUsageRecord;
+import kicker.tools.util.LoggingTimestampConverter;
 
 public final class AnalysisStarter {
 
@@ -41,7 +41,7 @@ public final class AnalysisStarter {
 			System.exit(1);
 		}
 
-		// Create Kieker.Analysis instance
+		// Create kicker.Analysis instance
 		final IAnalysisController analysisInstance = new AnalysisController();
 		// Create and register our own consumer
 		final StdOutDumpConsumer consumer = new StdOutDumpConsumer(new Configuration(), analysisInstance);

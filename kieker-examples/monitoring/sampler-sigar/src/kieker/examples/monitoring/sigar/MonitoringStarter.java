@@ -14,16 +14,16 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.monitoring.sigar;
+package kicker.examples.monitoring.sigar;
 
 import java.util.concurrent.TimeUnit;
 
-import kieker.monitoring.core.controller.IMonitoringController;
-import kieker.monitoring.core.controller.MonitoringController;
-import kieker.monitoring.sampler.sigar.ISigarSamplerFactory;
-import kieker.monitoring.sampler.sigar.SigarSamplerFactory;
-import kieker.monitoring.sampler.sigar.samplers.CPUsDetailedPercSampler;
-import kieker.monitoring.sampler.sigar.samplers.MemSwapUsageSampler;
+import kicker.monitoring.core.controller.IMonitoringController;
+import kicker.monitoring.core.controller.MonitoringController;
+import kicker.monitoring.sampler.sigar.ISigarSamplerFactory;
+import kicker.monitoring.sampler.sigar.SigarSamplerFactory;
+import kicker.monitoring.sampler.sigar.samplers.CPUsDetailedPercSampler;
+import kicker.monitoring.sampler.sigar.samplers.MemSwapUsageSampler;
 
 public final class MonitoringStarter {
 

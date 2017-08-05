@@ -47,8 +47,8 @@ public abstract class AbstractConnectorTest extends AbstractKiekerTest {
 	private int recordCount; // default initialization is 0
 
 	static {
-		if (System.getProperty("kieker.common.logging.Log") == null) {
-			System.setProperty("kieker.common.logging.Log", "JUNIT");
+		if (System.getProperty("kicker.common.logging.Log") == null) {
+			System.setProperty("kicker.common.logging.Log", "JUNIT");
 		}
 		LOG = LogFactory.getLog(AbstractKiekerTest.class);
 	}

@@ -38,7 +38,7 @@ node('kieker-slave-docker') {
         if (env.BRANCH_NAME == "master") {
             sh 'echo "We are in master - pushing to stable branch."'
 
-            sh 'git push git@github.com:kieker-monitoring/kieker.git $(git rev-parse HEAD):stable'
+            sh 'git push git@github.com:kieker-monitoring/kicker.git $(git rev-parse HEAD):stable'
         } else {
             sh 'echo "We are not in  master - skipping."'
         }

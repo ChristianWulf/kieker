@@ -14,11 +14,11 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.monitoring.manual;
+package kicker.examples.monitoring.manual;
 
-import kieker.common.record.controlflow.OperationExecutionRecord;
-import kieker.monitoring.core.controller.IMonitoringController;
-import kieker.monitoring.core.controller.MonitoringController;
+import kicker.common.record.controlflow.OperationExecutionRecord;
+import kicker.monitoring.core.controller.IMonitoringController;
+import kicker.monitoring.core.controller.MonitoringController;
 
 public class Bookstore {
 

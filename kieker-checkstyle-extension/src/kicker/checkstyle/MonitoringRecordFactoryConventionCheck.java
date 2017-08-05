@@ -21,7 +21,7 @@ import com.puppycrawl.tools.checkstyle.api.DetailAST;
 import com.puppycrawl.tools.checkstyle.api.TokenTypes;
 
 /**
- * This class extends checkstyle with a new check which makes sure that classes, which implement the {@link kieker.common.record.IMonitoringRecord.Factory} interface, supply the
+ * This class extends checkstyle with a new check which makes sure that classes, which implement the {@link kicker.common.record.IMonitoringRecord.Factory} interface, supply the
  * necessary static field (for the types) and the constructor (working with an array of {@link Object}) for the framework.<br>
  * </br>
  *

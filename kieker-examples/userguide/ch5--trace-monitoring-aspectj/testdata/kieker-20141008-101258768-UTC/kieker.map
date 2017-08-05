@@ -1,4 +1,4 @@
-$0=kieker.common.record.misc.KiekerMetadataRecord
-$1=kieker.common.record.flow.trace.TraceMetadata
-$2=kieker.common.record.flow.trace.operation.BeforeOperationEvent
-$3=kieker.common.record.flow.trace.operation.AfterOperationEvent
+$0=kicker.common.record.misc.KiekerMetadataRecord
+$1=kicker.common.record.flow.trace.TraceMetadata
+$2=kicker.common.record.flow.trace.operation.BeforeOperationEvent
+$3=kicker.common.record.flow.trace.operation.AfterOperationEvent

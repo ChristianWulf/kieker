@@ -82,7 +82,7 @@ public abstract class AbstractCommandLineTool {
 			success = false;
 		}
 
-		LOG.info("See 'kieker.log' for details");
+		LOG.info("See 'kicker.log' for details");
 		if (!success && this.useSystemExit) {
 			System.exit(1);
 		}

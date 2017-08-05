@@ -81,7 +81,7 @@ public class HTTPConnectorTest extends AbstractKiekerTest {
 	@Test
 	public void testValidRecord() throws IOException, InterruptedException, ConnectorDataTransmissionException, ConnectorEndOfDataException {
 		// Send the record and make sure that the returned codes are as expected
-		final String jsonString = "{\"class\" : \"kieker.common.record.jvm.UptimeRecord\", \"timestamp\" : \"42\", \"values\" : [\"1\", \"SE\", \"VM\", \"50\"]}";
+		final String jsonString = "{\"class\" : \"kicker.common.record.jvm.UptimeRecord\", \"timestamp\" : \"42\", \"values\" : [\"1\", \"SE\", \"VM\", \"50\"]}";
 
 		final ContentExchange exchange = new ContentExchange();
 		exchange.setMethod("POST");
@@ -126,7 +126,7 @@ public class HTTPConnectorTest extends AbstractKiekerTest {
 	@Test
 	public void testMalformedJSON() throws IOException, InterruptedException, ConnectorDataTransmissionException, ConnectorEndOfDataException {
 		// Send the record and make sure that the returned codes are as expected
-		final String jsonString = "{\"class\" : \"kieker.common.record.jvm.UptimeRecord\"";
+		final String jsonString = "{\"class\" : \"kicker.common.record.jvm.UptimeRecord\"";
 
 		final ContentExchange exchange = new ContentExchange();
 		exchange.setMethod("POST");
@@ -144,7 +144,7 @@ public class HTTPConnectorTest extends AbstractKiekerTest {
 	@Test
 	public void testInsufficientValues() throws IOException, InterruptedException, ConnectorDataTransmissionException, ConnectorEndOfDataException {
 		// Send the record and make sure that the returned codes are as expected
-		final String jsonString = "{\"class\" : \"kieker.common.record.jvm.UptimeRecord\", \"timestamp\" : \"42\", \"values\" : [\"1\", \"SE\", \"VM\"]}";
+		final String jsonString = "{\"class\" : \"kicker.common.record.jvm.UptimeRecord\", \"timestamp\" : \"42\", \"values\" : [\"1\", \"SE\", \"VM\"]}";
 
 		final ContentExchange exchange = new ContentExchange();
 		exchange.setMethod("POST");
@@ -162,7 +162,7 @@ public class HTTPConnectorTest extends AbstractKiekerTest {
 	@Test
 	public void testMissingTimestamp() throws IOException, InterruptedException, ConnectorDataTransmissionException, ConnectorEndOfDataException {
 		// Send the record and make sure that the returned codes are as expected
-		final String jsonString = "{\"class\" : \"kieker.common.record.jvm.UptimeRecord\", \"values\" : [\"1\", \"SE\", \"VM\", \"50\"]}";
+		final String jsonString = "{\"class\" : \"kicker.common.record.jvm.UptimeRecord\", \"values\" : [\"1\", \"SE\", \"VM\", \"50\"]}";
 
 		final ContentExchange exchange = new ContentExchange();
 		exchange.setMethod("POST");
@@ -180,7 +180,7 @@ public class HTTPConnectorTest extends AbstractKiekerTest {
 	@Test
 	public void testMissingValues() throws IOException, InterruptedException, ConnectorDataTransmissionException, ConnectorEndOfDataException {
 		// Send the record and make sure that the returned codes are as expected
-		final String jsonString = "{\"class\" : \"kieker.common.record.jvm.UptimeRecord\", \"timestamp\" : \"42\"}";
+		final String jsonString = "{\"class\" : \"kicker.common.record.jvm.UptimeRecord\", \"timestamp\" : \"42\"}";
 
 		final ContentExchange exchange = new ContentExchange();
 		exchange.setMethod("POST");

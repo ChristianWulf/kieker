@@ -14,20 +14,20 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.analysis.traceanalysis;
+package kicker.examples.analysis.traceanalysis;
 
 import kicker.analysis.AnalysisController;
 import kicker.analysis.exception.AnalysisConfigurationException;
 import kicker.analysis.plugin.filter.flow.EventRecordTraceReconstructionFilter;
 import kicker.analysis.plugin.filter.forward.ListCollectionFilter;
 import kicker.analysis.plugin.reader.filesystem.FSReader;
-import kieker.common.configuration.Configuration;
-import kieker.tools.traceAnalysis.filter.AbstractTraceAnalysisFilter;
-import kieker.tools.traceAnalysis.filter.executionRecordTransformation.ExecutionRecordTransformationFilter;
-import kieker.tools.traceAnalysis.filter.flow.TraceEventRecords2ExecutionAndMessageTraceFilter;
-import kieker.tools.traceAnalysis.filter.traceReconstruction.TraceReconstructionFilter;
-import kieker.tools.traceAnalysis.systemModel.MessageTrace;
-import kieker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
+import kicker.common.configuration.Configuration;
+import kicker.tools.traceAnalysis.filter.AbstractTraceAnalysisFilter;
+import kicker.tools.traceAnalysis.filter.executionRecordTransformation.ExecutionRecordTransformationFilter;
+import kicker.tools.traceAnalysis.filter.flow.TraceEventRecords2ExecutionAndMessageTraceFilter;
+import kicker.tools.traceAnalysis.filter.traceReconstruction.TraceReconstructionFilter;
+import kicker.tools.traceAnalysis.systemModel.MessageTrace;
+import kicker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
 
 /**
  * This class shows an example on how to do a trace analysis with different inputs (OperationExecutionRecords, TraceEvents).

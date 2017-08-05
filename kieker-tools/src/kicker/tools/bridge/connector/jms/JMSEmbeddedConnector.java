@@ -59,7 +59,7 @@ public class JMSEmbeddedConnector extends JMSClientConnector {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see kieker.tools.bridge.connector.jms.JMSClientConnector#initialize()
+	 * @see kicker.tools.bridge.connector.jms.JMSClientConnector#initialize()
 	 */
 	@Override
 	public void initialize() throws ConnectorDataTransmissionException {
@@ -78,7 +78,7 @@ public class JMSEmbeddedConnector extends JMSClientConnector {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see kieker.tools.bridge.connector.jms.JMSClientConnector#close()
+	 * @see kicker.tools.bridge.connector.jms.JMSClientConnector#close()
 	 */
 	@Override
 	public void close() throws ConnectorDataTransmissionException {

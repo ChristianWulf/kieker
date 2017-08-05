@@ -8,12 +8,12 @@
 
 \chapter{\KiekerMonitoringPart{} Component}\label{chap:componentsMonitoring}
 
-% TODO (proposed by chw) separate between pure application and customization of Kieker.Monitoring
+% TODO (proposed by chw) separate between pure application and customization of kicker.Monitoring
 % TODO (proposed by chw) focus on common user scenarios, not on technical descriptions
 % first: application
 % - start with command line command/Eclipse
 % - activate aspect/interceptor/... and configure it (e.g., pointcut in aop.xml)
-% - configure Kieker.Monitoring
+% - configure kicker.Monitoring
 %   - include an excerpt of the properties file
 %   - reference to the chapter of the writers
 % second: customization
@@ -142,7 +142,7 @@ The entire list can be replaced using the method \method{setProbePatternList}. %
 Alternatively, a file with include and exclude patterns can be used. This file %
 can be polled in regular intervals. %
 A default configuration file, including a description of the pattern syntax, is provided %
-by the file \file{kieker.monitoring.adaptiveMon\-i\-tor\-ing.example.conf} in the %
+by the file \file{kicker.monitoring.adaptiveMon\-i\-tor\-ing.example.conf} in the %
 \dir{examples/} directory of the binary release. %
 
 With the same mechanism arbitrary probes can be controlled. The syntax is also included %
@@ -151,10 +151,10 @@ this mechanism.
 
 By default, \Kieker{}'s adaptive monitoring feature is deactivated. It can be %
 enabled by setting the value of the configuration property %
-\lstinline{kieker.monitoring.adaptiveMonitoring.enabled} %
+\lstinline{kicker.monitoring.adaptiveMonitoring.enabled} %
 in the \file{\monitoringPropertiesFile} file to \textit{true}. Additional properties %
 to configure the adaptive monitoring are included in the file %
-\file{kieker.monitoring.proper\-ties}, e.g., the location of the afore-mentioned file with %
+\file{kicker.monitoring.proper\-ties}, e.g., the location of the afore-mentioned file with %
 include/exclude patterns and the polling interval for this file. 
 
 \enlargethispage{0.8cm}
@@ -189,15 +189,15 @@ The \file{\monitoringPropertiesFile} includes additional JMX-related configurati
 \setPropertiesListing
 \begin{lstlisting}
 ## Whether any JMX functionality is available
-kieker.monitoring.jmx=true
+kicker.monitoring.jmx=true
 ...
 
 ## Enable/Disable the MonitoringController MBean
-kieker.monitoring.jmx.MonitoringController=true
+kicker.monitoring.jmx.MonitoringController=true
 ...
 \end{lstlisting}
 
-For remote access to the server, set \textit{kieker.monitoring.jmx.remote=true}. In this case it is recommended to set \textit{com.sun.management.jmxremote.authenticate=true} as well. More information can be found on Oracle's JMX Technology Home Page~\cite{JMX-Website}.
+For remote access to the server, set \textit{kicker.monitoring.jmx.remote=true}. In this case it is recommended to set \textit{com.sun.management.jmxremote.authenticate=true} as well. More information can be found on Oracle's JMX Technology Home Page~\cite{JMX-Website}.
 
 
 \section{\KiekerMonitoringPart{} Configuration}\label{sec:monitoring:configuration}
@@ -217,17 +217,17 @@ the binary release (see Section~\ref{sec:example:downloadInstall}). %
 \subsection*{Configurations for Singleton Instances}
 
 In order to use a custom configuration file, its location needs to be passed to %
-the JVM using the parameter \textit{kieker.monitoring.configuration} as follows:
+the JVM using the parameter \textit{kicker.monitoring.configuration} as follows:
 
 \setBashListing
 \begin{lstlisting}[caption=,label=lst:monitoringPropertiesPassedToJVM]
-#\lstshellprompt# java  #\textbf{-Dkieker.monitoring.configuration=}#<ANY-DIR>/my.kieker.monitoring.properties #[\ldots]#
+#\lstshellprompt# java  #\textbf{-Dkicker.monitoring.configuration=}#<ANY-DIR>/my.kicker.monitoring.properties #[\ldots]#
 \end{lstlisting}
 
-\noindent Alternatively, a file named \file{kieker.monitoring.properties} %
+\noindent Alternatively, a file named \file{kicker.monitoring.properties} %
 can be placed in a directory called \dir{META-INF/} located in the classpath. %
 The available configuration properties can also be passed as JVM %
-arguments, e.g., \lstinline{-Dkieker.monitoring.enabled=true}. %
+arguments, e.g., \lstinline{-Dkicker.monitoring.enabled=true}. %
 
 \subsection*{Configurations for Non-Singleton Instances}
 
@@ -412,7 +412,7 @@ the class \class{MyPipe} is listed in Appendix~\ref{appendix:pipeListings}. %
 
 \noindent The monitoring writer to be used is selected by the %
 \KiekerMonitoringPart{} configuration property (Section~\ref{chap:componentsMonitoring}) %
-\textit{kieker.monitoring.writer}. Writer-specific configuration properties %
+\textit{kicker.monitoring.writer}. Writer-specific configuration properties %
 can be provided by properties prefixed by the fully-qualified writer classname.  %
 Listing~\ref{lst:monitoringwriter:MyWriter} demonstrates how to use the custom %
 writer \class{MyPipeWriter} defined above. In this example, the pipe name is %
@@ -420,7 +420,7 @@ passed as the property value \textit{pipeName}.
 
 \setPropertiesListing
 \lstinputlisting[caption={Configuration of the custom writer \class{MyPipeWriter}},label=lst:monitoringwriter:MyWriter,firstline=5,firstnumber=5,lastline=6]%
-{\customComponentsBookstoreApplicationDir/src-resources/META-INF/kieker.monitoring.properties}
+{\customComponentsBookstoreApplicationDir/src-resources/META-INF/kicker.monitoring.properties}
 
 \enlargethispage{1cm}
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  ***************************************************************************/
 
-package kieker.examples.livedemo.view;
+package kicker.examples.livedemo.view;
 
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ApplicationScoped;
@@ -22,24 +22,24 @@ import javax.faces.bean.ManagedBean;
 
 import kicker.analysis.exception.AnalysisConfigurationException;
 import kicker.analysis.plugin.filter.forward.ListCollectionFilter;
-import kieker.common.logging.Log;
-import kieker.common.logging.LogFactory;
-import kieker.examples.livedemo.analysis.LiveDemoAnalysis;
-import kieker.examples.livedemo.analysis.sink.CPUUtilizationDisplayFilter;
-import kieker.examples.livedemo.analysis.sink.ClassLoadingDisplayFilter;
-import kieker.examples.livedemo.analysis.sink.CompilationDisplayFilter;
-import kieker.examples.livedemo.analysis.sink.ComponentFlowDisplayFilter;
-import kieker.examples.livedemo.analysis.sink.GCCountDisplayFilter;
-import kieker.examples.livedemo.analysis.sink.GCTimeDisplayFilter;
-import kieker.examples.livedemo.analysis.sink.JVMHeapDisplayFilter;
-import kieker.examples.livedemo.analysis.sink.JVMNonHeapDisplayFilter;
-import kieker.examples.livedemo.analysis.sink.MemoryDisplayFilter;
-import kieker.examples.livedemo.analysis.sink.MethodFlowDisplayFilter;
-import kieker.examples.livedemo.analysis.sink.MethodResponsetimeDisplayFilter;
-import kieker.examples.livedemo.analysis.sink.SwapDisplayFilter;
-import kieker.examples.livedemo.analysis.sink.ThreadsStatusDisplayFilter;
-import kieker.examples.livedemo.common.EnrichedOperationExecutionRecord;
-import kieker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
+import kicker.common.logging.Log;
+import kicker.common.logging.LogFactory;
+import kicker.examples.livedemo.analysis.LiveDemoAnalysis;
+import kicker.examples.livedemo.analysis.sink.CPUUtilizationDisplayFilter;
+import kicker.examples.livedemo.analysis.sink.ClassLoadingDisplayFilter;
+import kicker.examples.livedemo.analysis.sink.CompilationDisplayFilter;
+import kicker.examples.livedemo.analysis.sink.ComponentFlowDisplayFilter;
+import kicker.examples.livedemo.analysis.sink.GCCountDisplayFilter;
+import kicker.examples.livedemo.analysis.sink.GCTimeDisplayFilter;
+import kicker.examples.livedemo.analysis.sink.JVMHeapDisplayFilter;
+import kicker.examples.livedemo.analysis.sink.JVMNonHeapDisplayFilter;
+import kicker.examples.livedemo.analysis.sink.MemoryDisplayFilter;
+import kicker.examples.livedemo.analysis.sink.MethodFlowDisplayFilter;
+import kicker.examples.livedemo.analysis.sink.MethodResponsetimeDisplayFilter;
+import kicker.examples.livedemo.analysis.sink.SwapDisplayFilter;
+import kicker.examples.livedemo.analysis.sink.ThreadsStatusDisplayFilter;
+import kicker.examples.livedemo.common.EnrichedOperationExecutionRecord;
+import kicker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
 
 /**
  * @author Bjoern Weissenfels, Nils Christian Ehmke

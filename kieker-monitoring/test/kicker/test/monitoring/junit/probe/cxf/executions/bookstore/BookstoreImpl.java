@@ -23,7 +23,7 @@ import javax.jws.WebService;
  * 
  * @since 1.6
  */
-@WebService(endpointInterface = "kieker.test.monitoring.junit.probe.cxf.executions.bookstore.IBookstore", serviceName = "Bookstore")
+@WebService(endpointInterface = "kicker.test.monitoring.junit.probe.cxf.executions.bookstore.IBookstore", serviceName = "Bookstore")
 public class BookstoreImpl implements IBookstore {
 
 	/**
