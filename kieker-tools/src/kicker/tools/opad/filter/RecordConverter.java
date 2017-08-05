@@ -19,11 +19,11 @@ package kicker.tools.opad.filter;
 import kicker.common.configuration.Configuration;
 import kicker.common.record.controlflow.OperationExecutionRecord;
 import kicker.tools.opad.record.NamedDoubleRecord;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.plugin.annotation.InputPort;
-import kieker.analysis.plugin.annotation.OutputPort;
-import kieker.analysis.plugin.annotation.Plugin;
-import kieker.analysis.plugin.filter.AbstractFilterPlugin;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.plugin.annotation.InputPort;
+import kicker.analysis.plugin.annotation.OutputPort;
+import kicker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.plugin.filter.AbstractFilterPlugin;
 
 /**
  * Converts OperationExecutionRecords to NamedDoubleRecords.

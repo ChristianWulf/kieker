@@ -20,12 +20,12 @@ import kicker.common.configuration.Configuration;
 import kicker.common.record.IMonitoringRecord;
 import kicker.monitoring.core.configuration.ConfigurationFactory;
 import kicker.monitoring.core.controller.MonitoringController;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.plugin.annotation.InputPort;
-import kieker.analysis.plugin.annotation.OutputPort;
-import kieker.analysis.plugin.annotation.Plugin;
-import kieker.analysis.plugin.annotation.Property;
-import kieker.analysis.plugin.filter.AbstractFilterPlugin;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.plugin.annotation.InputPort;
+import kicker.analysis.plugin.annotation.OutputPort;
+import kicker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.plugin.annotation.Property;
+import kicker.analysis.plugin.filter.AbstractFilterPlugin;
 
 /**
  * Passes {@link IMonitoringRecord}s received via its input port {@link #INPUT_PORT_NAME_RECORD} to its own {@link MonitoringController} instance,

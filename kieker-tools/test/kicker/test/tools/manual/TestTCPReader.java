@@ -22,13 +22,13 @@ import java.io.IOException;
 import kicker.common.configuration.Configuration;
 import kicker.common.logging.Log;
 import kicker.common.logging.LogFactory;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.IAnalysisController;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.filter.forward.AnalysisThroughputFilter;
-import kieker.analysis.plugin.filter.forward.TeeFilter;
-import kieker.analysis.plugin.reader.tcp.TCPReader;
-import kieker.analysis.plugin.reader.timer.TimeReader;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.IAnalysisController;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.filter.forward.AnalysisThroughputFilter;
+import kicker.analysis.plugin.filter.forward.TeeFilter;
+import kicker.analysis.plugin.reader.tcp.TCPReader;
+import kicker.analysis.plugin.reader.timer.TimeReader;
 
 // Command-Line:
 // java -javaagent:lib/kieker-1.13-SNAPSHOT-aspectj.jar -Dkieker.monitoring.writer=kieker.monitoring.writer.tcp.TCPWriter

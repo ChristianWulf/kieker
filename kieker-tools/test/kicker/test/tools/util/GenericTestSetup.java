@@ -18,9 +18,9 @@ package kicker.test.tools.util;
 
 import java.util.List;
 
-import kieker.analysis.AnalysisController;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.filter.forward.ListCollectionFilter;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.filter.forward.ListCollectionFilter;
 
 /**
  * Generic test setups encapsulate a configured analysis controller (i.e. with a fully configured pipes-and-filters structure)

@@ -32,10 +32,10 @@ import kicker.tools.traceAnalysis.systemModel.ExecutionTrace;
 import kicker.tools.traceAnalysis.systemModel.InvalidExecutionTrace;
 import kicker.tools.traceAnalysis.systemModel.MessageTrace;
 import kicker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.filter.forward.ListCollectionFilter;
-import kieker.analysis.plugin.reader.list.ListReader;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.filter.forward.ListCollectionFilter;
+import kicker.analysis.plugin.reader.list.ListReader;
 
 /**
  * A test for the {@link TraceReconstructionFilter}.

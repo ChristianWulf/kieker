@@ -38,8 +38,8 @@ import kicker.tools.traceAnalysis.filter.visualization.dependencyGraph.Dependenc
 import kicker.tools.traceAnalysis.systemModel.AllocationComponent;
 import kicker.tools.traceAnalysis.systemModel.ComponentType;
 import kicker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.exception.AnalysisConfigurationException;
 
 /**
  * Test suite for the creation of component allocation dependency graphs ({@link ComponentDependencyGraphAllocationFilter}).

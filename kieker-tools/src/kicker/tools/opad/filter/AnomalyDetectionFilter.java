@@ -21,12 +21,12 @@ import java.util.concurrent.atomic.AtomicReference;
 import kicker.common.configuration.Configuration;
 import kicker.tools.opad.record.ExtendedStorableDetectionResult;
 import kicker.tools.opad.record.StorableDetectionResult;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.plugin.AbstractUpdateableFilterPlugin;
-import kieker.analysis.plugin.annotation.InputPort;
-import kieker.analysis.plugin.annotation.OutputPort;
-import kieker.analysis.plugin.annotation.Plugin;
-import kieker.analysis.plugin.annotation.Property;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.plugin.AbstractUpdateableFilterPlugin;
+import kicker.analysis.plugin.annotation.InputPort;
+import kicker.analysis.plugin.annotation.OutputPort;
+import kicker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.plugin.annotation.Property;
 
 /**
  * 

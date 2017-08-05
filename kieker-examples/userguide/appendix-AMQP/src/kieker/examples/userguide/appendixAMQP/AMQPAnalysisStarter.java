@@ -16,11 +16,11 @@
 
 package kieker.examples.userguide.appendixAMQP;
 
-import kieker.analysis.AnalysisController;
-import kieker.analysis.IAnalysisController;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.filter.forward.TeeFilter;
-import kieker.analysis.plugin.reader.amqp.AMQPReader;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.IAnalysisController;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.filter.forward.TeeFilter;
+import kicker.analysis.plugin.reader.amqp.AMQPReader;
 import kieker.common.configuration.Configuration;
 
 /**

@@ -23,11 +23,11 @@ import kicker.common.configuration.Configuration;
 import kicker.common.record.misc.EmptyRecord;
 import kicker.monitoring.writer.namedRecordPipe.PipeWriter;
 import kicker.test.common.junit.AbstractKiekerTest;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.AnalysisControllerThread;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.filter.forward.CountingFilter;
-import kieker.analysis.plugin.reader.namedRecordPipe.PipeReader;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.AnalysisControllerThread;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.filter.forward.CountingFilter;
+import kicker.analysis.plugin.reader.namedRecordPipe.PipeReader;
 
 /**
  * A simple test for the class <code>PipeReader</code>.

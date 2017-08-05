@@ -21,7 +21,7 @@ import java.util.Map;
 import org.primefaces.model.chart.CartesianChartModel;
 import org.primefaces.model.chart.ChartSeries;
 
-import kieker.analysis.IProjectContext;
+import kicker.analysis.IProjectContext;
 import kieker.common.configuration.Configuration;
 import kieker.common.record.jvm.MemoryRecord;
 import kieker.examples.livedemo.analysis.util.LimitedHashMap;

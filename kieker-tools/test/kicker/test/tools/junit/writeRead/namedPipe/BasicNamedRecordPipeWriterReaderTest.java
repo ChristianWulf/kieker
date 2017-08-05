@@ -28,10 +28,10 @@ import kicker.monitoring.core.controller.IMonitoringController;
 import kicker.monitoring.core.controller.MonitoringController;
 import kicker.monitoring.writer.namedRecordPipe.PipeWriter;
 import kicker.test.tools.junit.writeRead.AbstractWriterReaderTest;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.AnalysisControllerThread;
-import kieker.analysis.plugin.filter.forward.ListCollectionFilter;
-import kieker.analysis.plugin.reader.namedRecordPipe.PipeReader;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.AnalysisControllerThread;
+import kicker.analysis.plugin.filter.forward.ListCollectionFilter;
+import kicker.analysis.plugin.reader.namedRecordPipe.PipeReader;
 
 /**
  * @author Andre van Hoorn

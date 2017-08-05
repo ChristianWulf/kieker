@@ -38,9 +38,9 @@ import kicker.tools.traceAnalysis.filter.traceReconstruction.InvalidTraceExcepti
 import kicker.tools.traceAnalysis.systemModel.ExecutionTrace;
 import kicker.tools.traceAnalysis.systemModel.InvalidExecutionTrace;
 import kicker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.plugin.reader.list.ListReader;
-import kieker.test.analysis.util.plugin.filter.flow.BookstoreEventRecordFactory;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.plugin.reader.list.ListReader;
+import kicker.test.analysis.util.plugin.filter.flow.BookstoreEventRecordFactory;
 
 /**
  * 

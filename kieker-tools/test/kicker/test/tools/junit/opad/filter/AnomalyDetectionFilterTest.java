@@ -28,11 +28,11 @@ import kicker.test.common.junit.AbstractKiekerTest;
 import kicker.tools.opad.filter.AnomalyDetectionFilter;
 import kicker.tools.opad.record.ExtendedStorableDetectionResult;
 import kicker.tools.opad.record.StorableDetectionResult;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.AnalysisControllerThread;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.filter.forward.ListCollectionFilter;
-import kieker.analysis.plugin.reader.list.ListReader;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.AnalysisControllerThread;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.filter.forward.ListCollectionFilter;
+import kicker.analysis.plugin.reader.list.ListReader;
 
 /**
  * 

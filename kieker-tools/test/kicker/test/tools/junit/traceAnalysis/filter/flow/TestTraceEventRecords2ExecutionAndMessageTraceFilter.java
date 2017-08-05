@@ -28,13 +28,13 @@ import kicker.tools.traceAnalysis.filter.traceReconstruction.InvalidTraceExcepti
 import kicker.tools.traceAnalysis.systemModel.Execution;
 import kicker.tools.traceAnalysis.systemModel.ExecutionTrace;
 import kicker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.IAnalysisController;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.filter.flow.TraceEventRecords;
-import kieker.analysis.plugin.filter.forward.ListCollectionFilter;
-import kieker.analysis.plugin.reader.list.ListReader;
-import kieker.test.analysis.util.plugin.filter.flow.BookstoreEventRecordFactory;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.IAnalysisController;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.filter.flow.TraceEventRecords;
+import kicker.analysis.plugin.filter.forward.ListCollectionFilter;
+import kicker.analysis.plugin.reader.list.ListReader;
+import kicker.test.analysis.util.plugin.filter.flow.BookstoreEventRecordFactory;
 
 /**
  * @author Andre van Hoorn

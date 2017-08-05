@@ -28,7 +28,7 @@ import au.com.bytecode.opencsv.CSVReader;
 import au.com.bytecode.opencsv.bean.ColumnPositionMappingStrategy;
 import au.com.bytecode.opencsv.bean.CsvToBean;
 
-import kieker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.exception.AnalysisConfigurationException;
 import kieker.common.logging.Log;
 import kieker.common.logging.LogFactory;
 import kieker.examples.analysis.opad.experimentModel.WikiGer24_Oct11_21d_InputModel;

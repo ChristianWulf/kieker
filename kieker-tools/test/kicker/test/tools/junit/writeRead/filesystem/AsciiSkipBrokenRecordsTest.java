@@ -38,7 +38,7 @@ import kicker.monitoring.writer.filesystem.AsciiFileWriter;
 import kicker.test.tools.junit.writeRead.TestAnalysis;
 import kicker.test.tools.junit.writeRead.TestDataRepository;
 import kicker.test.tools.junit.writeRead.TestProbe;
-import kieker.analysis.plugin.reader.filesystem.AsciiLogReader;
+import kicker.analysis.plugin.reader.filesystem.AsciiLogReader;
 
 /**
  * @author Andre van Hoorn, Christian Wulf

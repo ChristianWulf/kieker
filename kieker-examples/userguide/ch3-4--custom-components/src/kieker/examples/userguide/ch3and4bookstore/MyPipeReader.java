@@ -16,11 +16,11 @@
 
 package kieker.examples.userguide.ch3and4bookstore;
 
-import kieker.analysis.IProjectContext;
-import kieker.analysis.plugin.annotation.OutputPort;
-import kieker.analysis.plugin.annotation.Plugin;
-import kieker.analysis.plugin.annotation.Property;
-import kieker.analysis.plugin.reader.AbstractReaderPlugin;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.plugin.annotation.OutputPort;
+import kicker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.plugin.annotation.Property;
+import kicker.analysis.plugin.reader.AbstractReaderPlugin;
 import kieker.common.configuration.Configuration;
 import kieker.common.record.AbstractMonitoringRecord;
 import kieker.common.record.IMonitoringRecord;

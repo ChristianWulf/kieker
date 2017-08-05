@@ -36,9 +36,9 @@ import kicker.monitoring.core.configuration.ConfigurationFactory;
 import kicker.test.common.junit.AbstractKiekerTest;
 import kicker.test.monitoring.util.NamedListWriter;
 import kicker.tools.logReplayer.AbstractLogReplayer;
-import kieker.analysis.IAnalysisController;
-import kieker.analysis.plugin.reader.AbstractReaderPlugin;
-import kieker.analysis.plugin.reader.list.ListReader;
+import kicker.analysis.IAnalysisController;
+import kicker.analysis.plugin.reader.AbstractReaderPlugin;
+import kicker.analysis.plugin.reader.list.ListReader;
 
 /**
  * Tests the {@link AbstractLogReplayer}.

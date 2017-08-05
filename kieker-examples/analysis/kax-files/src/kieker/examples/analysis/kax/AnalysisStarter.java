@@ -19,9 +19,9 @@ package kieker.examples.analysis.kax;
 import java.io.File;
 import java.io.IOException;
 
-import kieker.analysis.AnalysisController;
-import kieker.analysis.IAnalysisController;
-import kieker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.IAnalysisController;
+import kicker.analysis.exception.AnalysisConfigurationException;
 
 public final class AnalysisStarter {
 

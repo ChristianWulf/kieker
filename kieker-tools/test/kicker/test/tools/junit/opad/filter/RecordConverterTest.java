@@ -26,11 +26,11 @@ import kicker.common.record.controlflow.OperationExecutionRecord;
 import kicker.test.common.junit.AbstractKiekerTest;
 import kicker.tools.opad.filter.RecordConverter;
 import kicker.tools.opad.record.NamedDoubleRecord;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.IAnalysisController;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.filter.forward.ListCollectionFilter;
-import kieker.analysis.plugin.reader.list.ListReader;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.IAnalysisController;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.filter.forward.ListCollectionFilter;
+import kicker.analysis.plugin.reader.list.ListReader;
 
 /**
  * Tests the RecordConverter.

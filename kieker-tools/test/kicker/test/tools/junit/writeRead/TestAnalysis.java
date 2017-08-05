@@ -21,11 +21,11 @@ import java.util.List;
 
 import kicker.common.configuration.Configuration;
 import kicker.common.record.IMonitoringRecord;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.filter.forward.ListCollectionFilter;
-import kieker.analysis.plugin.reader.AbstractReaderPlugin;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.filter.forward.ListCollectionFilter;
+import kicker.analysis.plugin.reader.AbstractReaderPlugin;
 
 /**
  * @author Christian Wulf

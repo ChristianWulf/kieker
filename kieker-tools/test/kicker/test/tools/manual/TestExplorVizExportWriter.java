@@ -22,8 +22,8 @@ import kicker.monitoring.core.configuration.ConfigurationFactory;
 import kicker.monitoring.core.controller.IMonitoringController;
 import kicker.monitoring.core.controller.MonitoringController;
 import kicker.monitoring.writer.explorviz.ExplorVizTcpWriter;
-import kieker.analysis.plugin.filter.flow.TraceEventRecords;
-import kieker.test.analysis.util.plugin.filter.flow.BookstoreEventRecordFactory;
+import kicker.analysis.plugin.filter.flow.TraceEventRecords;
+import kicker.test.analysis.util.plugin.filter.flow.BookstoreEventRecordFactory;
 
 /**
  * @author Florian Fittkau, Jan Waller

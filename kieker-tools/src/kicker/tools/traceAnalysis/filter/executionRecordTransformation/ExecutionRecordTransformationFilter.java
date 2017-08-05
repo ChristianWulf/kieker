@@ -23,11 +23,11 @@ import kicker.common.util.signature.Signature;
 import kicker.tools.traceAnalysis.filter.AbstractTraceAnalysisFilter;
 import kicker.tools.traceAnalysis.systemModel.Execution;
 import kicker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.plugin.annotation.InputPort;
-import kieker.analysis.plugin.annotation.OutputPort;
-import kieker.analysis.plugin.annotation.Plugin;
-import kieker.analysis.plugin.annotation.RepositoryPort;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.plugin.annotation.InputPort;
+import kicker.analysis.plugin.annotation.OutputPort;
+import kicker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.plugin.annotation.RepositoryPort;
 
 /**
  * Transforms {@link OperationExecutionRecord}s into {@link Execution} objects.<br>

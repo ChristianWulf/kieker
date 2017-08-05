@@ -27,12 +27,12 @@ import kicker.tools.traceAnalysis.filter.visualization.graph.AbstractEdge;
 import kicker.tools.traceAnalysis.filter.visualization.graph.AbstractGraph;
 import kicker.tools.traceAnalysis.filter.visualization.graph.AbstractVertex;
 import kicker.tools.traceAnalysis.filter.visualization.graph.IOriginRetentionPolicy;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.AbstractPlugin;
-import kieker.analysis.plugin.annotation.InputPort;
-import kieker.analysis.plugin.annotation.Plugin;
-import kieker.analysis.plugin.filter.AbstractFilterPlugin;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.AbstractPlugin;
+import kicker.analysis.plugin.annotation.InputPort;
+import kicker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.plugin.filter.AbstractFilterPlugin;
 
 /**
  * Abstract superclass for all graph filters.

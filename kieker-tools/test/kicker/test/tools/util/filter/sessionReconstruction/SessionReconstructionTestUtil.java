@@ -26,10 +26,10 @@ import kicker.tools.traceAnalysis.filter.sessionReconstruction.SessionReconstruc
 import kicker.tools.traceAnalysis.filter.traceReconstruction.TraceReconstructionFilter;
 import kicker.tools.traceAnalysis.systemModel.ExecutionTraceBasedSession;
 import kicker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.filter.forward.ListCollectionFilter;
-import kieker.analysis.plugin.reader.list.ListReader;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.filter.forward.ListCollectionFilter;
+import kicker.analysis.plugin.reader.list.ListReader;
 
 /**
  * Utility functions for the test of the {@link SessionReconstructionFilter}.

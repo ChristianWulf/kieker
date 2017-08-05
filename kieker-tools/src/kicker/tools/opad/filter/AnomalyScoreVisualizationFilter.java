@@ -21,13 +21,13 @@ import java.util.concurrent.TimeUnit;
 
 import kicker.common.configuration.Configuration;
 import kicker.tools.opad.record.StorableDetectionResult;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.display.XYPlot;
-import kieker.analysis.display.annotation.Display;
-import kieker.analysis.plugin.annotation.InputPort;
-import kieker.analysis.plugin.annotation.Plugin;
-import kieker.analysis.plugin.annotation.Property;
-import kieker.analysis.plugin.filter.AbstractFilterPlugin;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.display.XYPlot;
+import kicker.analysis.display.annotation.Display;
+import kicker.analysis.plugin.annotation.InputPort;
+import kicker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.plugin.annotation.Property;
+import kicker.analysis.plugin.filter.AbstractFilterPlugin;
 
 /**
  * This filter provides a simply visualization for the OPAD anomaly detection filter.

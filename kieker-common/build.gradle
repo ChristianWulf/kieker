@@ -51,7 +51,7 @@ task generateRecordTests(type: JavaExec) {
        '-d', 'test-gen',       // the destination directory
        '-s', 'model/records', // the source directory
        '-l', 'java.junit',          // generate the records
-       '-n', 'kicker-common',
-       '-p', 'kicker-common',
+       '-n', 'kieker-common',
+       '-p', 'kieker-common',
        '-v', '1.10'	          // generate code for Kieker 1.10
 }

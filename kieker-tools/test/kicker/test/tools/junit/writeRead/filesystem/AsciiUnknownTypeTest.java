@@ -37,7 +37,7 @@ import kicker.monitoring.writer.filesystem.AsciiFileWriter;
 import kicker.test.tools.junit.writeRead.TestAnalysis;
 import kicker.test.tools.junit.writeRead.TestDataRepository;
 import kicker.test.tools.junit.writeRead.TestProbe;
-import kieker.analysis.plugin.reader.filesystem.AsciiLogReader;
+import kicker.analysis.plugin.reader.filesystem.AsciiLogReader;
 
 /**
  * A warning by the reader should show up that this mode is not supported for binary files.

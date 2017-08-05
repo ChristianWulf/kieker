@@ -47,17 +47,17 @@ import com.mxgraph.view.mxGraph;
 
 import kicker.common.logging.Log;
 import kicker.common.logging.LogFactory;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.model.analysisMetaModel.MIAnalysisComponent;
-import kieker.analysis.model.analysisMetaModel.MIFilter;
-import kieker.analysis.model.analysisMetaModel.MIInputPort;
-import kieker.analysis.model.analysisMetaModel.MIOutputPort;
-import kieker.analysis.model.analysisMetaModel.MIPlugin;
-import kieker.analysis.model.analysisMetaModel.MIPort;
-import kieker.analysis.model.analysisMetaModel.MIProject;
-import kieker.analysis.model.analysisMetaModel.MIReader;
-import kieker.analysis.model.analysisMetaModel.MIRepository;
-import kieker.analysis.model.analysisMetaModel.MIRepositoryConnector;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.model.analysisMetaModel.MIAnalysisComponent;
+import kicker.analysis.model.analysisMetaModel.MIFilter;
+import kicker.analysis.model.analysisMetaModel.MIInputPort;
+import kicker.analysis.model.analysisMetaModel.MIOutputPort;
+import kicker.analysis.model.analysisMetaModel.MIPlugin;
+import kicker.analysis.model.analysisMetaModel.MIPort;
+import kicker.analysis.model.analysisMetaModel.MIProject;
+import kicker.analysis.model.analysisMetaModel.MIReader;
+import kicker.analysis.model.analysisMetaModel.MIRepository;
+import kicker.analysis.model.analysisMetaModel.MIRepositoryConnector;
 
 /**
  * A simple visualization of analysis configurations.

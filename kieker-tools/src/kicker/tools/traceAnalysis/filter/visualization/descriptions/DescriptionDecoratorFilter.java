@@ -29,10 +29,10 @@ import kicker.tools.traceAnalysis.filter.visualization.graph.NoOriginRetentionPo
 import kicker.tools.traceAnalysis.filter.visualization.graph.AbstractGraph.IGraphVisitor;
 import kicker.tools.traceAnalysis.repository.DescriptionRepository;
 import kicker.tools.traceAnalysis.systemModel.ISystemModelElement;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.plugin.annotation.OutputPort;
-import kieker.analysis.plugin.annotation.Plugin;
-import kieker.analysis.plugin.annotation.RepositoryPort;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.plugin.annotation.OutputPort;
+import kicker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.plugin.annotation.RepositoryPort;
 
 /**
  * A filter which attaches decorations from a repository to graph entities.

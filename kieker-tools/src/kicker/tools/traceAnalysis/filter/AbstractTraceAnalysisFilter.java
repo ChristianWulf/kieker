@@ -27,10 +27,10 @@ import kicker.tools.traceAnalysis.systemModel.Execution;
 import kicker.tools.traceAnalysis.systemModel.ExecutionContainer;
 import kicker.tools.traceAnalysis.systemModel.Operation;
 import kicker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.plugin.annotation.Plugin;
-import kieker.analysis.plugin.annotation.RepositoryPort;
-import kieker.analysis.plugin.filter.AbstractFilterPlugin;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.plugin.annotation.RepositoryPort;
+import kicker.analysis.plugin.filter.AbstractFilterPlugin;
 
 /**
  * @author Andre van Hoorn

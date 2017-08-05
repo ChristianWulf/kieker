@@ -1,9 +1,9 @@
 apply plugin: 'eclipse'
 
 dependencies {
-	compile project(':kicker-common')
-	compile project(':kicker-analysis')
-	compile project(':kicker-monitoring')
+	compile project(':kieker-common')
+	compile project(':kieker-analysis')
+	compile project(':kieker-monitoring')
 
 	compile resolveLibrary('commons-cli-*.jar')
 	compile resolveLibrary('jgraphx-*.jar')
@@ -15,21 +15,21 @@ dependencies {
 	compile resolveLibrary('reflections-*.jar')
 	compile resolveLibrary('activemq-core-*.jar')
 	//compile group: 'org.eclipse.jetty',	name: 'jetty-server', version: '8.1.16.v20140903'
-	
+
 	// Some dependencies for the HTTP connector of the KDB
 	compile fileTree(dir: 'lib/jetty', include: 'jetty-*.jar')
 	
-	// this project depends on the tests of kicker-common, e.g., it requires the class AbstractKiekerTest
-	testCompile project (path: ':kicker-common', configuration: 'testArchives')
-	// this project depends on the tests of kicker-analysis, e.g., it requires the class BookstoreEventRecordFactory
-	testCompile project (path: ':kicker-analysis', configuration: 'testArchives')
-	// this project depends on the tests of kicker-analysis, e.g., it requires the class NamedListWriter
-	testCompile project (path: ':kicker-monitoring', configuration: 'testArchives')
+	// this project depends on the tests of kieker-common, e.g., it requires the class AbstractKiekerTest
+	testCompile project (path: ':kieker-common', configuration: 'testArchives')
+	// this project depends on the tests of kieker-analysis, e.g., it requires the class BookstoreEventRecordFactory
+	testCompile project (path: ':kieker-analysis', configuration: 'testArchives')
+	// this project depends on the tests of kieker-analysis, e.g., it requires the class NamedListWriter
+	testCompile project (path: ':kieker-monitoring', configuration: 'testArchives')
 
 	testRuntime resolveLibrary('derby-*.jar')
 	testRuntime resolveLibrary('geronimo-j2ee-management_1.1_spec-*.jar')
 	testRuntime resolveLibrary('kahadb-*.jar')
-	testRuntime fileTree(dir: rootProject.file('kicker-examples/JavaEEServletContainerExample/jetty/lib'), include: 'jetty-*.jar')
+	testRuntime fileTree(dir: rootProject.file('kieker-examples/JavaEEServletContainerExample/jetty/lib'), include: 'jetty-*.jar')
 }
 
 eclipse {
@@ -63,8 +63,8 @@ task generateRecords(type: JavaExec) {
        '-s', 'model/records', // the source directory
        '-l', 'java',          // generate the records
        '-l', 'java.factory',  // generate the record factories
-       '-n', 'kicker-tools',
-       '-p', 'kicker-tools',
+       '-n', 'kieker-tools',
+       '-p', 'kieker-tools',
        '-v', '1.10'	          // generate code for Kieker 1.10
 }
 
@@ -84,7 +84,7 @@ task generateRecordTests(type: JavaExec) {
        '-d', 'test-gen',       // the destination directory
        '-s', 'model/records', // the source directory
        '-l', 'java.junit',          // generate the records
-       '-n', 'kicker-tools',
-       '-p', 'kicker-tools',
+       '-n', 'kieker-tools',
+       '-p', 'kieker-tools',
        '-v', '1.10'	          // generate code for Kieker 1.10
 }

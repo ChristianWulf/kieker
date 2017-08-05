@@ -26,7 +26,7 @@ import kicker.tools.traceAnalysis.filter.traceReconstruction.InvalidTraceExcepti
 import kicker.tools.traceAnalysis.systemModel.Execution;
 import kicker.tools.traceAnalysis.systemModel.ExecutionTrace;
 import kicker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
-import kieker.analysis.AnalysisController;
+import kicker.analysis.AnalysisController;
 
 /**
  * @author Andre van Hoorn

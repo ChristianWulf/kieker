@@ -29,7 +29,7 @@ import kicker.common.record.flow.trace.operation.AfterOperationFailedEvent;
 import kicker.common.record.flow.trace.operation.BeforeOperationEvent;
 import kicker.common.record.misc.EmptyRecord;
 import kicker.test.tools.junit.writeRead.filesystem.KiekerLogDirFilter;
-import kieker.test.analysis.util.plugin.filter.flow.BookstoreEventRecordFactory;
+import kicker.test.analysis.util.plugin.filter.flow.BookstoreEventRecordFactory;
 
 /**
  * @author Christian Wulf

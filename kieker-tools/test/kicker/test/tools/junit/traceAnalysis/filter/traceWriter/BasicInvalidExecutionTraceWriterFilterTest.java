@@ -23,7 +23,7 @@ import kicker.common.configuration.Configuration;
 import kicker.tools.traceAnalysis.filter.AbstractTraceProcessingFilter;
 import kicker.tools.traceAnalysis.filter.traceWriter.InvalidExecutionTraceWriterFilter;
 import kicker.tools.traceAnalysis.systemModel.InvalidExecutionTrace;
-import kieker.analysis.AnalysisController;
+import kicker.analysis.AnalysisController;
 
 /**
  * 

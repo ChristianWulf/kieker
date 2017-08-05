@@ -18,8 +18,8 @@ package kicker.test.tools.util.filter.sessionReconstruction;
 
 import kicker.test.tools.util.GenericTestSetup;
 import kicker.tools.traceAnalysis.systemModel.AbstractSession;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.plugin.filter.forward.ListCollectionFilter;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.plugin.filter.forward.ListCollectionFilter;
 
 /**
  * Specific test setup for tests of the session reconstruction filter (see

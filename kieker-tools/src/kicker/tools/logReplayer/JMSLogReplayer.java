@@ -17,9 +17,9 @@
 package kicker.tools.logReplayer;
 
 import kicker.common.configuration.Configuration;
-import kieker.analysis.IAnalysisController;
-import kieker.analysis.plugin.reader.AbstractReaderPlugin;
-import kieker.analysis.plugin.reader.jms.JMSReader;
+import kicker.analysis.IAnalysisController;
+import kicker.analysis.plugin.reader.AbstractReaderPlugin;
+import kicker.analysis.plugin.reader.jms.JMSReader;
 
 /**
  * An implementation of the {@link AbstractLogReplayer}, using the {@link JMSReader} to replay {@link kieker.common.record.IMonitoringRecord}s from a JMS queue.

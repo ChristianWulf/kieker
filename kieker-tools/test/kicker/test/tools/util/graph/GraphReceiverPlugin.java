@@ -18,9 +18,9 @@ package kicker.test.tools.util.graph;
 
 import kicker.common.configuration.Configuration;
 import kicker.tools.traceAnalysis.filter.visualization.graph.AbstractGraph;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.plugin.annotation.Plugin;
-import kieker.analysis.plugin.filter.forward.ListCollectionFilter;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.plugin.filter.forward.ListCollectionFilter;
 
 /**
  * A plugin which receives one or more graphs and stores them for later access. This plugin is primarily

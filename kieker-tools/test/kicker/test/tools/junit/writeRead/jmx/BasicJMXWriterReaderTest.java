@@ -38,7 +38,7 @@ import kicker.monitoring.writer.jmx.JmxWriter;
 import kicker.test.tools.junit.writeRead.TestAnalysis;
 import kicker.test.tools.junit.writeRead.TestDataRepository;
 import kicker.test.tools.junit.writeRead.TestProbe;
-import kieker.analysis.plugin.reader.jmx.JMXReader;
+import kicker.analysis.plugin.reader.jmx.JMXReader;
 
 /**
  * @author Jan Waller, Christian Wulf

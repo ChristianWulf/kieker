@@ -29,7 +29,7 @@ import kicker.common.record.misc.EmptyRecord;
 import kicker.monitoring.core.controller.IMonitoringController;
 import kicker.monitoring.core.controller.MonitoringController;
 import kicker.test.common.junit.AbstractKiekerTest;
-import kieker.test.analysis.util.plugin.filter.flow.BookstoreEventRecordFactory;
+import kicker.test.analysis.util.plugin.filter.flow.BookstoreEventRecordFactory;
 
 /**
  * @author Andre van Hoorn

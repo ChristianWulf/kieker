@@ -40,12 +40,12 @@ import kicker.tools.traceAnalysis.systemModel.SynchronousCallMessage;
 import kicker.tools.traceAnalysis.systemModel.SynchronousReplyMessage;
 import kicker.tools.traceAnalysis.systemModel.repository.AllocationRepository;
 import kicker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.analysisComponent.AbstractAnalysisComponent;
-import kieker.analysis.plugin.annotation.InputPort;
-import kieker.analysis.plugin.annotation.Plugin;
-import kieker.analysis.plugin.annotation.Property;
-import kieker.analysis.plugin.annotation.RepositoryPort;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.analysisComponent.AbstractAnalysisComponent;
+import kicker.analysis.plugin.annotation.InputPort;
+import kicker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.plugin.annotation.Property;
+import kicker.analysis.plugin.annotation.RepositoryPort;
 
 /**
  * Refactored copy from LogAnalysis-legacy tool<br>

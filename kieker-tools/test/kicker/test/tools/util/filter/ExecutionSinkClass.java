@@ -21,9 +21,9 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 import kicker.common.configuration.Configuration;
 import kicker.tools.traceAnalysis.systemModel.Execution;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.plugin.annotation.InputPort;
-import kieker.analysis.plugin.filter.AbstractFilterPlugin;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.plugin.annotation.InputPort;
+import kicker.analysis.plugin.filter.AbstractFilterPlugin;
 
 /**
  * This is just a simple helper class which collects {@link Execution}s.

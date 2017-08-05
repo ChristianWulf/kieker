@@ -16,14 +16,14 @@
 
 package kieker.examples.userguide.appendixSigar;
 
-import kieker.analysis.AnalysisController;
-import kieker.analysis.IAnalysisController;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.annotation.InputPort;
-import kieker.analysis.plugin.annotation.Plugin;
-import kieker.analysis.plugin.filter.AbstractFilterPlugin;
-import kieker.analysis.plugin.reader.filesystem.FSReader;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.IAnalysisController;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.annotation.InputPort;
+import kicker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.plugin.filter.AbstractFilterPlugin;
+import kicker.analysis.plugin.reader.filesystem.FSReader;
 import kieker.common.configuration.Configuration;
 import kieker.common.record.IMonitoringRecord;
 import kieker.common.record.system.CPUUtilizationRecord;

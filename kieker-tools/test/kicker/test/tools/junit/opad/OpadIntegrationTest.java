@@ -32,11 +32,11 @@ import kicker.tools.opad.filter.ForecastingFilter;
 import kicker.tools.opad.filter.TimeSeriesPointAggregatorFilter;
 import kicker.tools.opad.record.NamedDoubleRecord;
 import kicker.tools.opad.record.StorableDetectionResult;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.AnalysisControllerThread;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.filter.forward.ListCollectionFilter;
-import kieker.analysis.plugin.reader.list.ListReader;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.AnalysisControllerThread;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.filter.forward.ListCollectionFilter;
+import kicker.analysis.plugin.reader.list.ListReader;
 
 /**
  * This test creates some ResponseTimeDoubleRecords and let them run through all currently

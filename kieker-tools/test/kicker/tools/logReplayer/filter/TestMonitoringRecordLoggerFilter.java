@@ -43,13 +43,13 @@ import kicker.monitoring.writer.filesystem.AsciiFileWriter;
 import kicker.test.common.junit.AbstractKiekerTest;
 import kicker.test.tools.junit.writeRead.filesystem.KiekerLogDirFilter;
 import kicker.tools.logReplayer.filter.MonitoringRecordLoggerFilter;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.filter.forward.ListCollectionFilter;
-import kieker.analysis.plugin.reader.AbstractReaderPlugin;
-import kieker.analysis.plugin.reader.filesystem.AsciiLogReader;
-import kieker.analysis.plugin.reader.list.ListReader;
-import kieker.test.analysis.util.plugin.filter.flow.BookstoreEventRecordFactory;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.filter.forward.ListCollectionFilter;
+import kicker.analysis.plugin.reader.AbstractReaderPlugin;
+import kicker.analysis.plugin.reader.filesystem.AsciiLogReader;
+import kicker.analysis.plugin.reader.list.ListReader;
+import kicker.test.analysis.util.plugin.filter.flow.BookstoreEventRecordFactory;
 
 /**
  * Tests the {@link MonitoringRecordLoggerFilter}.

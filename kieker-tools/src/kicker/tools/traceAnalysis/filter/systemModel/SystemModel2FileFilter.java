@@ -22,10 +22,10 @@ import java.io.IOException;
 import kicker.common.configuration.Configuration;
 import kicker.tools.traceAnalysis.filter.AbstractTraceAnalysisFilter;
 import kicker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.plugin.annotation.Plugin;
-import kieker.analysis.plugin.annotation.Property;
-import kieker.analysis.plugin.annotation.RepositoryPort;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.plugin.annotation.Property;
+import kicker.analysis.plugin.annotation.RepositoryPort;
 
 /**
  * Writes the contents of a connected {@link SystemModelRepository} to files.

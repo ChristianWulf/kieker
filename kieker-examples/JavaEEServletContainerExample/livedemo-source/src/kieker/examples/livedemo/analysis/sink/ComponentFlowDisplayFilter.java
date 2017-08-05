@@ -22,7 +22,7 @@ import java.util.Map;
 import org.primefaces.model.tagcloud.DefaultTagCloudItem;
 import org.primefaces.model.tagcloud.DefaultTagCloudModel;
 
-import kieker.analysis.IProjectContext;
+import kicker.analysis.IProjectContext;
 import kieker.common.configuration.Configuration;
 import kieker.common.record.controlflow.OperationExecutionRecord;
 import kieker.common.util.signature.ClassOperationSignaturePair;

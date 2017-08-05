@@ -24,7 +24,7 @@ import kicker.tools.traceAnalysis.filter.AbstractMessageTraceProcessingFilter;
 import kicker.tools.traceAnalysis.filter.AbstractTraceProcessingFilter;
 import kicker.tools.traceAnalysis.filter.traceWriter.MessageTraceWriterFilter;
 import kicker.tools.traceAnalysis.systemModel.MessageTrace;
-import kieker.analysis.AnalysisController;
+import kicker.analysis.AnalysisController;
 
 /**
  * 

@@ -32,18 +32,18 @@ import kicker.tools.traceAnalysis.filter.visualization.dependencyGraph.Component
 import kicker.tools.traceAnalysis.filter.visualization.dependencyGraph.OperationDependencyGraphAllocationFilter;
 import kicker.tools.traceAnalysis.filter.visualization.sequenceDiagram.SequenceDiagramFilter;
 import kicker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.IAnalysisController;
-import kieker.analysis.analysisComponent.AbstractAnalysisComponent;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.filter.flow.EventRecordTraceReconstructionFilter;
-import kieker.analysis.plugin.filter.forward.CountingFilter;
-import kieker.analysis.plugin.filter.forward.StringBufferFilter;
-import kieker.analysis.plugin.filter.forward.TeeFilter;
-import kieker.analysis.plugin.filter.select.TimestampFilter;
-import kieker.analysis.plugin.filter.select.TraceIdFilter;
-import kieker.analysis.plugin.filter.select.TypeFilter;
-import kieker.analysis.plugin.reader.filesystem.FSReader;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.IAnalysisController;
+import kicker.analysis.analysisComponent.AbstractAnalysisComponent;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.filter.flow.EventRecordTraceReconstructionFilter;
+import kicker.analysis.plugin.filter.forward.CountingFilter;
+import kicker.analysis.plugin.filter.forward.StringBufferFilter;
+import kicker.analysis.plugin.filter.forward.TeeFilter;
+import kicker.analysis.plugin.filter.select.TimestampFilter;
+import kicker.analysis.plugin.filter.select.TraceIdFilter;
+import kicker.analysis.plugin.filter.select.TypeFilter;
+import kicker.analysis.plugin.reader.filesystem.FSReader;
 
 /**
  * @author Jan Waller

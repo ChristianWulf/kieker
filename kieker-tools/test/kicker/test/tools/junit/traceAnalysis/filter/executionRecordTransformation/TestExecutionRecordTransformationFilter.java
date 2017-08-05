@@ -32,10 +32,10 @@ import kicker.tools.traceAnalysis.filter.AbstractTraceAnalysisFilter;
 import kicker.tools.traceAnalysis.filter.executionRecordTransformation.ExecutionRecordTransformationFilter;
 import kicker.tools.traceAnalysis.systemModel.Execution;
 import kicker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.IAnalysisController;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.reader.list.ListReader;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.IAnalysisController;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.reader.list.ListReader;
 
 /**
  * @author Andre van Hoorn

@@ -21,7 +21,7 @@ import org.junit.Test;
 
 import kicker.test.common.junit.AbstractKiekerTest;
 import kicker.tools.opad.timeseries.TimeSeriesPointsBuffer;
-import kieker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.exception.AnalysisConfigurationException;
 
 /**
  * 

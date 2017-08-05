@@ -19,9 +19,9 @@ package kieker.examples.userguide.ch3and4bookstore;
 import java.io.File;
 import java.util.concurrent.TimeUnit;
 
-import kieker.analysis.AnalysisController;
-import kieker.analysis.IAnalysisController;
-import kieker.analysis.analysisComponent.AbstractAnalysisComponent;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.IAnalysisController;
+import kicker.analysis.analysisComponent.AbstractAnalysisComponent;
 import kieker.common.configuration.Configuration;
 
 public final class Starter {

@@ -34,11 +34,11 @@ import kicker.tools.traceAnalysis.filter.visualization.graph.SpecificOriginReten
 import kicker.tools.traceAnalysis.filter.visualization.graph.AbstractGraph.IGraphVisitor;
 import kicker.tools.traceAnalysis.repository.TraceColorRepository;
 import kicker.tools.traceAnalysis.systemModel.TraceInformation;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.annotation.OutputPort;
-import kieker.analysis.plugin.annotation.Plugin;
-import kieker.analysis.plugin.annotation.RepositoryPort;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.annotation.OutputPort;
+import kicker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.plugin.annotation.RepositoryPort;
 
 /**
  * This filter sets the color of nodes and edges which belong to a single trace according to a trace

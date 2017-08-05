@@ -19,9 +19,9 @@ package kicker.tools.logReplayer;
 import java.util.Arrays;
 
 import kicker.common.configuration.Configuration;
-import kieker.analysis.IAnalysisController;
-import kieker.analysis.plugin.reader.AbstractReaderPlugin;
-import kieker.analysis.plugin.reader.filesystem.FSReader;
+import kicker.analysis.IAnalysisController;
+import kicker.analysis.plugin.reader.AbstractReaderPlugin;
+import kicker.analysis.plugin.reader.filesystem.FSReader;
 
 /**
  * An implementation of the {@link AbstractLogReplayer}, using the {@link FSReader} to replay {@link kieker.common.record.IMonitoringRecord}s from a list of file

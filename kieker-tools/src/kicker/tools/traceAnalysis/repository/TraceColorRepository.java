@@ -29,10 +29,10 @@ import java.util.regex.Pattern;
 
 import kicker.common.configuration.Configuration;
 import kicker.tools.traceAnalysis.filter.visualization.graph.Color;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.plugin.annotation.Property;
-import kieker.analysis.repository.AbstractRepository;
-import kieker.analysis.repository.annotation.Repository;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.plugin.annotation.Property;
+import kicker.analysis.repository.AbstractRepository;
+import kicker.analysis.repository.annotation.Repository;
 
 /**
  * Implementation of a trace color repository, which associates colors to traces. These colors can, for instance,

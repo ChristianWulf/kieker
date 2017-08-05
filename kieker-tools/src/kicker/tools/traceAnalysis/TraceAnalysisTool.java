@@ -86,15 +86,15 @@ import kicker.tools.traceAnalysis.systemModel.ExecutionTrace;
 import kicker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
 import kicker.tools.util.CLIHelpFormatter;
 import kicker.tools.util.LoggingTimestampConverter;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.analysisComponent.AbstractAnalysisComponent;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.AbstractPlugin;
-import kieker.analysis.plugin.filter.flow.EventRecordTraceReconstructionFilter;
-import kieker.analysis.plugin.filter.forward.StringBufferFilter;
-import kieker.analysis.plugin.filter.select.TimestampFilter;
-import kieker.analysis.plugin.filter.select.TraceIdFilter;
-import kieker.analysis.plugin.reader.filesystem.FSReader;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.analysisComponent.AbstractAnalysisComponent;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.AbstractPlugin;
+import kicker.analysis.plugin.filter.flow.EventRecordTraceReconstructionFilter;
+import kicker.analysis.plugin.filter.forward.StringBufferFilter;
+import kicker.analysis.plugin.filter.select.TimestampFilter;
+import kicker.analysis.plugin.filter.select.TraceIdFilter;
+import kicker.analysis.plugin.reader.filesystem.FSReader;
 
 /**
  * This is the main class to start the Kieker TraceAnalysisTool - the model synthesis and analysis tool to process the monitoring data that comes from the

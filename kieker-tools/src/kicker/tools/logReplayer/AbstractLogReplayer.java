@@ -21,13 +21,13 @@ import kicker.common.logging.Log;
 import kicker.common.logging.LogFactory;
 import kicker.monitoring.core.configuration.ConfigurationFactory;
 import kicker.tools.logReplayer.filter.MonitoringRecordLoggerFilter;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.IAnalysisController;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.AbstractPlugin;
-import kieker.analysis.plugin.filter.record.RealtimeRecordDelayFilter;
-import kieker.analysis.plugin.filter.select.TimestampFilter;
-import kieker.analysis.plugin.reader.AbstractReaderPlugin;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.IAnalysisController;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.AbstractPlugin;
+import kicker.analysis.plugin.filter.record.RealtimeRecordDelayFilter;
+import kicker.analysis.plugin.filter.select.TimestampFilter;
+import kicker.analysis.plugin.reader.AbstractReaderPlugin;
 
 /**
  * Replays a monitoring log to a {@link kicker.monitoring.core.controller.IMonitoringController} with a given {@link Configuration}.

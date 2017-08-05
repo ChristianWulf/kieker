@@ -25,10 +25,10 @@ import kicker.common.configuration.Configuration;
 import kicker.test.common.junit.AbstractKiekerTest;
 import kicker.tools.opad.filter.TimeSeriesPointAggregatorFilter;
 import kicker.tools.opad.model.NamedDoubleTimeSeriesPoint;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.filter.forward.ListCollectionFilter;
-import kieker.analysis.plugin.reader.list.ListReader;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.filter.forward.ListCollectionFilter;
+import kicker.analysis.plugin.reader.list.ListReader;
 
 /**
  * Checks if values in the given timespan (10 milliseconds) are aggregated correctly.

@@ -21,9 +21,9 @@ import kicker.tools.traceAnalysis.filter.visualization.graph.AbstractGraph;
 import kicker.tools.traceAnalysis.filter.visualization.graph.AbstractGraphElement;
 import kicker.tools.traceAnalysis.filter.visualization.graph.IOriginRetentionPolicy;
 import kicker.tools.traceAnalysis.filter.visualization.graph.NoOriginRetentionPolicy;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.annotation.Plugin;
 
 /**
  * Abstract superclass for graph-producing filters.

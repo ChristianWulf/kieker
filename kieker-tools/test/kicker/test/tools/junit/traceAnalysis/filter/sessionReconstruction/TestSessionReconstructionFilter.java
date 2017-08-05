@@ -28,7 +28,7 @@ import kicker.test.common.junit.AbstractKiekerTest;
 import kicker.test.tools.util.filter.sessionReconstruction.SessionReconstructionTestSetup;
 import kicker.test.tools.util.filter.sessionReconstruction.SessionReconstructionTestUtil;
 import kicker.tools.traceAnalysis.systemModel.ExecutionTraceBasedSession;
-import kieker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.exception.AnalysisConfigurationException;
 
 /**
  * Test suite for the {@link kicker.tools.traceAnalysis.filter.sessionReconstruction.SessionReconstructionFilter}.

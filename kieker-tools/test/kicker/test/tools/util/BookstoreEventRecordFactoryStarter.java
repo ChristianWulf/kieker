@@ -24,8 +24,8 @@ import kicker.common.record.IMonitoringRecord;
 import kicker.common.record.flow.trace.TraceMetadata;
 import kicker.monitoring.core.controller.IMonitoringController;
 import kicker.monitoring.core.controller.MonitoringController;
-import kieker.analysis.plugin.filter.flow.TraceEventRecords;
-import kieker.test.analysis.util.plugin.filter.flow.BookstoreEventRecordFactory;
+import kicker.analysis.plugin.filter.flow.TraceEventRecords;
+import kicker.test.analysis.util.plugin.filter.flow.BookstoreEventRecordFactory;
 
 /**
  * @author Jan Waller

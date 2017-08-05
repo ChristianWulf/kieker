@@ -28,12 +28,12 @@ import kicker.monitoring.core.controller.IMonitoringController;
 import kicker.monitoring.core.controller.MonitoringController;
 import kicker.monitoring.writer.jms.JmsWriter;
 import kicker.test.tools.junit.writeRead.AbstractWriterReaderTest;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.AnalysisControllerThread;
-import kieker.analysis.IAnalysisController;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.filter.forward.ListCollectionFilter;
-import kieker.analysis.plugin.reader.jms.JMSReader;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.AnalysisControllerThread;
+import kicker.analysis.IAnalysisController;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.filter.forward.ListCollectionFilter;
+import kicker.analysis.plugin.reader.jms.JMSReader;
 
 /**
  * @author Nils Christian Ehmke

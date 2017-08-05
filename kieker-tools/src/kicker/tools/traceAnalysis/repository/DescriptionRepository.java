@@ -26,10 +26,10 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 
 import kicker.common.configuration.Configuration;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.plugin.annotation.Property;
-import kieker.analysis.repository.AbstractRepository;
-import kieker.analysis.repository.annotation.Repository;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.plugin.annotation.Property;
+import kicker.analysis.repository.AbstractRepository;
+import kicker.analysis.repository.annotation.Repository;
 
 /**
  * Implementation of a description repository which stores descriptions for names.

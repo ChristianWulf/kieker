@@ -38,11 +38,11 @@ import kicker.tools.traceAnalysis.filter.visualization.dependencyGraph.Operation
 import kicker.tools.traceAnalysis.filter.visualization.dependencyGraph.OperationAssemblyDependencyGraphFormatter;
 import kicker.tools.traceAnalysis.filter.visualization.exception.GraphFormattingException;
 import kicker.tools.traceAnalysis.filter.visualization.graph.AbstractGraph;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.plugin.annotation.InputPort;
-import kieker.analysis.plugin.annotation.Plugin;
-import kieker.analysis.plugin.annotation.Property;
-import kieker.analysis.plugin.filter.AbstractFilterPlugin;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.plugin.annotation.InputPort;
+import kicker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.plugin.annotation.Property;
+import kicker.analysis.plugin.filter.AbstractFilterPlugin;
 
 /**
  * Generic graph writer plugin to generate graph specifications and save them to disk. This plugin uses

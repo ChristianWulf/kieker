@@ -18,9 +18,9 @@ package kicker.tools.traceAnalysis.filter;
 
 import kicker.common.configuration.Configuration;
 import kicker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.plugin.annotation.Plugin;
-import kieker.analysis.plugin.annotation.RepositoryPort;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.plugin.annotation.RepositoryPort;
 
 /**
  * This is an abstract base for filters processing invalid execution traces.

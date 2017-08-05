@@ -43,9 +43,9 @@ import kicker.tools.traceAnalysis.systemModel.SynchronousReplyMessage;
 import kicker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
 import kicker.tools.traceAnalysis.systemModel.util.AllocationComponentOperationPair;
 import kicker.tools.traceAnalysis.systemModel.util.AssemblyComponentOperationPair;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.plugin.annotation.Plugin;
-import kieker.analysis.plugin.annotation.RepositoryPort;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.plugin.annotation.RepositoryPort;
 
 /**
  * Plugin providing the creation of calling trees both for individual traces and an aggregated form multiple traces.

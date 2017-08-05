@@ -37,7 +37,7 @@ import kicker.tools.traceAnalysis.systemModel.Operation;
 import kicker.tools.traceAnalysis.systemModel.SynchronousCallMessage;
 import kicker.tools.traceAnalysis.systemModel.SynchronousReplyMessage;
 import kicker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
-import kieker.analysis.AnalysisController;
+import kicker.analysis.AnalysisController;
 
 /**
  * 

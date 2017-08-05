@@ -28,9 +28,9 @@ import kicker.tools.traceAnalysis.systemModel.repository.AbstractSystemSubReposi
 import kicker.tools.traceAnalysis.systemModel.repository.AllocationComponentOperationPairFactory;
 import kicker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
 import kicker.tools.traceAnalysis.systemModel.util.AllocationComponentOperationPair;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.plugin.annotation.Plugin;
-import kieker.analysis.plugin.annotation.RepositoryPort;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.plugin.annotation.RepositoryPort;
 
 /**
  * @author Andre van Hoorn

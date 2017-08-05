@@ -16,10 +16,10 @@
 
 package kieker.examples.userguide.ch2bookstore.manual;
 
-import kieker.analysis.AnalysisController;
-import kieker.analysis.IAnalysisController;
-import kieker.analysis.plugin.filter.forward.TeeFilter;
-import kieker.analysis.plugin.reader.filesystem.FSReader;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.IAnalysisController;
+import kicker.analysis.plugin.filter.forward.TeeFilter;
+import kicker.analysis.plugin.reader.filesystem.FSReader;
 import kieker.common.configuration.Configuration;
 
 public final class BookstoreAnalysisStarter {

@@ -18,7 +18,7 @@ package kicker.tools.traceAnalysis.filter;
 
 import kicker.tools.traceAnalysis.filter.visualization.graph.AbstractGraph;
 import kicker.tools.traceAnalysis.filter.visualization.graph.IOriginRetentionPolicy;
-import kieker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.exception.AnalysisConfigurationException;
 
 /**
  * Interface for graph-producing filters.

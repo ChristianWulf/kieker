@@ -16,7 +16,7 @@
 
 package kicker.tools.traceAnalysis.filter.executionRecordTransformation;
 
-import kieker.analysis.exception.EventProcessingException;
+import kicker.analysis.exception.EventProcessingException;
 
 /**
  * 

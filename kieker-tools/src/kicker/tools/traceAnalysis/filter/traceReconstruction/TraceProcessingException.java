@@ -16,7 +16,7 @@
 
 package kicker.tools.traceAnalysis.filter.traceReconstruction;
 
-import kieker.analysis.exception.EventProcessingException;
+import kicker.analysis.exception.EventProcessingException;
 
 /**
  * This exceptions shows that something went wrong during the processing of a trace.

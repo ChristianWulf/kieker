@@ -24,7 +24,7 @@ import java.util.concurrent.TimeUnit;
 import org.primefaces.model.chart.CartesianChartModel;
 import org.primefaces.model.chart.ChartSeries;
 
-import kieker.analysis.IProjectContext;
+import kicker.analysis.IProjectContext;
 import kieker.common.configuration.Configuration;
 import kieker.common.record.controlflow.OperationExecutionRecord;
 import kieker.examples.livedemo.analysis.util.LimitedHashMap;

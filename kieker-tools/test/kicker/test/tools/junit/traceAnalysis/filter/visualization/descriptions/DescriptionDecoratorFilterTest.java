@@ -40,8 +40,8 @@ import kicker.tools.traceAnalysis.filter.visualization.descriptions.DescriptionD
 import kicker.tools.traceAnalysis.repository.DescriptionRepository;
 import kicker.tools.traceAnalysis.repository.DescriptionRepository.DescriptionRepositoryData;
 import kicker.tools.traceAnalysis.systemModel.AllocationComponent;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.exception.AnalysisConfigurationException;
 
 /**
  * Test suite for the description decorator filter.

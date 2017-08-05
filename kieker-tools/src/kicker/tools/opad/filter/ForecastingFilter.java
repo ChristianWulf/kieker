@@ -31,13 +31,13 @@ import kicker.tools.opad.timeseries.ITimeSeries;
 import kicker.tools.opad.timeseries.TimeSeries;
 import kicker.tools.opad.timeseries.forecast.IForecastResult;
 import kicker.tools.opad.timeseries.forecast.IForecaster;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.analysisComponent.AbstractAnalysisComponent;
-import kieker.analysis.plugin.AbstractUpdateableFilterPlugin;
-import kieker.analysis.plugin.annotation.InputPort;
-import kieker.analysis.plugin.annotation.OutputPort;
-import kieker.analysis.plugin.annotation.Plugin;
-import kieker.analysis.plugin.annotation.Property;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.analysisComponent.AbstractAnalysisComponent;
+import kicker.analysis.plugin.AbstractUpdateableFilterPlugin;
+import kicker.analysis.plugin.annotation.InputPort;
+import kicker.analysis.plugin.annotation.OutputPort;
+import kicker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.plugin.annotation.Property;
 
 /**
  * Computes a forecast for every incoming measurement from different applications.

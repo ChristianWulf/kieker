@@ -29,9 +29,9 @@ import kicker.tools.traceAnalysis.systemModel.ComponentType;
 import kicker.tools.traceAnalysis.systemModel.Execution;
 import kicker.tools.traceAnalysis.systemModel.ExecutionContainer;
 import kicker.tools.traceAnalysis.systemModel.Operation;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.repository.AbstractRepository;
-import kieker.analysis.repository.annotation.Repository;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.repository.AbstractRepository;
+import kicker.analysis.repository.annotation.Repository;
 
 /**
  * This repository is a model manager for the Kieker's component model. It consists of multiple "sub"repositories.

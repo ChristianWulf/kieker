@@ -33,7 +33,7 @@ import kicker.monitoring.writer.filesystem.BinaryFileWriter;
 import kicker.test.tools.junit.writeRead.TestAnalysis;
 import kicker.test.tools.junit.writeRead.TestDataRepository;
 import kicker.test.tools.junit.writeRead.TestProbe;
-import kieker.analysis.plugin.reader.filesystem.BinaryLogReader;
+import kicker.analysis.plugin.reader.filesystem.BinaryLogReader;
 
 /**
  * @author Christian Wulf

@@ -25,11 +25,11 @@ import kicker.tools.traceAnalysis.filter.AbstractExecutionTraceProcessingFilter;
 import kicker.tools.traceAnalysis.filter.AbstractTraceAnalysisFilter;
 import kicker.tools.traceAnalysis.systemModel.ExecutionTrace;
 import kicker.tools.traceAnalysis.systemModel.repository.SystemModelRepository;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.plugin.annotation.InputPort;
-import kieker.analysis.plugin.annotation.Plugin;
-import kieker.analysis.plugin.annotation.Property;
-import kieker.analysis.plugin.annotation.RepositoryPort;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.plugin.annotation.InputPort;
+import kicker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.plugin.annotation.Property;
+import kicker.analysis.plugin.annotation.RepositoryPort;
 
 /**
  * This class has exactly one input port named "in". The data which is send to

@@ -16,13 +16,13 @@
 
 package kieker.examples.livedemo.analysis;
 
-import kieker.analysis.AnalysisController;
-import kieker.analysis.AnalysisControllerThread;
-import kieker.analysis.IAnalysisController;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.filter.forward.ListCollectionFilter;
-import kieker.analysis.plugin.reader.jmx.JMXReader;
-import kieker.analysis.plugin.reader.timer.TimeReader;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.AnalysisControllerThread;
+import kicker.analysis.IAnalysisController;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.filter.forward.ListCollectionFilter;
+import kicker.analysis.plugin.reader.jmx.JMXReader;
+import kicker.analysis.plugin.reader.timer.TimeReader;
 import kieker.common.configuration.Configuration;
 import kieker.examples.livedemo.analysis.filter.OperationExecutionRecordEnrichmentFilter;
 import kieker.examples.livedemo.analysis.select.Distributor;

@@ -25,8 +25,8 @@ import org.apache.commons.cli.Options;
 
 import kicker.common.logging.Log;
 import kicker.common.logging.LogFactory;
-import kieker.analysis.AnalysisController;
-import kieker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.exception.AnalysisConfigurationException;
 
 /**
  * A simple execution of analysis configurations.

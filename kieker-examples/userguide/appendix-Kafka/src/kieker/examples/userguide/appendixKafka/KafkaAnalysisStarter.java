@@ -16,12 +16,12 @@
 
 package kieker.examples.userguide.appendixKafka;
 
-import kieker.analysis.AnalysisController;
-import kieker.analysis.IAnalysisController;
-import kieker.analysis.exception.AnalysisConfigurationException;
-import kieker.analysis.plugin.filter.forward.TeeFilter;
-import kieker.analysis.plugin.reader.newio.deserializer.BinaryDeserializer;
-import kieker.analysis.plugin.reader.kafka.KafkaReader;
+import kicker.analysis.AnalysisController;
+import kicker.analysis.IAnalysisController;
+import kicker.analysis.exception.AnalysisConfigurationException;
+import kicker.analysis.plugin.filter.forward.TeeFilter;
+import kicker.analysis.plugin.reader.newio.deserializer.BinaryDeserializer;
+import kicker.analysis.plugin.reader.kafka.KafkaReader;
 import kieker.common.configuration.Configuration;
 
 /**

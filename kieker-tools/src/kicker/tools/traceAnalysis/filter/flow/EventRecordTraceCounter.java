@@ -20,11 +20,11 @@ import kicker.common.configuration.Configuration;
 import kicker.common.record.flow.trace.AbstractTraceEvent;
 import kicker.common.record.flow.trace.TraceMetadata;
 import kicker.tools.traceAnalysis.filter.AbstractTraceProcessingFilter;
-import kieker.analysis.IProjectContext;
-import kieker.analysis.plugin.annotation.InputPort;
-import kieker.analysis.plugin.annotation.Plugin;
-import kieker.analysis.plugin.annotation.Property;
-import kieker.analysis.plugin.filter.flow.TraceEventRecords;
+import kicker.analysis.IProjectContext;
+import kicker.analysis.plugin.annotation.InputPort;
+import kicker.analysis.plugin.annotation.Plugin;
+import kicker.analysis.plugin.annotation.Property;
+import kicker.analysis.plugin.filter.flow.TraceEventRecords;
 
 /**
  * Counts and reports the number of incoming valid/invalid {@link TraceEventRecords}.

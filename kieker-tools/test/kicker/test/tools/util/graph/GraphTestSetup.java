@@ -17,7 +17,7 @@ package kicker.test.tools.util.graph;
 
 import kicker.test.tools.util.GenericTestSetup;
 import kicker.tools.traceAnalysis.filter.visualization.graph.AbstractGraph;
-import kieker.analysis.AnalysisController;
+import kicker.analysis.AnalysisController;
 
 /**
  * Data transfer class for a graph test setup. It contains of a prepared analysis controller (which just
